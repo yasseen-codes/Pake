@@ -25,6 +25,10 @@ on:
       icon:
         description: "Icon URL, auto-fetch if empty"
         required: false
+      inject:
+        description: "Inject File Path/Options (e.g., --inject blocker.js)"
+        required: false
+        default: "--inject blocker.js"
       width:
         description: "Window width (px)"
         required: false
@@ -104,6 +108,12 @@ jobs:
             ARGS+=("--icon" "${{ inputs.icon }}")
           fi
 
+          if [ -n "${{ inputs.inject }}" ]; then
+            # Split the inject string into separate arguments safely
+            read -r -a INJECT_ARGS <<< "${{ inputs.inject }}"
+            ARGS+=("${INJECT_ARGS[@]}")
+          fi
+
           if [ -n "${{ inputs.width }}" ]; then
             ARGS+=("--width" "${{ inputs.width }}")
           fi
@@ -140,6 +150,12 @@ jobs:
 
           if ("${{ inputs.icon }}" -ne "") {
             $args += "--icon", "${{ inputs.icon }}"
+          }
+
+          if ("${{ inputs.inject }}" -ne "") {
+            # Split the inject string by spaces and add to arguments array
+            $injectArgs = "${{ inputs.inject }}".Split(" ", [System.StringSplitOptions]::RemoveEmptyEntries)
+            $args += $injectArgs
           }
 
           if ("${{ inputs.width }}" -ne "") {
