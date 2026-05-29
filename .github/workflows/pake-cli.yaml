@@ -28,7 +28,6 @@ on:
       inject:
         description: "Inject File Path/Options (e.g., --inject blocker.js)"
         required: false
-        default: "--inject blocker.js"
       width:
         description: "Window width (px)"
         required: false
