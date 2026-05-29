@@ -1,103 +1,61 @@
-// ==UserScript==
-// @name Youtube Tools All in one local download mp3 mp4 HIGT QUALITY return dislikes and more
-// @name:zh-TW  Youtube 工具 多合一本地下載 MP4、MP3
-// @name:zh-HK  Youtube 工具 多合一本地下載 MP4、MP3
-// @name:zh-CN  Youtube 工具 多合一本地下載 MP4、MP3
-// @name:ja Youtube ツール オールインワンのローカル ダウンロード MP4、MP3
-// @name:kr Youtube 도구 올인원 로컬 다운로드 외부 서비스 없이 MP4, MP3
-// @name:ar Youtube Tools All in one local download mp3 mp4 HIGT QUALITY return dislikes and more
-// @name:bg Youtube-Tools Alles in einem lokalen Download von MP4, MP3.
-// @name:cs Nástroje YouTube Vše v jednom místní Stahujte MP4, MP3
-// @name:da Youtube-værktøjer Alt i én lokal Download MP4, MP3
-// @name:de Youtube-Tools Alles in einem lokalen Download von MP4, MP3
-// @name:tel Youtube టూల్స్ అన్నీ ఒకే లోకల్ డౌన్‌లోడ్ MP4, Mp3
-// @name:es Youtube Custom Todo en uno Descarga local MP4, MP3.
-// @name:en Youtube Tools All in one local download mp3 mp4.
-// @name:fr Outils Youtube Tout-en-un local Téléchargez MP4, MP3.
-// @name:fr-CA Outils Youtube Tout-en-un local Téléchargez MP4, MP3.
-// @name:he כלים של YouTube הכל במקום אחד מקומי הורדה MP4, MP3 באיכות גבוהה ללא שירות חיצוני ועוד.
-// @name:hu Youtube Eszközök Minden egy helyen Letöltés MP4, MP3.
-// @name:id Alat Youtube Semua dalam satu lokal Unduh MP4, MP3.
-// @name:it Strumenti Youtube Tutto in uno Scarica locale MP4, MP3.
-// @name:ko Youtube 도구 올인원 로컬 외부 서비스 없이 MP4, MP3
-// @name:nb Youtube-verktøy Alt i ett lokalt Last ned MP4, MP3
-// @name:nl Youtube Tools Alles in één lokaal Download MP4, MP3
-// @name:pl Narzędzia YouTube Wszystko w jednym lokalnym. Pobierz MP4, MP3
-// @name:pt-BR Ferramentas do Youtube Tudo em um local Baixe MP4, MP3 DE ALTA QUALIDAD.
-// @name:ro YInstrumente Youtube Toate într-un singur local Descărcați MP4, MP3.
-// @name:ru Инструменты Youtube Все в одном локальном формате. Загрузите MP4, MP3.
-// @name:sk Nástroje YouTube Všetko v jednom miestne Stiahnite si MP4, MP3
-// @name:sr Иоутубе алати Све у једном локалном Преузми МП4, МП3
-// @name:sv Youtube-verktyg Allt i ett lokalt Ladda ner MP4, MP3
-// @name:th เครื่องมือ Youtube ทั้งหมดในที่เดียว ดาวน์โหลด MP4, MP3
-// @name:tr Youtube Araçları Hepsi bir arada yerel Harici hizmet olmadan MP4, MP3
-// @name:uk Інструменти Youtube Все в одному локальному завантаженні MP4, MP3
-// @name:ug Youtube قوراللىرى ھەممىسى بىر يەرلىك چۈشۈرۈش MP4,mp3
-// @name:vi Công cụ Youtube Tất cả trong một cục bộ Tải xuống MP4, MP3
-// @description:zh-TW Youtube 工具 多合一本地下載 mp4、MP3
-// @description:zh-HK Youtube 工具 多合一本地下載 mp4、MP3
-// @description:zh-CN Youtube 工具 多合一本地下載 mp4、MP3
-// @description:ja    Youtube ツール オールインワン ローカル ダウンロード mp4、MP3 、
-// @description:kr    Youtube 도구 올인원 로컬 다운로드 mp4, MP3
-// @description:ar    Herramientas de YouTube Todo en uno Descarga local mp4, MP3
-// @description:bg    Инструменти за Youtube Всичко в едно локално изтегляне mp4,
-// @description:cs    Nástroje YouTube Vše v jednom místní Stahování mp4, MP3
-// @description:da    Youtube-værktøjer Alt i ét lokalt Download mp4, MP3
-// @description:de    YouTube-Tools Alles in einem lokalen Laden Sie MP4, MP3
-// @description:tel   Youtube Tools All in one local Download mp4, MP3 HIGT QUALITY,
-// @description:es Youtube tools todo en uno personlizada youtube a tu estilo y descarga MP4 y MP3
-// @description:fr Outils Youtube Tout-en-un local Téléchargez des mp4, des MP3
-// @description:fr-CA Outils Youtube Tout-en-un local Téléchargez des mp4, des MP3
-// @description:he  כלים של YouTube הכל במקום אחד מקומי הורד mp4, MP3
-// @description:hu  Youtube Eszközök Minden egyben helyi Letöltés mp4, MP3
-// @description:id  Alat Youtube Semua dalam satu lokal Unduh mp4, MP3
-// @description:it Strumenti Youtube Tutto in uno locale Scarica mp4, MP3
-// @description:ko  Youtube 도구 올인원 로컬 다운로드 mp4, MP3
-// @description:nb  YoYoutube-verktøy Alt i ett lokalt Last ned mp4, MP3
-// @description:nl    YouTube-tools Alles in één lokaal Download mp4, MP3
-// @description:pl    Narzędzia Youtube Wszystko w jednym miejscu Pobierz mp4, MP3
-// @description:pt-BR Ferramentas do YouTube Tudo em um só local Baixe mp4, MP3
-// @description:ro    Instrumente Youtube Toate într-un singur local Descărcați mp4, MP3
-// @description:ru    Инструменты Youtube Все в одном, локально. Загрузите mp4, MP3
-// @description:sk    Nástroje YouTube Všetko v jednom miestnom Sťahujte mp4, MP3
-// @description:sr    Иоутубе алати Све у једном локалном Преузми мп4, МП3
-// @description:sv    Youtube-verktyg Allt i ett lokalt Ladda ner mp4, MP3
-// @description:th เครื่องมือ Youtube ทั้งหมดในที่เดียว ดาวน์โหลด mp4, MP3
-// @description:tr Youtube Araçları Hepsi bir arada yerel Harici hizmet olmadan mp4, MP3
-// @description:uk Інструменти Youtube Все в одному локальному завантаженні mp4, MP3
-// @description:ug Youtube قورالىنىڭ ھەممىسى بىر يەرلىك چۈشۈرۈشتە mp4, MP3 HIGH QUAقنى قا
-// @description:vi Công cụ Youtube Tất cả trong một cục bộ Tải xuống mp4, MP3
-// @description:en Youtube Tools All in one local Download mp4, MP3 HIGT QUALITY
-// @description Youtube Tools All in one local Download mp4, MP3 HIGT QUALITY
-// @homepage     https://github.com/DeveloperMDCM/
-// @version      2.4.3.2
-// @author       DeveloperMDCM
-// @match        *://www.youtube.com/*
-// @exclude      *://music.youtube.com/*
-// @exclude      *://*.music.youtube.com/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
-// @grant        GM_info
-// @grant        GM_addStyle
-// @grant        GM_setValue
-// @grant        GM_getValue
-// @grant        unsafeWindow
-// @run-at       document-end
-// @grant        GM_registerMenuCommand
-// @require      https://cdn.jsdelivr.net/npm/izitoast@1.4.0/dist/js/iziToast.min.js
-// @compatible chrome
-// @compatible firefox
-// @compatible opera
-// @compatible safari
-// @compatible edge
-// @license MIT
-// @namespace https://github.com/DeveloperMDCM/
-// @keywords youtube, tools, download, mp3, mp4, hi-quality, return, dislikes, audio free, download mp3, download mp4, audio mp3, audio mp4, audio download, audio, free download, free audio, download audio, download free, hi quality, high quality, best quality, best audio quality, best free audio quality, best free quality, best audio free quality, best audio free, best free audio, best free
-// @downloadURL https://update.greasyfork.org/scripts/460680/Youtube%20Tools%20All%20in%20one%20local%20download%20mp3%20mp4%20HIGT%20QUALITY%20return%20dislikes%20and%20more.user.js
-// @updateURL https://update.greasyfork.org/scripts/460680/Youtube%20Tools%20All%20in%20one%20local%20download%20mp3%20mp4%20HIGT%20QUALITY%20return%20dislikes%20and%20more.meta.js
-// ==/UserScript==
+/**
+ * PAKE YOUTUBE INJECTOR (FIXED)
+ * Adds Ad-skipping, fixes Tampermonkey APIs, and loads dependencies.
+ */
+
+// 1. PAKE YOUTUBE AD-SKIPPER
+// Automatically skips and fast-forwards ads since Pake doesn't support Chrome extensions.
+setInterval(() => {
+    // Click "Skip Ad" buttons
+    const skipButtons = document.querySelectorAll('.ytp-ad-skip-button, .ytp-ad-skip-button-modern, .ytp-skip-ad-button');
+    skipButtons.forEach(btn => btn.click());
+
+    // Close display ad overlays
+    const overlayClose = document.querySelectorAll('.ytp-ad-overlay-close-button');
+    overlayClose.forEach(btn => btn.click());
+
+    // Fast-forward unskippable video ads
+    const video = document.querySelector('video');
+    if (document.querySelector('.ad-showing') && video && !isNaN(video.duration)) {
+        video.playbackRate = 16.0;
+        video.currentTime = video.duration || 9999;
+    }
+}, 100); // Lowered to 100ms for near-instant skipping
+
+// 2. GREASEMONKEY (GM_*) POLYFILLS
+// Translates Tampermonkey commands into standard browser APIs for Pake
+window.unsafeWindow = window;
+window.GM_info = { script: { version: '2.4.3.2' } };
+
+// FIXED: LocalStorage requires JSON parsing for objects/numbers
+window.GM_getValue = function(key, defaultValue) {
+    const val = localStorage.getItem(key);
+    if (val === null) return defaultValue;
+    try {
+        return JSON.parse(val);
+    } catch(e) {
+        return val; // Fallback if it's a plain string
+    }
+};
+
+// FIXED: Stringify values before sending to LocalStorage
+window.GM_setValue = function(key, value) {
+    localStorage.setItem(key, typeof value === 'string' ? value : JSON.stringify(value));
+};
+
+window.GM_addStyle = function(css) {
+    const style = document.createElement('style');
+    style.textContent = css;
+    document.head.appendChild(style);
+};
+
+window.GM_registerMenuCommand = function(name, fn) {
+    console.log("Pake menu command ignored:", name);
+};
+
 
 (function () {
-  "use strict";
+  'use strict';
   let validoUrl = document.location.href;
   const $e = (el) => document.querySelector(el); // any element
   const $id = (el) => document.getElementById(el); // element by id
@@ -110,11 +68,9 @@
   let selectedBgColor = "#252525"; // Background color menu default
   let selectedTextColor = "#ffffff"; // Text color menu default
   let selectedBgAccentColor = "#ff0000"; // Accent color menu default
-  const urlSharedCode =
-    "https://greasyfork.org/es/scripts/460680-youtube-tools-all-in-one-local-download-mp3-mp4-higt-quality-return-dislikes-and-more";
-  const API_URL_AUDIO_VIDEO =
-    "https://p.savenow.to/ajax/download.php?copyright=0&allow_extended_duration=1&"; // API URL AUDIO VIDEO
-  const API_KEY_DEVELOPERMDCM = "dfcb6d76f2f6a9894gjkege8a4ab232222"; // API KEY FOR DOWNLOAD AUDIO VIDEO
+  const urlSharedCode = "https://greasyfork.org/es/scripts/460680-youtube-tools-all-in-one-local-download-mp3-mp4-higt-quality-return-dislikes-and-more";
+  const API_URL_AUDIO_VIDEO = "https://p.savenow.to/ajax/download.php?copyright=0&allow_extended_duration=1&" // API URL AUDIO VIDEO
+  const API_KEY_DEVELOPERMDCM = 'dfcb6d76f2f6a9894gjkege8a4ab232222';  // API KEY FOR DOWNLOAD AUDIO VIDEO
   // Download API fallbacks (region/session issues)
   const DOWNLOAD_API_FALLBACK_BASES = [
     "https://p.savenow.to",
@@ -126,116 +82,117 @@
 
   // for translate comments video
   const languagesTranslate = {
-    af: "Afrikaans",
-    sq: "Albanian",
-    am: "Amharic",
-    ar: "Arabic",
-    hy: "Armenian",
-    az: "Azerbaijani",
-    eu: "Basque",
-    be: "Belarusian",
-    bn: "Bengali",
-    bs: "Bosnian",
-    bg: "Bulgarian",
-    ca: "Catalan",
-    ceb: "Cebuano",
+    "af": "Afrikaans",
+    "sq": "Albanian",
+    "am": "Amharic",
+    "ar": "Arabic",
+    "hy": "Armenian",
+    "az": "Azerbaijani",
+    "eu": "Basque",
+    "be": "Belarusian",
+    "bn": "Bengali",
+    "bs": "Bosnian",
+    "bg": "Bulgarian",
+    "ca": "Catalan",
+    "ceb": "Cebuano",
     "zh-CN": "Chinese (Simplified)",
     "zh-TW": "Chinese (Traditional)",
-    co: "Corsican",
-    hr: "Croatian",
-    cs: "Czech",
-    da: "Danish",
-    nl: "Dutch",
-    en: "English",
-    eo: "Esperanto",
-    et: "Estonian",
-    fi: "Finnish",
-    fr: "French",
-    fy: "Frisian",
-    gl: "Galician",
-    ka: "Georgian",
-    de: "German",
-    el: "Greek",
-    gu: "Gujarati",
-    ht: "Haitian Creole",
-    ha: "Hausa",
-    haw: "Hawaiian",
-    iw: "Hebrew",
-    hi: "Hindi",
-    hmn: "Hmong",
-    hu: "Hungarian",
-    is: "Icelandic",
-    ig: "Igbo",
-    id: "Indonesian",
-    ga: "Irish",
-    it: "Italian",
-    ja: "Japanese",
-    jw: "Javanese",
-    kn: "Kannada",
-    kk: "Kazakh",
-    km: "Khmer",
-    ko: "Korean",
-    ku: "Kurdish",
-    ky: "Kyrgyz",
-    lo: "Lao",
-    la: "Latin",
-    lv: "Latvian",
-    lt: "Lithuanian",
-    lb: "Luxembourgish",
-    mk: "Macedonian",
-    mg: "Malagasy",
-    ms: "Malay",
-    ml: "Malayalam",
-    mt: "Maltese",
-    mi: "Maori",
-    mr: "Marathi",
-    mn: "Mongolian",
-    my: "Myanmar (Burmese)",
-    ne: "Nepali",
-    no: "Norwegian",
-    ny: "Nyanja (Chichewa)",
-    ps: "Pashto",
-    fa: "Persian",
-    pl: "Polish",
-    pt: "Portuguese",
-    pa: "Punjabi",
-    ro: "Romanian",
-    ru: "Russian",
-    sm: "Samoan",
-    gd: "Scots Gaelic",
-    sr: "Serbian",
-    st: "Sesotho",
-    sn: "Shona",
-    sd: "Sindhi",
-    si: "Sinhala",
-    sk: "Slovak",
-    sl: "Slovenian",
-    so: "Somali",
-    es: "Spanish",
-    su: "Sundanese",
-    sw: "Swahili",
-    sv: "Swedish",
-    tl: "Tagalog (Filipino)",
-    tg: "Tajik",
-    ta: "Tamil",
-    te: "Telugu",
-    th: "Thai",
-    tr: "Turkish",
-    uk: "Ukrainian",
-    ur: "Urdu",
-    uz: "Uzbek",
-    vi: "Vietnamese",
-    cy: "Welsh",
-    xh: "Xhosa",
-    yi: "Yiddish",
-    yo: "Yoruba",
-    zu: "Zulu",
-  };
+    "co": "Corsican",
+    "hr": "Croatian",
+    "cs": "Czech",
+    "da": "Danish",
+    "nl": "Dutch",
+    "en": "English",
+    "eo": "Esperanto",
+    "et": "Estonian",
+    "fi": "Finnish",
+    "fr": "French",
+    "fy": "Frisian",
+    "gl": "Galician",
+    "ka": "Georgian",
+    "de": "German",
+    "el": "Greek",
+    "gu": "Gujarati",
+    "ht": "Haitian Creole",
+    "ha": "Hausa",
+    "haw": "Hawaiian",
+    "iw": "Hebrew",
+    "hi": "Hindi",
+    "hmn": "Hmong",
+    "hu": "Hungarian",
+    "is": "Icelandic",
+    "ig": "Igbo",
+    "id": "Indonesian",
+    "ga": "Irish",
+    "it": "Italian",
+    "ja": "Japanese",
+    "jw": "Javanese",
+    "kn": "Kannada",
+    "kk": "Kazakh",
+    "km": "Khmer",
+    "ko": "Korean",
+    "ku": "Kurdish",
+    "ky": "Kyrgyz",
+    "lo": "Lao",
+    "la": "Latin",
+    "lv": "Latvian",
+    "lt": "Lithuanian",
+    "lb": "Luxembourgish",
+    "mk": "Macedonian",
+    "mg": "Malagasy",
+    "ms": "Malay",
+    "ml": "Malayalam",
+    "mt": "Maltese",
+    "mi": "Maori",
+    "mr": "Marathi",
+    "mn": "Mongolian",
+    "my": "Myanmar (Burmese)",
+    "ne": "Nepali",
+    "no": "Norwegian",
+    "ny": "Nyanja (Chichewa)",
+    "ps": "Pashto",
+    "fa": "Persian",
+    "pl": "Polish",
+    "pt": "Portuguese",
+    "pa": "Punjabi",
+    "ro": "Romanian",
+    "ru": "Russian",
+    "sm": "Samoan",
+    "gd": "Scots Gaelic",
+    "sr": "Serbian",
+    "st": "Sesotho",
+    "sn": "Shona",
+    "sd": "Sindhi",
+    "si": "Sinhala",
+    "sk": "Slovak",
+    "sl": "Slovenian",
+    "so": "Somali",
+    "es": "Spanish",
+    "su": "Sundanese",
+    "sw": "Swahili",
+    "sv": "Swedish",
+    "tl": "Tagalog (Filipino)",
+    "tg": "Tajik",
+    "ta": "Tamil",
+    "te": "Telugu",
+    "th": "Thai",
+    "tr": "Turkish",
+    "uk": "Ukrainian",
+    "ur": "Urdu",
+    "uz": "Uzbek",
+    "vi": "Vietnamese",
+    "cy": "Welsh",
+    "xh": "Xhosa",
+    "yi": "Yiddish",
+    "yo": "Yoruba",
+    "zu": "Zulu"
+  }
 
-  // var for wave
+
+   // var for wave
   let currentVideo = null;
 
-  let waveStyle = "dinamica";
+  let waveStyle = 'dinamica';
   let audioCtx = null;
   let analyser = null;
   let source = null;
@@ -251,14 +208,14 @@
   const canvasHeight = 240;
   const scale = canvasHeight / 90;
 
-  const PROCESSED_FLAG = "wave_visualizer_processed";
+  const PROCESSED_FLAG = 'wave_visualizer_processed';
 
   // ------------------------------
   // PERF: runtime guards + dynamic style (avoid style/event/interval leaks)
   // ------------------------------
   const __ytToolsRuntime = {
     dynamicStyleEl: null,
-    dynamicCssLast: "",
+    dynamicCssLast: '',
     settingsLoaded: false,
     bookmarkClickHandlerInitialized: false,
     bookmarksPanelOpen: false,
@@ -282,8 +239,8 @@
       observer: null,
       io: null,
       scanT: null,
-      cache: new Map(), // videoId -> channelName
-      inflight: new Map(), // videoId -> Promise<string>
+      cache: new Map(),        // videoId -> channelName
+      inflight: new Map(),     // videoId -> Promise<string>
       fetchChain: Promise.resolve(),
     },
     dislikesCache: {
@@ -302,10 +259,10 @@
     updateShortsRatingButton: function () {},
   };
 
-  function setDynamicCss(cssText = "") {
+  function setDynamicCss(cssText = '') {
     if (!__ytToolsRuntime.dynamicStyleEl) {
-      const style = document.createElement("style");
-      style.id = "yt-tools-mdcm-dynamic-style";
+      const style = document.createElement('style');
+      style.id = 'yt-tools-mdcm-dynamic-style';
       document.head.appendChild(style);
       __ytToolsRuntime.dynamicStyleEl = style;
     }
@@ -324,46 +281,65 @@
         try {
           applySettings();
         } catch (err) {
-          console.error("applySettings error:", err);
+          console.error('applySettings error:', err);
         }
       }, 120);
     };
   })();
 
   function hideCanvas() {
-    const canvas = $id("wave-visualizer-canvas");
+
+    const canvas = $id('wave-visualizer-canvas');
     if (canvas) {
-      canvas.style.opacity = "0";
-      if (controlPanel) {
-        controlPanel.style.opacity = "0";
-      }
+        canvas.style.opacity = '0';
+        if (controlPanel) {
+            controlPanel.style.opacity = '0';
+        }
     }
   }
 
-  function showCanvas() {
-    const canvas = $id("wave-visualizer-canvas");
-    if (audioCtx && audioCtx.state === "suspended") {
-      audioCtx.resume();
+    function showCanvas() {
+    const canvas = $id('wave-visualizer-canvas');
+    if (audioCtx && audioCtx.state === 'suspended') {
+        audioCtx.resume();
     }
     if (canvas) {
-      canvas.style.opacity = "1";
-      if (controlPanel) controlPanel.style.opacity = "1";
+        canvas.style.opacity = '1';
+        if (controlPanel) controlPanel.style.opacity = '1';
     }
-  }
+}
 
-  function Notify(type = "info", message = "", title = "") {
+
+function Notify(type = 'info', message = '', title = '') {
     const defaultTitles = {
-      success: "Success",
-      error: "Error",
-      info: "Information",
-      warning: "Warning",
+        success: 'Success', error: 'Error', info: 'Information', warning: 'Warning',
     };
-
-    iziToast[type]({
-      title: title || defaultTitles[type] || "Notification",
-      message: message,
-      position: "bottomLeft",
-    });
+    
+    const toast = document.createElement('div');
+    const colors = {
+        success: '#22c55e', error: '#ef4444', info: '#3b82f6', warning: '#f59e0b'
+    };
+    
+    toast.style.cssText = `
+        position: fixed; bottom: 20px; left: 20px; z-index: 999999;
+        background-color: ${colors[type] || colors.info};
+        color: white; padding: 12px 20px; border-radius: 8px;
+        font-family: sans-serif; font-size: 14px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        transition: opacity 0.3s ease; opacity: 0; pointer-events: none;
+    `;
+    
+    toast.innerHTML = `<strong>${title || defaultTitles[type]}</strong><br>${message}`;
+    document.body.appendChild(toast);
+    
+    // Fade in
+    requestAnimationFrame(() => toast.style.opacity = '1');
+    
+    // Fade out and remove
+    setTimeout(() => {
+        toast.style.opacity = '0';
+        setTimeout(() => toast.remove(), 300);
+    }, 3000);
   }
 
   async function startDownloadVideoOrAudio(format, container) {
@@ -371,7 +347,7 @@
     // Notify('info', 'Starting download...');
 
     // Check if already downloading
-    if (container.dataset.downloading === "true") {
+    if (container.dataset.downloading === 'true') {
       return;
     }
 
@@ -384,28 +360,28 @@
     } catch (e) {}
 
     // Get UI elements from the container
-    const downloadBtn = container.querySelector(".download-btn");
-    const retryBtn = container.querySelector(".retry-btn");
-    const progressRetryBtn = container.querySelector(".progress-retry-btn");
-    const downloadAgainBtn = container.querySelector(".download-again-btn");
-    const progressContainer = container.querySelector(".progress-container");
-    const progressFill = container.querySelector(".progress-fill");
-    const progressText = container.querySelector(".progress-text");
-    const downloadText = container.querySelector(".download-text");
+    const downloadBtn = container.querySelector('.download-btn');
+    const retryBtn = container.querySelector('.retry-btn');
+    const progressRetryBtn = container.querySelector('.progress-retry-btn');
+    const downloadAgainBtn = container.querySelector('.download-again-btn');
+    const progressContainer = container.querySelector('.progress-container');
+    const progressFill = container.querySelector('.progress-fill');
+    const progressText = container.querySelector('.progress-text');
+    const downloadText = container.querySelector('.download-text');
 
     // Set downloading flag
-    container.dataset.downloading = "true";
-    container.dataset.urlOpened = "false";
-    container.dataset.lastDownloadUrl = "";
+    container.dataset.downloading = 'true';
+    container.dataset.urlOpened = 'false';
+    container.dataset.lastDownloadUrl = '';
 
     // Update UI to show progress
-    downloadBtn.style.display = "none";
-    retryBtn.style.display = "none";
-    progressRetryBtn.style.display = "block";
-    if (downloadAgainBtn) downloadAgainBtn.style.display = "none";
-    progressContainer.style.display = "flex";
-    progressFill.style.width = "0%";
-    progressText.textContent = "0%";
+    downloadBtn.style.display = 'none';
+    retryBtn.style.display = 'none';
+    progressRetryBtn.style.display = 'block';
+    if (downloadAgainBtn) downloadAgainBtn.style.display = 'none';
+    progressContainer.style.display = 'flex';
+    progressFill.style.width = '0%';
+    progressText.textContent = '0%';
 
     const fetchJsonWithTimeout = async (url, timeoutMs = 20000) => {
       const ctrl = new AbortController();
@@ -420,13 +396,13 @@
     };
 
     const setErrorState = () => {
-      retryBtn.style.display = "block";
-      progressContainer.style.display = "none";
-      progressRetryBtn.style.display = "none";
-      if (downloadAgainBtn) downloadAgainBtn.style.display = "none";
-      container.dataset.downloading = "false";
-      container.dataset.urlOpened = "false";
-      container.dataset.lastDownloadUrl = "";
+      retryBtn.style.display = 'block';
+      progressContainer.style.display = 'none';
+      progressRetryBtn.style.display = 'none';
+      if (downloadAgainBtn) downloadAgainBtn.style.display = 'none';
+      container.dataset.downloading = 'false';
+      container.dataset.urlOpened = 'false';
+      container.dataset.lastDownloadUrl = '';
     };
 
     const markCompleteAndOpen = (downloadUrl) => {
@@ -437,22 +413,22 @@
       // Save for the \"download again\" button
       container.dataset.lastDownloadUrl = String(downloadUrl);
       // Check if URL was already opened
-      if (container.dataset.urlOpened === "true") return;
+      if (container.dataset.urlOpened === 'true') return;
       // Mark URL as opened
-      container.dataset.urlOpened = "true";
+      container.dataset.urlOpened = 'true';
       // Update UI to show completion
-      container.classList.add("completed");
-      container.classList.remove("video", "audio");
-      downloadText.textContent = "Download Complete!";
-      progressFill.style.width = "100%";
-      progressText.textContent = "100%";
-      progressRetryBtn.style.display = "none";
-      if (downloadAgainBtn) downloadAgainBtn.style.display = "flex";
-      container.dataset.downloading = "false";
+      container.classList.add('completed');
+      container.classList.remove('video', 'audio');
+      downloadText.textContent = 'Download Complete!';
+      progressFill.style.width = '100%';
+      progressText.textContent = '100%';
+      progressRetryBtn.style.display = 'none';
+      if (downloadAgainBtn) downloadAgainBtn.style.display = 'flex';
+      container.dataset.downloading = 'false';
       try {
         window.open(downloadUrl);
       } catch (e) {
-        console.warn("Could not open download URL:", e);
+        console.warn('Could not open download URL:', e);
       }
     };
 
@@ -461,23 +437,17 @@
         try {
           const progressData = await fetchJsonWithTimeout(progressURL, 15000);
 
-          const progress = Math.min(
-            (Number(progressData.progress) || 0) / 10,
-            100,
-          );
+          const progress = Math.min((Number(progressData.progress) || 0) / 10, 100);
           progressFill.style.width = `${progress}%`;
           progressText.textContent = `${Math.round(progress)}%`;
 
-          if (
-            Number(progressData.progress) >= 1000 &&
-            progressData.download_url
-          ) {
+          if (Number(progressData.progress) >= 1000 && progressData.download_url) {
             clearInterval(container.__ytDownloadPoll);
             container.__ytDownloadPoll = null;
             markCompleteAndOpen(progressData.download_url);
           }
         } catch (e) {
-          console.error("Error in progress:", e);
+          console.error('Error in progress:', e);
           clearInterval(container.__ytDownloadPoll);
           container.__ytDownloadPoll = null;
           setErrorState();
@@ -486,34 +456,34 @@
     };
 
     const trySaveNowProvider = async (baseUrl) => {
-      const url = new URL("/ajax/download.php", baseUrl);
-      url.searchParams.set("copyright", "0");
-      url.searchParams.set("allow_extended_duration", "1");
-      url.searchParams.set("format", String(format));
-      url.searchParams.set("url", videoURL);
-      url.searchParams.set("api", API_KEY_DEVELOPERMDCM);
+      const url = new URL('/ajax/download.php', baseUrl);
+      url.searchParams.set('copyright', '0');
+      url.searchParams.set('allow_extended_duration', '1');
+      url.searchParams.set('format', String(format));
+      url.searchParams.set('url', videoURL);
+      url.searchParams.set('api', API_KEY_DEVELOPERMDCM);
       const data = await fetchJsonWithTimeout(url.toString(), 25000);
       if (!data?.success || !data?.progress_url) {
-        throw new Error("SaveNow provider did not return success/progress_url");
+        throw new Error('SaveNow provider did not return success/progress_url');
       }
       return data;
     };
 
     const tryDubsProvider = async () => {
       const videoId = paramsVideoURL();
-      if (!videoId) throw new Error("Missing videoId");
+      if (!videoId) throw new Error('Missing videoId');
 
       const startUrl = new URL(DUBS_START_ENDPOINT);
-      startUrl.searchParams.set("id", videoId);
-      startUrl.searchParams.set("format", String(format));
+      startUrl.searchParams.set('id', videoId);
+      startUrl.searchParams.set('format', String(format));
 
       const startData = await fetchJsonWithTimeout(startUrl.toString(), 25000);
       if (!startData?.success || !startData?.progressId) {
-        throw new Error("Dubs provider did not return success/progressId");
+        throw new Error('Dubs provider did not return success/progressId');
       }
 
       const statusUrl = new URL(DUBS_STATUS_ENDPOINT);
-      statusUrl.searchParams.set("id", startData.progressId);
+      statusUrl.searchParams.set('id', startData.progressId);
 
       container.__ytDownloadPoll = setInterval(async () => {
         try {
@@ -529,7 +499,7 @@
             markCompleteAndOpen(st.downloadUrl);
           }
         } catch (e) {
-          console.error("❌ Error polling dubs status:", e);
+          console.error('❌ Error polling dubs status:', e);
           clearInterval(container.__ytDownloadPoll);
           container.__ytDownloadPoll = null;
           setErrorState();
@@ -538,66 +508,64 @@
     };
 
     try {
-      let started = null;
-      let lastErr = null;
+        let started = null;
+        let lastErr = null;
 
-      for (const base of DOWNLOAD_API_FALLBACK_BASES) {
-        try {
-          started = await trySaveNowProvider(base);
-          break;
-        } catch (e) {
-          lastErr = e;
+        for (const base of DOWNLOAD_API_FALLBACK_BASES) {
+          try {
+            started = await trySaveNowProvider(base);
+            break;
+          } catch (e) {
+            lastErr = e;
+          }
         }
-      }
 
-      if (started?.success && started?.progress_url) {
-        pollProgressUrl(started.progress_url);
-        return;
-      }
+        if (started?.success && started?.progress_url) {
+          pollProgressUrl(started.progress_url);
+          return;
+        }
 
-      console.warn(
-        "SaveNow providers failed, falling back to dubs.io",
-        lastErr,
-      );
-      await tryDubsProvider();
+        console.warn('SaveNow providers failed, falling back to dubs.io', lastErr);
+        await tryDubsProvider();
     } catch (error) {
-      setErrorState();
-      console.error("❌ Error starting download:", error);
+        setErrorState();
+        console.error('❌ Error starting download:', error);
     }
-  }
+}
+
 
   const UPDATE_INTERVAL = 1000;
-  const STORAGE = {
-    USAGE: "YT_TOTAL_USAGE",
-    VIDEO: "YT_VIDEO_TIME",
-    SHORTS: "YT_SHORTS_TIME",
-  };
+    const STORAGE = {
+        USAGE: 'YT_TOTAL_USAGE',
+        VIDEO: 'YT_VIDEO_TIME',
+        SHORTS: 'YT_SHORTS_TIME'
+    };
 
-  let usageTime = GM_getValue(STORAGE.USAGE, 0);
-  let videoTime = GM_getValue(STORAGE.VIDEO, 0);
-  let shortsTime = GM_getValue(STORAGE.SHORTS, 0);
-  let lastUpdate = Date.now();
-  let activeVideo = null;
-  let activeType = null;
+    let usageTime = GM_getValue(STORAGE.USAGE, 0);
+    let videoTime = GM_getValue(STORAGE.VIDEO, 0);
+    let shortsTime = GM_getValue(STORAGE.SHORTS, 0);
+    let lastUpdate = Date.now();
+    let activeVideo = null;
+    let activeType = null;
 
-  // Inicializar almacenamiento
-  GM_setValue(STORAGE.USAGE, usageTime);
-  GM_setValue(STORAGE.VIDEO, videoTime);
-  GM_setValue(STORAGE.SHORTS, shortsTime);
+    // Inicializar almacenamiento
+    GM_setValue(STORAGE.USAGE, usageTime);
+    GM_setValue(STORAGE.VIDEO, videoTime);
+    GM_setValue(STORAGE.SHORTS, shortsTime);
 
   function FormatterNumber(num, digits) {
     const lookup = [
       {
         value: 1,
-        symbol: "",
+        symbol: '',
       },
       {
         value: 1e3,
-        symbol: " K",
+        symbol: ' K',
       },
       {
         value: 1e6,
-        symbol: " M",
+        symbol: ' M',
       },
     ];
     const rx = /\.0+$|(\.[0-9]*[1-9])0+$/;
@@ -608,58 +576,51 @@
         return num >= item.value;
       });
     return item
-      ? (num / item.value).toFixed(digits).replace(rx, "$1") + item.symbol
-      : "0";
+      ? (num / item.value).toFixed(digits).replace(rx, '$1') + item.symbol
+      : '0';
   }
 
   function paramsVideoURL() {
     const parametrosURL = new URLSearchParams(window.location.search); // Url parametros
-    return parametrosURL.get("v");
+    return parametrosURL.get('v');
   }
 
   // ------------------------------
   // Feature helpers: videoId / channelId / storage
   // ------------------------------
   const STORAGE_KEYS_MDCM = {
-    BOOKMARKS: "ytBookmarksMDCM",
-    CONTINUE_WATCHING: "ytContinueWatchingMDCM",
-    SHORTS_CHANNEL_CACHE: "ytShortsChannelCacheMDCM",
-    LIKES_DISLIKES_CACHE: "ytLikesDislikesCacheMDCM",
-    VERSION_CHECK_LAST: "ytVersionCheckLastMDCM",
+    BOOKMARKS: 'ytBookmarksMDCM',
+    CONTINUE_WATCHING: 'ytContinueWatchingMDCM',
+    SHORTS_CHANNEL_CACHE: 'ytShortsChannelCacheMDCM',
+    LIKES_DISLIKES_CACHE: 'ytLikesDislikesCacheMDCM',
+    VERSION_CHECK_LAST: 'ytVersionCheckLastMDCM',
   };
 
-  const UPDATE_META_URL =
-    "https://update.greasyfork.org/scripts/460680/Youtube%20Tools%20All%20in%20one%20local%20download%20mp3%20mp4%20HIGT%20QUALITY%20return%20dislikes%20and%20more.meta.js";
+  const UPDATE_META_URL = 'https://update.greasyfork.org/scripts/460680/Youtube%20Tools%20All%20in%20one%20local%20download%20mp3%20mp4%20HIGT%20QUALITY%20return%20dislikes%20and%20more.meta.js';
   const VERSION_CHECK_INTERVAL_MS = 24 * 60 * 60 * 1000; // once per day
 
-  const SHORTS_CHANNEL_TTL_MS = 24 * 24 * 60 * 60 * 1000; // 7 days
-  const LIKES_DISLIKES_TTL_MS = 7 * 24 * 60 * 60 * 1000; // 7 days
+  const SHORTS_CHANNEL_TTL_MS = 24 * 24 * 60 * 60 * 1000;   // 7 days
+  const LIKES_DISLIKES_TTL_MS = 7 * 24 * 60 * 60 * 1000;        // 7 days
   const PERSISTED_CACHE_MAX_ENTRIES = 500;
 
   function getShortsChannelFromPersistedCache(videoId) {
     try {
       const map = readJsonGM(STORAGE_KEYS_MDCM.SHORTS_CHANNEL_CACHE, {});
       const entry = map?.[videoId];
-      if (!entry || typeof entry.channelName !== "string") return null;
+      if (!entry || typeof entry.channelName !== 'string') return null;
       const age = Date.now() - (Number(entry.ts) || 0);
       if (age > SHORTS_CHANNEL_TTL_MS) return null;
       return entry.channelName;
-    } catch (e) {
-      return null;
-    }
+    } catch (e) { return null; }
   }
 
   function setShortsChannelToPersistedCache(videoId, channelName) {
-    if (!videoId || typeof channelName !== "string") return;
+    if (!videoId || typeof channelName !== 'string') return;
     try {
       const map = readJsonGM(STORAGE_KEYS_MDCM.SHORTS_CHANNEL_CACHE, {});
       map[videoId] = { channelName, ts: Date.now() };
-      const entries = Object.entries(map).sort(
-        (a, b) => (Number(b[1]?.ts) || 0) - (Number(a[1]?.ts) || 0),
-      );
-      const pruned = Object.fromEntries(
-        entries.slice(0, PERSISTED_CACHE_MAX_ENTRIES),
-      );
+      const entries = Object.entries(map).sort((a, b) => (Number(b[1]?.ts) || 0) - (Number(a[1]?.ts) || 0));
+      const pruned = Object.fromEntries(entries.slice(0, PERSISTED_CACHE_MAX_ENTRIES));
       writeJsonGM(STORAGE_KEYS_MDCM.SHORTS_CHANNEL_CACHE, pruned);
     } catch (e) {}
   }
@@ -679,48 +640,29 @@
         likes: Number.isFinite(likes) ? likes : null,
         dislikes: Number.isFinite(dislikes) ? dislikes : null,
         viewCount: Number.isFinite(viewCount) ? viewCount : null,
-        rating:
-          Number.isFinite(rating) && rating >= 0 && rating <= 5 ? rating : null,
+        rating: Number.isFinite(rating) && rating >= 0 && rating <= 5 ? rating : null,
       };
-    } catch (e) {
-      return null;
-    }
+    } catch (e) { return null; }
   }
 
-  function setLikesDislikesToPersistedCache(
-    videoId,
-    likes,
-    dislikes,
-    viewCount,
-    rating,
-  ) {
+  function setLikesDislikesToPersistedCache(videoId, likes, dislikes, viewCount, rating) {
     if (!videoId) return;
     try {
       const map = readJsonGM(STORAGE_KEYS_MDCM.LIKES_DISLIKES_CACHE, {});
-      map[videoId] = {
-        likes: likes ?? null,
-        dislikes: dislikes ?? null,
-        viewCount: viewCount ?? null,
-        rating: rating ?? null,
-        ts: Date.now(),
-      };
-      const entries = Object.entries(map).sort(
-        (a, b) => (Number(b[1]?.ts) || 0) - (Number(a[1]?.ts) || 0),
-      );
-      const pruned = Object.fromEntries(
-        entries.slice(0, Math.min(PERSISTED_CACHE_MAX_ENTRIES, 300)),
-      );
+      map[videoId] = { likes: likes ?? null, dislikes: dislikes ?? null, viewCount: viewCount ?? null, rating: rating ?? null, ts: Date.now() };
+      const entries = Object.entries(map).sort((a, b) => (Number(b[1]?.ts) || 0) - (Number(a[1]?.ts) || 0));
+      const pruned = Object.fromEntries(entries.slice(0, Math.min(PERSISTED_CACHE_MAX_ENTRIES, 300)));
       writeJsonGM(STORAGE_KEYS_MDCM.LIKES_DISLIKES_CACHE, pruned);
     } catch (e) {}
   }
 
   function getCurrentVideoId() {
     try {
-      if (location.pathname.startsWith("/shorts/")) {
-        const parts = location.pathname.split("/").filter(Boolean);
+      if (location.pathname.startsWith('/shorts/')) {
+        const parts = location.pathname.split('/').filter(Boolean);
         return parts[1] || null;
       }
-      if (location.href.includes("youtube.com/watch")) {
+      if (location.href.includes('youtube.com/watch')) {
         return paramsVideoURL();
       }
       return null;
@@ -729,9 +671,10 @@
     }
   }
 
+
   function readJsonGM(key, fallback) {
     try {
-      const raw = GM_getValue(key, "");
+      const raw = GM_getValue(key, '');
       if (!raw) return fallback;
       return JSON.parse(raw);
     } catch (e) {
@@ -743,17 +686,13 @@
     try {
       GM_setValue(key, JSON.stringify(value));
     } catch (e) {
-      console.error("writeJsonGM error:", e);
+      console.error('writeJsonGM error:', e);
     }
   }
 
   function isVersionNewer(latestStr, currentStr) {
     if (!latestStr || !currentStr) return false;
-    const parse = (s) =>
-      String(s)
-        .trim()
-        .split(".")
-        .map((n) => parseInt(n, 10) || 0);
+    const parse = (s) => String(s).trim().split('.').map((n) => parseInt(n, 10) || 0);
     const a = parse(latestStr);
     const b = parse(currentStr);
     const len = Math.max(a.length, b.length);
@@ -772,36 +711,28 @@
       if (Date.now() - last < VERSION_CHECK_INTERVAL_MS) return;
       GM_setValue(STORAGE_KEYS_MDCM.VERSION_CHECK_LAST, Date.now());
 
-      const res = await fetch(UPDATE_META_URL, { cache: "no-store" });
+      const res = await fetch(UPDATE_META_URL, { cache: 'no-store' });
       if (!res.ok) return;
       const text = await res.text();
       const m = text.match(/@version\s+([\d.]+)/);
       if (!m) return;
       const latestVer = m[1].trim();
-      const currentVer =
-        typeof GM_info !== "undefined" &&
-        GM_info.script &&
-        GM_info.script.version
-          ? String(GM_info.script.version).trim()
-          : "";
+      const currentVer = (typeof GM_info !== 'undefined' && GM_info.script && GM_info.script.version)
+        ? String(GM_info.script.version).trim()
+        : '';
       if (!currentVer || !isVersionNewer(latestVer, currentVer)) return;
 
-      const updateUrl =
-        "https://update.greasyfork.org/scripts/460680/Youtube%20Tools%20All%20in%20one%20local%20download%20mp3%20mp4%20HIGT%20QUALITY%20return%20dislikes%20and%20more.user.js";
-      iziToast.show({
-        title: "New Update",
-        message: "A new version YoutubeTools is available.",
-        buttons: [
-          [
-            "<button>View Now</button>",
-            function (instance, toast) {
-              window.open(updateUrl, "_blank");
-              instance.hide({ transitionOut: "fadeOut" }, toast, "button");
-            },
-            true,
-          ], // true = focus
-        ],
-      });
+      const updateUrl = 'https://update.greasyfork.org/scripts/460680/Youtube%20Tools%20All%20in%20one%20local%20download%20mp3%20mp4%20HIGT%20QUALITY%20return%20dislikes%20and%20more.user.js';
+       iziToast.show({
+         title: 'New Update',
+         message: 'A new version YoutubeTools is available.',
+         buttons: [
+             ['<button>View Now</button>', function (instance, toast) {
+                 window.open(updateUrl, '_blank');
+                 instance.hide({ transitionOut: 'fadeOut' }, toast, 'button');
+             }, true] // true = focus
+         ]
+     });
     } catch (e) {
       // silent: network or parse error
     }
@@ -812,24 +743,21 @@
     const h = Math.floor(s / 3600);
     const m = Math.floor((s % 3600) / 60);
     const r = s % 60;
-    return h > 0
-      ? `${h}:${String(m).padStart(2, "0")}:${String(r).padStart(2, "0")}`
-      : `${m}:${String(r).padStart(2, "0")}`;
+    return h > 0 ? `${h}:${String(m).padStart(2, '0')}:${String(r).padStart(2, '0')}` : `${m}:${String(r).padStart(2, '0')}`;
   }
+
+
+
 
   // ------------------------------
   // Feature: History / Continue watching (per video)
   // ------------------------------
   function getMainVideoEl() {
     return (
-      document.querySelector(
-        "#movie_player video.video-stream.html5-main-video",
-      ) ||
-      document.querySelector(
-        "ytd-player video.video-stream.html5-main-video",
-      ) ||
-      document.querySelector("video.video-stream.html5-main-video") ||
-      document.querySelector("video")
+      document.querySelector('#movie_player video.video-stream.html5-main-video') ||
+      document.querySelector('ytd-player video.video-stream.html5-main-video') ||
+      document.querySelector('video.video-stream.html5-main-video') ||
+      document.querySelector('video')
     );
   }
 
@@ -837,57 +765,40 @@
     try {
       // DOM first (updates earlier on SPA navigation)
       const domTitle =
-        $e("ytd-watch-metadata h1 yt-formatted-string")?.textContent?.trim() ||
-        $e("h1.ytd-watch-metadata yt-formatted-string")?.textContent?.trim() ||
-        "";
+        $e('ytd-watch-metadata h1 yt-formatted-string')?.textContent?.trim() ||
+        $e('h1.ytd-watch-metadata yt-formatted-string')?.textContent?.trim() ||
+        '';
       const domAuthor =
-        $e(
-          "#owner ytd-channel-name a, ytd-video-owner-renderer ytd-channel-name a, #text-container.ytd-channel-name a",
-        )?.textContent?.trim() ||
-        $e(
-          '#owner a[href^="/@"], #owner a[href^="/channel/"]',
-        )?.textContent?.trim() ||
-        "";
-      const titleFromDom = (domTitle || document.title || "")
-        .replace(/\s*-\s*YouTube\s*$/i, "")
-        .trim();
-      const authorFromDom = (domAuthor || "").trim();
+        $e('#owner ytd-channel-name a, ytd-video-owner-renderer ytd-channel-name a, #text-container.ytd-channel-name a')?.textContent?.trim() ||
+        $e('#owner a[href^="/@"], #owner a[href^="/channel/"]')?.textContent?.trim() ||
+        '';
+      const titleFromDom = (domTitle || document.title || '').replace(/\s*-\s*YouTube\s*$/i, '').trim();
+      const authorFromDom = (domAuthor || '').trim();
 
-      const w =
-        typeof unsafeWindow !== "undefined" && unsafeWindow
-          ? unsafeWindow
-          : window;
+      const w = (typeof unsafeWindow !== 'undefined' && unsafeWindow) ? unsafeWindow : window;
       const pr = w?.ytInitialPlayerResponse || window.ytInitialPlayerResponse;
       const vd = pr?.videoDetails || null;
-      const title = (titleFromDom || vd?.title || document.title || "")
-        .replace(/\s*-\s*YouTube\s*$/i, "")
-        .trim();
-      const author = (authorFromDom || vd?.author || "").trim();
+      const title = (titleFromDom || vd?.title || document.title || '').replace(/\s*-\s*YouTube\s*$/i, '').trim();
+      const author = (authorFromDom || vd?.author || '').trim();
       const thumbs = vd?.thumbnail?.thumbnails;
-      const thumb = Array.isArray(thumbs)
-        ? thumbs[thumbs.length - 1]?.url || ""
-        : "";
+      const thumb = Array.isArray(thumbs) ? (thumbs[thumbs.length - 1]?.url || '') : '';
       return { title, author, thumb };
     } catch (e) {
-      return { title: "", author: "", thumb: "" };
+      return { title: '', author: '', thumb: '' };
     }
   }
 
   function ensureContinueWatchingMapLoaded() {
     const rt = __ytToolsRuntime.continueWatching;
     if (!rt.map) rt.map = readJsonGM(STORAGE_KEYS_MDCM.CONTINUE_WATCHING, {});
-    if (typeof rt.map !== "object" || !rt.map) rt.map = {};
+    if (typeof rt.map !== 'object' || !rt.map) rt.map = {};
     return rt.map;
   }
 
   function pruneContinueWatchingMap(map, maxEntries = 200) {
     try {
-      const entries = Object.entries(map || {}).filter(
-        ([, v]) => v && typeof v === "object",
-      );
-      entries.sort(
-        (a, b) => (Number(b[1].updatedAt) || 0) - (Number(a[1].updatedAt) || 0),
-      );
+      const entries = Object.entries(map || {}).filter(([, v]) => v && typeof v === 'object');
+      entries.sort((a, b) => (Number(b[1].updatedAt) || 0) - (Number(a[1].updatedAt) || 0));
       const keep = entries.slice(0, maxEntries);
       const next = {};
       for (const [k, v] of keep) next[k] = v;
@@ -926,16 +837,15 @@
     const map = ensureContinueWatchingMapLoaded();
     const t = Math.max(0, Math.floor(Number(seconds) || 0));
     const d = Math.max(0, Math.floor(Number(durationSec) || 0));
-    const prev =
-      map[videoId] && typeof map[videoId] === "object" ? map[videoId] : {};
+    const prev = map[videoId] && typeof map[videoId] === 'object' ? map[videoId] : {};
     const meta = getCurrentVideoMeta();
     map[videoId] = {
       t,
       d,
       updatedAt: Date.now(),
-      title: meta.title || prev.title || "",
-      author: meta.author || prev.author || "",
-      thumb: meta.thumb || prev.thumb || "",
+      title: meta.title || prev.title || '',
+      author: meta.author || prev.author || '',
+      thumb: meta.thumb || prev.thumb || '',
     };
     rt.map = map;
     scheduleContinueWatchingFlush();
@@ -964,7 +874,7 @@
 
     if (!t || t < 5) return;
 
-    if (hasDur && t >= dur - 5) {
+    if (hasDur && t >= (dur - 5)) {
       clearContinueWatchingForVideo(videoId);
       return;
     }
@@ -972,33 +882,33 @@
 
   function updateContinueWatchingHistoryUi() {
     const rt = __ytToolsRuntime.continueWatching;
-    const btn = $id("yt-cw-history-toggle");
-    const panel = $id("yt-continue-watching-panel");
+    const btn = $id('yt-cw-history-toggle');
+    const panel = $id('yt-continue-watching-panel');
     if (!btn || !panel) return;
 
     const enabled = !!rt.enabled;
     if (!enabled || !isWatchPage()) {
-      btn.style.display = "none";
-      panel.style.display = "none";
+      btn.style.display = 'none';
+      panel.style.display = 'none';
       return;
     }
 
-    btn.style.display = "inline-flex";
-    panel.style.display = rt.panelOpen ? "block" : "none";
+    btn.style.display = 'inline-flex';
+    panel.style.display = rt.panelOpen ? 'block' : 'none';
   }
 
   function cssEscapeLite(s) {
-    const str = String(s || "");
-    if (typeof CSS !== "undefined" && CSS.escape) return CSS.escape(str);
+    const str = String(s || '');
+    if (typeof CSS !== 'undefined' && CSS.escape) return CSS.escape(str);
     // minimal escape for attribute selector
-    return str.replace(/["\\]/g, "\\$&");
+    return str.replace(/["\\]/g, '\\$&');
   }
 
   function updateContinueWatchingPanelRow(videoId) {
     try {
       const rt = __ytToolsRuntime.continueWatching;
       if (!rt.enabled || !rt.panelOpen || !isWatchPage()) return false;
-      const panel = $id("yt-continue-watching-panel");
+      const panel = $id('yt-continue-watching-panel');
       if (!panel) return false;
 
       const key = cssEscapeLite(videoId);
@@ -1009,10 +919,10 @@
       const t = Number(entry?.t);
       if (!Number.isFinite(t)) return false;
 
-      const meta = row.querySelector(".yt-cw-meta");
+      const meta = row.querySelector('.yt-cw-meta');
       if (!meta) return false;
-      const author = String(entry?.author || "").trim();
-      meta.textContent = `${formatTimeShort(t)}${author ? ` • ${author}` : ""}`;
+      const author = String(entry?.author || '').trim();
+      meta.textContent = `${formatTimeShort(t)}${author ? ` • ${author}` : ''}`;
       return true;
     } catch (e) {
       return false;
@@ -1021,13 +931,13 @@
 
   function navigateToWatchSpa(videoId, seconds) {
     const t = Number(seconds);
-    const url = `/watch?v=${encodeURIComponent(videoId)}${Number.isFinite(t) ? `&t=${Math.max(0, Math.floor(t))}s` : ""}`;
+    const url = `/watch?v=${encodeURIComponent(videoId)}${Number.isFinite(t) ? `&t=${Math.max(0, Math.floor(t))}s` : ''}`;
     try {
-      const a = document.createElement("a");
+      const a = document.createElement('a');
       a.href = url;
-      a.target = "_self";
-      a.rel = "noopener";
-      a.style.display = "none";
+      a.target = '_self';
+      a.rel = 'noopener';
+      a.style.display = 'none';
       document.body.appendChild(a);
       a.click();
       a.remove();
@@ -1037,120 +947,113 @@
   }
 
   function renderContinueWatchingPanel() {
-    const panel = $id("yt-continue-watching-panel");
+    const panel = $id('yt-continue-watching-panel');
     if (!panel) return;
 
     const rt = __ytToolsRuntime.continueWatching;
     if (!rt.enabled || !rt.panelOpen || !isWatchPage()) {
-      panel.style.display = "none";
+      panel.style.display = 'none';
       return;
     }
 
-    const map = pruneContinueWatchingMap(
-      ensureContinueWatchingMapLoaded(),
-      200,
-    );
+    const map = pruneContinueWatchingMap(ensureContinueWatchingMapLoaded(), 200);
     rt.map = map;
     const currentVid = getCurrentVideoId();
 
     const entries = Object.entries(map)
       .map(([videoId, v]) => ({ videoId, ...v }))
-      .filter(
-        (e) => e.videoId && Number.isFinite(Number(e.t)) && Number(e.t) >= 5,
-      )
+      .filter((e) => e.videoId && Number.isFinite(Number(e.t)) && Number(e.t) >= 5)
       .sort((a, b) => (Number(b.updatedAt) || 0) - (Number(a.updatedAt) || 0))
       .slice(0, 25);
 
     panel.replaceChildren();
 
-    const header = document.createElement("div");
-    header.className = "yt-cw-header";
+    const header = document.createElement('div');
+    header.className = 'yt-cw-header';
 
-    const hTitle = document.createElement("div");
-    hTitle.className = "yt-cw-header-title";
-    hTitle.textContent = "Continue watching";
+    const hTitle = document.createElement('div');
+    hTitle.className = 'yt-cw-header-title';
+    hTitle.textContent = 'Continue watching';
 
-    const clearAll = document.createElement("button");
-    clearAll.type = "button";
-    clearAll.className = "yt-cw-clear";
-    clearAll.textContent = "Clear";
-    clearAll.dataset.cwAction = "clearAll";
+    const clearAll = document.createElement('button');
+    clearAll.type = 'button';
+    clearAll.className = 'yt-cw-clear';
+    clearAll.textContent = 'Clear';
+    clearAll.dataset.cwAction = 'clearAll';
 
     header.appendChild(hTitle);
     header.appendChild(clearAll);
     panel.appendChild(header);
 
     if (!entries.length) {
-      const empty = document.createElement("div");
-      empty.className = "yt-cw-empty";
-      empty.textContent = "No history yet. Watch a bit, then reopen any video.";
+      const empty = document.createElement('div');
+      empty.className = 'yt-cw-empty';
+      empty.textContent = 'No history yet. Watch a bit, then reopen any video.';
       panel.appendChild(empty);
       return;
     }
 
     for (const e of entries) {
-      const item = document.createElement("div");
-      item.className = "yt-cw-item";
+      const item = document.createElement('div');
+      item.className = 'yt-cw-item';
       item.dataset.videoId = e.videoId;
 
-      const thumbWrap = document.createElement("div");
-      thumbWrap.className = "yt-cw-thumb-wrap";
-      const img = document.createElement("img");
-      img.className = "yt-cw-thumb";
-      img.loading = "lazy";
-      img.decoding = "async";
-      img.alt = "";
-      const thumbSrc =
-        (e.thumb || "").trim() ||
-        `https://i.ytimg.com/vi/${encodeURIComponent(e.videoId)}/hqdefault.jpg`;
+      const thumbWrap = document.createElement('div');
+      thumbWrap.className = 'yt-cw-thumb-wrap';
+      const img = document.createElement('img');
+      img.className = 'yt-cw-thumb';
+      img.loading = 'lazy';
+      img.decoding = 'async';
+      img.alt = '';
+      const thumbSrc = (e.thumb || '').trim() || `https://i.ytimg.com/vi/${encodeURIComponent(e.videoId)}/hqdefault.jpg`;
       img.src = thumbSrc;
       thumbWrap.appendChild(img);
 
-      const info = document.createElement("div");
-      info.className = "yt-cw-info";
+      const info = document.createElement('div');
+      info.className = 'yt-cw-info';
 
-      const title = document.createElement("div");
-      title.className = "yt-cw-title";
-      const safeTitle = (e.title || "").trim();
+      const title = document.createElement('div');
+      title.className = 'yt-cw-title';
+      const safeTitle = (e.title || '').trim();
       title.textContent = safeTitle ? safeTitle : e.videoId;
 
-      const meta = document.createElement("div");
-      meta.className = "yt-cw-meta";
-      const author = (e.author || "").trim();
-      meta.textContent = `${formatTimeShort(e.t)}${author ? ` • ${author}` : ""}`;
+      const meta = document.createElement('div');
+      meta.className = 'yt-cw-meta';
+      const author = (e.author || '').trim();
+      meta.textContent = `${formatTimeShort(e.t)}${author ? ` • ${author}` : ''}`;
 
       info.appendChild(title);
       info.appendChild(meta);
 
-      const actions = document.createElement("div");
-      actions.className = "yt-cw-actions";
+      const actions = document.createElement('div');
+      actions.className = 'yt-cw-actions';
 
       const tSec = Math.max(0, Math.floor(Number(e.t) || 0));
       let go = null;
       if (currentVid && currentVid === e.videoId) {
-        const seek = document.createElement("button");
-        seek.type = "button";
-        seek.className = "yt-cw-go";
-        seek.textContent = "Resume";
-        seek.dataset.cwAction = "seek";
+        const seek = document.createElement('button');
+        seek.type = 'button';
+        seek.className = 'yt-cw-go';
+        seek.textContent = 'Resume';
+        seek.dataset.cwAction = 'seek';
         seek.dataset.t = String(tSec);
         go = seek;
       } else {
-        const a = document.createElement("a");
-        a.className = "yt-simple-endpoint yt-cw-go";
-        a.textContent = "Resume";
+        const a = document.createElement('a');
+        a.className = 'yt-simple-endpoint yt-cw-go';
+        a.textContent = 'Resume';
         a.href = `/watch?v=${encodeURIComponent(e.videoId)}&t=${tSec}s`;
-        a.target = "_self";
-        a.rel = "noopener";
+        a.target = '_self';
+        a.rel = 'noopener';
         go = a;
       }
 
-      const del = document.createElement("button");
-      del.type = "button";
-      del.className = "yt-cw-del";
-      del.textContent = "✕";
-      del.title = "Delete";
-      del.dataset.cwAction = "del";
+      const del = document.createElement('button');
+      del.type = 'button';
+      del.className = 'yt-cw-del';
+      del.textContent = '✕';
+      del.title = 'Delete';
+      del.dataset.cwAction = 'del';
       del.dataset.videoId = e.videoId;
 
       actions.appendChild(go);
@@ -1189,123 +1092,100 @@
           }
         } catch (e) {}
       };
-      window.addEventListener("yt-navigate-finish", onNav, true);
-      window.addEventListener("popstate", onNav, true);
-      window.addEventListener("hashchange", onNav, true);
+      window.addEventListener('yt-navigate-finish', onNav, true);
+      window.addEventListener('popstate', onNav, true);
+      window.addEventListener('hashchange', onNav, true);
     }
 
     // Ensure click handler only once
     if (!rt.clickHandlerInitialized) {
       rt.clickHandlerInitialized = true;
-      document.addEventListener(
-        "click",
-        (e) => {
-          const target = e.target;
-          if (!(target instanceof Element)) return;
-          const historyBtn = target.closest("#yt-cw-history-toggle");
-          const cwActionBtn = target.closest("[data-cw-action]");
+      document.addEventListener('click', (e) => {
+        const target = e.target;
+        if (!(target instanceof Element)) return;
+        const historyBtn = target.closest('#yt-cw-history-toggle');
+        const cwActionBtn = target.closest('[data-cw-action]');
 
-          if (historyBtn) {
-            e.preventDefault();
-            e.stopPropagation();
-            rt.panelOpen = !rt.panelOpen;
-            updateContinueWatchingHistoryUi();
-            if (rt.panelOpen) renderContinueWatchingPanel(); // render only when opened
+        if (historyBtn) {
+          e.preventDefault();
+          e.stopPropagation();
+          rt.panelOpen = !rt.panelOpen;
+          updateContinueWatchingHistoryUi();
+          if (rt.panelOpen) renderContinueWatchingPanel(); // render only when opened
+          return;
+        }
+
+        if (cwActionBtn) {
+          const action = cwActionBtn.getAttribute('data-cw-action');
+          if (!action) return;
+          e.preventDefault();
+          e.stopPropagation();
+          if (action === 'clearAll') {
+            rt.map = {};
+            writeJsonGM(STORAGE_KEYS_MDCM.CONTINUE_WATCHING, {});
+            renderContinueWatchingPanel();
+            updateContinueWatchingButton();
+            try { Notify('success', 'History cleared'); } catch (e2) {}
             return;
           }
-
-          if (cwActionBtn) {
-            const action = cwActionBtn.getAttribute("data-cw-action");
-            if (!action) return;
-            e.preventDefault();
-            e.stopPropagation();
-            if (action === "clearAll") {
-              rt.map = {};
-              writeJsonGM(STORAGE_KEYS_MDCM.CONTINUE_WATCHING, {});
-              renderContinueWatchingPanel();
-              updateContinueWatchingButton();
-              try {
-                Notify("success", "History cleared");
-              } catch (e2) {}
-              return;
-            }
-            if (action === "del") {
-              const vid = cwActionBtn.getAttribute("data-video-id") || "";
-              if (vid) clearContinueWatchingForVideo(vid);
-              renderContinueWatchingPanel();
-              updateContinueWatchingButton();
-              return;
-            }
-            if (action === "seek") {
-              const t = Number(cwActionBtn.getAttribute("data-t"));
-              const v = getMainVideoEl();
-              if (!v || !Number.isFinite(t)) return;
-              v.currentTime = Math.max(0, t);
-              v.play?.().catch(() => {});
-              try {
-                Notify("success", `Resume: ${formatTimeShort(t)}`);
-              } catch (e2) {}
-              updateContinueWatchingButton();
-              return;
-            }
+          if (action === 'del') {
+            const vid = cwActionBtn.getAttribute('data-video-id') || '';
+            if (vid) clearContinueWatchingForVideo(vid);
+            renderContinueWatchingPanel();
+            updateContinueWatchingButton();
+            return;
           }
-        },
-        true,
-      );
+          if (action === 'seek') {
+            const t = Number(cwActionBtn.getAttribute('data-t'));
+            const v = getMainVideoEl();
+            if (!v || !Number.isFinite(t)) return;
+            v.currentTime = Math.max(0, t);
+            v.play?.().catch(() => {});
+            try { Notify('success', `Resume: ${formatTimeShort(t)}`); } catch (e2) {}
+            updateContinueWatchingButton();
+            return;
+          }
+        }
+      }, true);
     }
 
     // Save on tab close / navigation (once)
     if (!rt.pagehideHandlerInitialized) {
       rt.pagehideHandlerInitialized = true;
-      window.addEventListener(
-        "pagehide",
-        () => {
-          try {
-            if (!rt.enabled) return;
-            if (!isWatchPage()) return;
-            const vid = getCurrentVideoId();
-            const v = getMainVideoEl();
-            if (!vid || !v) return;
-            const t = Number(v.currentTime);
-            const d = Number(v.duration);
-            if (Number.isFinite(t) && t >= 5)
-              setContinueWatchingForVideo(vid, t, d);
-            // best-effort immediate flush
-            if (rt.flushT) {
-              clearTimeout(rt.flushT);
-              rt.flushT = null;
-            }
-            if (rt.map)
-              writeJsonGM(
-                STORAGE_KEYS_MDCM.CONTINUE_WATCHING,
-                pruneContinueWatchingMap(rt.map, 200),
-              );
-          } catch (e) {}
-        },
-        { capture: true },
-      );
+      window.addEventListener('pagehide', () => {
+        try {
+          if (!rt.enabled) return;
+          if (!isWatchPage()) return;
+          const vid = getCurrentVideoId();
+          const v = getMainVideoEl();
+          if (!vid || !v) return;
+          const t = Number(v.currentTime);
+          const d = Number(v.duration);
+          if (Number.isFinite(t) && t >= 5) setContinueWatchingForVideo(vid, t, d);
+          // best-effort immediate flush
+          if (rt.flushT) {
+            clearTimeout(rt.flushT);
+            rt.flushT = null;
+          }
+          if (rt.map) writeJsonGM(STORAGE_KEYS_MDCM.CONTINUE_WATCHING, pruneContinueWatchingMap(rt.map, 200));
+        } catch (e) {}
+      }, { capture: true });
     }
 
-    const historyBtn = $id("yt-cw-history-toggle");
-    const panel = $id("yt-continue-watching-panel");
-    if (historyBtn && !rt.enabled) historyBtn.style.display = "none";
-    if (panel && !rt.enabled) panel.style.display = "none";
+    const historyBtn = $id('yt-cw-history-toggle');
+    const panel = $id('yt-continue-watching-panel');
+    if (historyBtn && !rt.enabled) historyBtn.style.display = 'none';
+    if (panel && !rt.enabled) panel.style.display = 'none';
 
     // Not on watch page: detach video listeners and hide
     if (!rt.enabled || !isWatchPage()) {
       try {
         if (rt.boundVideo && rt.handlers) {
-          rt.boundVideo.removeEventListener(
-            "timeupdate",
-            rt.handlers.timeupdate,
-          );
-          rt.boundVideo.removeEventListener("pause", rt.handlers.pause);
-          rt.boundVideo.removeEventListener("ended", rt.handlers.ended);
-          rt.boundVideo.removeEventListener(
-            "loadedmetadata",
-            rt.handlers.loadedmetadata,
-          );
-          rt.boundVideo.removeEventListener("seeked", rt.handlers.seeked);
+          rt.boundVideo.removeEventListener('timeupdate', rt.handlers.timeupdate);
+          rt.boundVideo.removeEventListener('pause', rt.handlers.pause);
+          rt.boundVideo.removeEventListener('ended', rt.handlers.ended);
+          rt.boundVideo.removeEventListener('loadedmetadata', rt.handlers.loadedmetadata);
+          rt.boundVideo.removeEventListener('seeked', rt.handlers.seeked);
         }
       } catch (e) {}
       rt.boundVideo = null;
@@ -1334,14 +1214,11 @@
     // If video element changed, rebind listeners (avoid leaks)
     if (rt.boundVideo && rt.boundVideo !== v && rt.handlers) {
       try {
-        rt.boundVideo.removeEventListener("timeupdate", rt.handlers.timeupdate);
-        rt.boundVideo.removeEventListener("pause", rt.handlers.pause);
-        rt.boundVideo.removeEventListener("ended", rt.handlers.ended);
-        rt.boundVideo.removeEventListener(
-          "loadedmetadata",
-          rt.handlers.loadedmetadata,
-        );
-        rt.boundVideo.removeEventListener("seeked", rt.handlers.seeked);
+        rt.boundVideo.removeEventListener('timeupdate', rt.handlers.timeupdate);
+        rt.boundVideo.removeEventListener('pause', rt.handlers.pause);
+        rt.boundVideo.removeEventListener('ended', rt.handlers.ended);
+        rt.boundVideo.removeEventListener('loadedmetadata', rt.handlers.loadedmetadata);
+        rt.boundVideo.removeEventListener('seeked', rt.handlers.seeked);
       } catch (e) {}
       rt.boundVideo = null;
       rt.boundVideoId = null;
@@ -1373,8 +1250,7 @@
             // Avoid re-rendering the whole panel every few seconds.
             // If panel is open and row exists, just update its text.
             if (rt.panelOpen) {
-              if (!updateContinueWatchingPanelRow(vid))
-                renderContinueWatchingPanel();
+              if (!updateContinueWatchingPanelRow(vid)) renderContinueWatchingPanel();
             }
           } catch (e) {}
         },
@@ -1393,8 +1269,7 @@
             }
             updateContinueWatchingButton();
             if (rt.panelOpen) {
-              if (!updateContinueWatchingPanelRow(vid))
-                renderContinueWatchingPanel();
+              if (!updateContinueWatchingPanelRow(vid)) renderContinueWatchingPanel();
             }
           } catch (e) {}
         },
@@ -1417,15 +1292,11 @@
         },
       };
 
-      v.addEventListener("timeupdate", rt.handlers.timeupdate, {
-        passive: true,
-      });
-      v.addEventListener("pause", rt.handlers.pause, { passive: true });
-      v.addEventListener("ended", rt.handlers.ended, { passive: true });
-      v.addEventListener("loadedmetadata", rt.handlers.loadedmetadata, {
-        passive: true,
-      });
-      v.addEventListener("seeked", rt.handlers.seeked, { passive: true });
+      v.addEventListener('timeupdate', rt.handlers.timeupdate, { passive: true });
+      v.addEventListener('pause', rt.handlers.pause, { passive: true });
+      v.addEventListener('ended', rt.handlers.ended, { passive: true });
+      v.addEventListener('loadedmetadata', rt.handlers.loadedmetadata, { passive: true });
+      v.addEventListener('seeked', rt.handlers.seeked, { passive: true });
     }
 
     updateContinueWatchingButton();
@@ -1438,18 +1309,12 @@
   // ------------------------------
   function setupShortsChannelNameFeature(enabled) {
     __ytToolsRuntime.shortsChannelName.enabled = !!enabled;
-    document.documentElement.dataset.mdcmShortsChannelName = enabled
-      ? "1"
-      : "0";
+    document.documentElement.dataset.mdcmShortsChannelName = enabled ? '1' : '0';
 
     // Disable: stop observers to reduce overhead
     if (!enabled) {
-      try {
-        __ytToolsRuntime.shortsChannelName.observer?.disconnect?.();
-      } catch (e) {}
-      try {
-        __ytToolsRuntime.shortsChannelName.io?.disconnect?.();
-      } catch (e) {}
+      try { __ytToolsRuntime.shortsChannelName.observer?.disconnect?.(); } catch (e) {}
+      try { __ytToolsRuntime.shortsChannelName.io?.disconnect?.(); } catch (e) {}
       __ytToolsRuntime.shortsChannelName.observer = null;
       __ytToolsRuntime.shortsChannelName.io = null;
       clearTimeout(__ytToolsRuntime.shortsChannelName.scanT);
@@ -1461,28 +1326,28 @@
 
     const getShortsVideoIdFromItem = (item) => {
       const a = item.querySelector('a[href^="/shorts/"]');
-      const href = a?.getAttribute("href") || "";
+      const href = a?.getAttribute('href') || '';
       const m = href.match(/\/shorts\/([^/?]+)/);
       return m?.[1] || null;
     };
 
     const findSubhead = (item) => {
       return item.querySelector(
-        ".ShortsLockupViewModelHostOutsideMetadataSubhead," +
-          " .shortsLockupViewModelHostOutsideMetadataSubhead," +
-          " .ShortsLockupViewModelHostMetadataSubhead," +
-          " .shortsLockupViewModelHostMetadataSubhead",
+        '.ShortsLockupViewModelHostOutsideMetadataSubhead,' +
+        ' .shortsLockupViewModelHostOutsideMetadataSubhead,' +
+        ' .ShortsLockupViewModelHostMetadataSubhead,' +
+        ' .shortsLockupViewModelHostMetadataSubhead'
       );
     };
 
     const ensureLabel = (subhead) => {
       const parent = subhead?.parentElement;
       if (!parent) return null;
-      let el = parent.querySelector(".yt-tools-shorts-channel-name");
+      let el = parent.querySelector('.yt-tools-shorts-channel-name');
       if (!el) {
-        el = document.createElement("div");
-        el.className = "yt-tools-shorts-channel-name";
-        el.textContent = "";
+        el = document.createElement('div');
+        el.className = 'yt-tools-shorts-channel-name';
+        el.textContent = '';
         parent.insertBefore(el, subhead);
       }
       return el;
@@ -1490,7 +1355,7 @@
 
     const tryExtractChannelNameFromDom = (item) => {
       const a = item.querySelector('a[href^="/@"], a[href^="/channel/"]');
-      const name = (a?.textContent || a?.getAttribute("title") || "").trim();
+      const name = (a?.textContent || a?.getAttribute('title') || '').trim();
       return name || null;
     };
 
@@ -1500,26 +1365,26 @@
         let res = null;
         try {
           res = await fetch(`/watch?v=${videoId}`, {
-            method: "GET",
-            credentials: "same-origin",
-            cache: "force-cache",
+            method: 'GET',
+            credentials: 'same-origin',
+            cache: 'force-cache',
           });
         } catch (e) {
-          return "";
+          return '';
         }
-        if (!res?.ok) return "";
+        if (!res?.ok) return '';
         const html = await res.text();
 
         const idx = html.indexOf('itemprop="author"');
-        if (idx < 0) return "";
-        const start = html.lastIndexOf("<span", idx);
-        const end = html.indexOf("</span>", idx);
-        if (start < 0 || end < 0) return "";
+        if (idx < 0) return '';
+        const start = html.lastIndexOf('<span', idx);
+        const end = html.indexOf('</span>', idx);
+        if (start < 0 || end < 0) return '';
         const chunk = html.slice(start, end + 7);
 
-        const doc = new DOMParser().parseFromString(chunk, "text/html");
+        const doc = new DOMParser().parseFromString(chunk, 'text/html');
         const link = doc.querySelector('link[itemprop="name"]');
-        return (link?.getAttribute("content") || "").trim();
+        return (link?.getAttribute('content') || '').trim();
       });
       return rt.fetchChain;
     };
@@ -1546,7 +1411,7 @@
 
       const p = fetchChannelNameFromWatch(videoId)
         .then((name) => {
-          const finalName = (name || "").trim();
+          const finalName = (name || '').trim();
           if (finalName) {
             rt.cache.set(videoId, finalName);
             setShortsChannelToPersistedCache(videoId, finalName);
@@ -1562,7 +1427,7 @@
 
     const processItem = (item) => {
       if (!(item instanceof Element)) return;
-      if (item.dataset.ytToolsShortsChannelProcessed === "1") return;
+      if (item.dataset.ytToolsShortsChannelProcessed === '1') return;
 
       const subhead = findSubhead(item);
       if (!subhead) return;
@@ -1570,53 +1435,46 @@
       const videoId = getShortsVideoIdFromItem(item);
       if (!videoId) return;
 
-      item.dataset.ytToolsShortsChannelProcessed = "1";
+      item.dataset.ytToolsShortsChannelProcessed = '1';
       item.dataset.ytToolsShortsVideoId = videoId;
 
       const label = ensureLabel(subhead);
       if (!label) return;
-      label.textContent = "";
+      label.textContent = '';
 
       rt.io?.observe(item);
     };
 
     if (!rt.io) {
-      rt.io = new IntersectionObserver(
-        (entries) => {
-          for (const entry of entries) {
-            if (!entry.isIntersecting) continue;
-            const item = entry.target;
-            const videoId = item?.dataset?.ytToolsShortsVideoId;
-            const subhead = findSubhead(item);
-            const label = subhead?.parentElement?.querySelector?.(
-              ".yt-tools-shorts-channel-name",
-            );
+      rt.io = new IntersectionObserver((entries) => {
+        for (const entry of entries) {
+          if (!entry.isIntersecting) continue;
+          const item = entry.target;
+          const videoId = item?.dataset?.ytToolsShortsVideoId;
+          const subhead = findSubhead(item);
+          const label = subhead?.parentElement?.querySelector?.('.yt-tools-shorts-channel-name');
 
-            if (!videoId || !label) {
-              rt.io.unobserve(item);
-              continue;
-            }
-
-            getChannelName(videoId, item)
-              .then((name) => {
-                if (name) label.textContent = name;
-              })
-              .finally(() => {
-                rt.io.unobserve(item);
-              });
+          if (!videoId || !label) {
+            rt.io.unobserve(item);
+            continue;
           }
-        },
-        { threshold: 0.15 },
-      );
+
+          getChannelName(videoId, item)
+            .then((name) => {
+              if (name) label.textContent = name;
+            })
+            .finally(() => {
+              rt.io.unobserve(item);
+            });
+        }
+      }, { threshold: 0.15 });
     }
 
     const scan = () => {
       clearTimeout(rt.scanT);
       rt.scanT = setTimeout(() => {
         document
-          .querySelectorAll(
-            "ytm-shorts-lockup-view-model, ytm-shorts-lockup-view-model-v2",
-          )
+          .querySelectorAll('ytm-shorts-lockup-view-model, ytm-shorts-lockup-view-model-v2')
           .forEach(processItem);
       }, 120);
     };
@@ -1635,7 +1493,7 @@
   function getVideoIdFromLockup(lockup) {
     const a = lockup.querySelector('a[href*="watch?v="]');
     if (a) {
-      const m = (a.getAttribute("href") || "").match(/[?&]v=([^&]+)/);
+      const m = (a.getAttribute('href') || '').match(/[?&]v=([^&]+)/);
       if (m) return m[1];
     }
     const el = lockup.querySelector('[class*="content-id-"]');
@@ -1647,29 +1505,26 @@
   }
 
   function createSvgIconFromString(svgString, sizePx) {
-    const div = document.createElement("div");
+    const div = document.createElement('div');
     div.innerHTML = svgString.trim();
     const svg = div.firstElementChild;
     if (!svg) return null;
-    svg.setAttribute("width", String(sizePx || 14));
-    svg.setAttribute("height", String(sizePx || 14));
-    svg.style.display = "inline-block";
-    svg.style.verticalAlign = "middle";
-    svg.style.marginRight = "2px";
+    svg.setAttribute('width', String(sizePx || 14));
+    svg.setAttribute('height', String(sizePx || 14));
+    svg.style.display = 'inline-block';
+    svg.style.verticalAlign = 'middle';
+    svg.style.marginRight = '2px';
     return svg;
   }
 
-  const LOCKUP_RATING_SVG =
-    '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-star"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873l-6.158 -3.245" /></svg>';
-  const LOCKUP_LIKE_SVG =
-    '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-thumb-up"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 11v8a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-7a1 1 0 0 1 1 -1h3a4 4 0 0 0 4 -4v-1a2 2 0 0 1 4 0v5h3a2 2 0 0 1 2 2l-1 5a2 3 0 0 1 -2 2h-7a3 3 0 0 1 -3 -3" /></svg>';
-  const LOCKUP_DISLIKE_SVG =
-    '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-thumb-down"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 13v-8a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v7a1 1 0 0 0 1 1h3a4 4 0 0 1 4 4v1a2 2 0 0 0 4 0v-5h3a2 2 0 0 0 2 -2l-1 -5a2 3 0 0 0 -2 -2h-7a3 3 0 0 0 -3 3" /></svg>';
+  const LOCKUP_RATING_SVG = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-star"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873l-6.158 -3.245" /></svg>';
+  const LOCKUP_LIKE_SVG = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-thumb-up"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 11v8a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-7a1 1 0 0 1 1 -1h3a4 4 0 0 0 4 -4v-1a2 2 0 0 1 4 0v5h3a2 2 0 0 1 2 2l-1 5a2 3 0 0 1 -2 2h-7a3 3 0 0 1 -3 -3" /></svg>';
+  const LOCKUP_DISLIKE_SVG = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-thumb-down"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 13v-8a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v7a1 1 0 0 0 1 1h3a4 4 0 0 1 4 4v1a2 2 0 0 0 4 0v-5h3a2 2 0 0 0 2 -2l-1 -5a2 3 0 0 0 -2 -2h-7a3 3 0 0 0 -3 3" /></svg>';
 
   function injectLockupCachedStats() {
-    if (!window.location.href.includes("youtube.com")) return;
-    document.querySelectorAll("yt-lockup-view-model").forEach((lockup) => {
-      if (lockup.hasAttribute("data-yt-tools-lockup-stats")) return;
+    if (!window.location.href.includes('youtube.com')) return;
+    document.querySelectorAll('yt-lockup-view-model').forEach((lockup) => {
+      if (lockup.hasAttribute('data-yt-tools-lockup-stats')) return;
       const videoId = getVideoIdFromLockup(lockup);
       if (!videoId) return;
       const cached = getLikesDislikesFromPersistedCache(videoId);
@@ -1678,116 +1533,90 @@
       const hasLikes = cached.likes != null;
       const hasDislikes = cached.dislikes != null;
       if (!hasRating && !hasLikes && !hasDislikes) return;
-      const meta = lockup.querySelector("yt-content-metadata-view-model");
+      const meta = lockup.querySelector('yt-content-metadata-view-model');
       if (!meta) return;
-      const row = document.createElement("div");
-      row.className = "yt-content-metadata-view-model__metadata-row";
-      row.setAttribute("data-yt-tools-lockup-stats-row", "1");
-      const wrap = document.createElement("span");
-      wrap.className =
-        "yt-core-attributed-string yt-content-metadata-view-model__metadata-text yt-core-attributed-string--white-space-pre-wrap yt-core-attributed-string--link-inherit-color";
-      wrap.setAttribute("dir", "auto");
-      wrap.setAttribute("role", "text");
-      const sep = () => {
-        const s = document.createTextNode(" · ");
-        return s;
-      };
+      const row = document.createElement('div');
+      row.className = 'yt-content-metadata-view-model__metadata-row';
+      row.setAttribute('data-yt-tools-lockup-stats-row', '1');
+      const wrap = document.createElement('span');
+      wrap.className = 'yt-core-attributed-string yt-content-metadata-view-model__metadata-text yt-core-attributed-string--white-space-pre-wrap yt-core-attributed-string--link-inherit-color';
+      wrap.setAttribute('dir', 'auto');
+      wrap.setAttribute('role', 'text');
+      const sep = () => { const s = document.createTextNode(' · '); return s; };
       if (hasRating) {
         const ratingIcon = createSvgIconFromString(LOCKUP_RATING_SVG, 14);
         if (ratingIcon) wrap.appendChild(ratingIcon);
-        wrap.appendChild(
-          document.createTextNode(" " + cached.rating.toFixed(1)),
-        );
+        wrap.appendChild(document.createTextNode(' ' + cached.rating.toFixed(1)));
         if (hasLikes || hasDislikes) wrap.appendChild(sep());
       }
       if (hasLikes) {
         const likeIcon = createSvgIconFromString(LOCKUP_LIKE_SVG, 14);
         if (likeIcon) wrap.appendChild(likeIcon);
-        wrap.appendChild(
-          document.createTextNode(" " + FormatterNumber(cached.likes, 0)),
-        );
+        wrap.appendChild(document.createTextNode(' ' + FormatterNumber(cached.likes, 0)));
         if (hasDislikes) wrap.appendChild(sep());
       }
       if (hasDislikes) {
         const dislikeIcon = createSvgIconFromString(LOCKUP_DISLIKE_SVG, 14);
         if (dislikeIcon) wrap.appendChild(dislikeIcon);
-        wrap.appendChild(
-          document.createTextNode(" " + FormatterNumber(cached.dislikes, 0)),
-        );
+        wrap.appendChild(document.createTextNode(' ' + FormatterNumber(cached.dislikes, 0)));
       }
       row.appendChild(wrap);
       meta.appendChild(row);
-      lockup.setAttribute("data-yt-tools-lockup-stats", videoId);
+      lockup.setAttribute('data-yt-tools-lockup-stats', videoId);
     });
   }
 
   function getVideoIdFromShortsLockup(item) {
-    if (item.dataset.ytToolsShortsVideoId)
-      return item.dataset.ytToolsShortsVideoId;
+    if (item.dataset.ytToolsShortsVideoId) return item.dataset.ytToolsShortsVideoId;
     var a = item.querySelector('a[href^="/shorts/"]');
     if (!a) return null;
-    var m = (a.getAttribute("href") || "").match(/\/shorts\/([^/?]+)/);
+    var m = (a.getAttribute('href') || '').match(/\/shorts\/([^/?]+)/);
     return m ? m[1] : null;
   }
 
   function injectShortsLockupCachedStats() {
-    if (!window.location.href.includes("youtube.com")) return;
+    if (!window.location.href.includes('youtube.com')) return;
     // Process inner lockup (has metadata); v2 wraps it and would duplicate
-    document
-      .querySelectorAll("ytm-shorts-lockup-view-model")
-      .forEach(function (item) {
-        if (item.hasAttribute("data-yt-tools-shorts-stats")) return;
-        var videoId = getVideoIdFromShortsLockup(item);
-        if (!videoId) return;
-        var cached = getLikesDislikesFromPersistedCache(videoId);
-        if (!cached) return;
-        var hasLikes = cached.likes != null;
-        var hasDislikes = cached.dislikes != null;
-        if (!hasLikes && !hasDislikes) return;
-        var subhead = item.querySelector(
-          ".ShortsLockupViewModelHostOutsideMetadataSubhead," +
-            ".shortsLockupViewModelHostOutsideMetadataSubhead," +
-            ".ShortsLockupViewModelHostMetadataSubhead," +
-            ".shortsLockupViewModelHostMetadataSubhead",
-        );
-        if (!subhead || !subhead.parentElement) return;
-        var wrap = document.createElement("span");
-        wrap.className =
-          "yt-core-attributed-string yt-content-metadata-view-model__metadata-text yt-core-attributed-string--white-space-pre-wrap yt-core-attributed-string--link-inherit-color yt-tools-shorts-stats-row";
-        wrap.setAttribute("dir", "auto");
-        wrap.setAttribute("role", "text");
-        wrap.setAttribute("style", "color: #aaa !important;");
-        var sep = function () {
-          return document.createTextNode(" \u00b7 ");
-        };
-        if (hasLikes) {
-          var likeIcon = createSvgIconFromString(LOCKUP_LIKE_SVG, 12);
-          if (likeIcon) {
-            likeIcon.style.setProperty("color", "#aaa", "important");
-            wrap.appendChild(likeIcon);
-          }
-          wrap.appendChild(
-            document.createTextNode(" " + FormatterNumber(cached.likes, 0)),
-          );
-          if (hasDislikes) wrap.appendChild(sep());
-        }
-        if (hasDislikes) {
-          var dislikeIcon = createSvgIconFromString(LOCKUP_DISLIKE_SVG, 12);
-          if (dislikeIcon) {
-            dislikeIcon.style.setProperty("color", "#aaa", "important");
-            wrap.appendChild(dislikeIcon);
-          }
-          wrap.appendChild(
-            document.createTextNode(" " + FormatterNumber(cached.dislikes, 0)),
-          );
-        }
-        var row = document.createElement("div");
-        row.className = "yt-tools-shorts-stats-wrap";
-        row.setAttribute("style", "color: #aaa !important;");
-        row.appendChild(wrap);
-        subhead.parentElement.appendChild(row);
-        item.setAttribute("data-yt-tools-shorts-stats", videoId);
-      });
+    document.querySelectorAll('ytm-shorts-lockup-view-model').forEach(function (item) {
+      if (item.hasAttribute('data-yt-tools-shorts-stats')) return;
+      var videoId = getVideoIdFromShortsLockup(item);
+      if (!videoId) return;
+      var cached = getLikesDislikesFromPersistedCache(videoId);
+      if (!cached) return;
+      var hasLikes = cached.likes != null;
+      var hasDislikes = cached.dislikes != null;
+      if (!hasLikes && !hasDislikes) return;
+      var subhead = item.querySelector(
+        '.ShortsLockupViewModelHostOutsideMetadataSubhead,' +
+        '.shortsLockupViewModelHostOutsideMetadataSubhead,' +
+        '.ShortsLockupViewModelHostMetadataSubhead,' +
+        '.shortsLockupViewModelHostMetadataSubhead'
+      );
+      if (!subhead || !subhead.parentElement) return;
+      var wrap = document.createElement('span');
+      wrap.className = 'yt-core-attributed-string yt-content-metadata-view-model__metadata-text yt-core-attributed-string--white-space-pre-wrap yt-core-attributed-string--link-inherit-color yt-tools-shorts-stats-row';
+      wrap.setAttribute('dir', 'auto');
+      wrap.setAttribute('role', 'text');
+      wrap.setAttribute('style', 'color: #aaa !important;');
+      var sep = function () { return document.createTextNode(' \u00b7 '); };
+      if (hasLikes) {
+        var likeIcon = createSvgIconFromString(LOCKUP_LIKE_SVG, 12);
+        if (likeIcon) { likeIcon.style.setProperty('color', '#aaa', 'important'); wrap.appendChild(likeIcon); }
+        wrap.appendChild(document.createTextNode(' ' + FormatterNumber(cached.likes, 0)));
+        if (hasDislikes) wrap.appendChild(sep());
+      }
+      if (hasDislikes) {
+        var dislikeIcon = createSvgIconFromString(LOCKUP_DISLIKE_SVG, 12);
+        if (dislikeIcon) { dislikeIcon.style.setProperty('color', '#aaa', 'important'); wrap.appendChild(dislikeIcon); }
+        wrap.appendChild(document.createTextNode(' ' + FormatterNumber(cached.dislikes, 0)));
+      }
+      var row = document.createElement('div');
+      row.className = 'yt-tools-shorts-stats-wrap';
+      row.setAttribute('style', 'color: #aaa !important;');
+      row.appendChild(wrap);
+      subhead.parentElement.appendChild(row);
+      item.setAttribute('data-yt-tools-shorts-stats', videoId);
+    });
   }
 
   function createLockupStatsObserver(target) {
@@ -1799,13 +1628,13 @@
       clearTimeout(lockupStatsDebounceT);
       lockupStatsDebounceT = setTimeout(function () {
         lockupStatsScheduled = false;
-        if (!window.location.href.includes("youtube.com")) return;
+        if (!window.location.href.includes('youtube.com')) return;
         injectLockupCachedStats();
         injectShortsLockupCachedStats();
         // Extra passes for late-rendered lockups (infinite scroll / related column / SPA)
         [500, 1100, 2000].forEach(function (delay) {
           setTimeout(function () {
-            if (!window.location.href.includes("youtube.com")) return;
+            if (!window.location.href.includes('youtube.com')) return;
             injectLockupCachedStats();
             injectShortsLockupCachedStats();
           }, delay);
@@ -1817,67 +1646,50 @@
   }
 
   function retargetLockupStatsObserverIfNeeded() {
-    if (!window.location.href.includes("youtube.com/watch")) return;
-    var secondary =
-      document.getElementById("secondary") ||
-      document.querySelector("ytd-watch-next-secondary-results-renderer");
+    if (!window.location.href.includes('youtube.com/watch')) return;
+    var secondary = document.getElementById('secondary') || document.querySelector('ytd-watch-next-secondary-results-renderer');
     if (!secondary || !secondary.parentNode) return;
     if (__ytToolsRuntime.lockupCachedStatsObserveTarget === secondary) return;
     var obs = __ytToolsRuntime.lockupCachedStatsObserver;
     if (!obs) return;
     obs.disconnect();
-    __ytToolsRuntime.lockupCachedStatsObserver =
-      createLockupStatsObserver(secondary);
+    __ytToolsRuntime.lockupCachedStatsObserver = createLockupStatsObserver(secondary);
     __ytToolsRuntime.lockupCachedStatsObserveTarget = secondary;
   }
 
   function hasUnprocessedLockups() {
-    var normal =
-      document.querySelectorAll(
-        "yt-lockup-view-model:not([data-yt-tools-lockup-stats])",
-      ).length > 0;
-    var shorts =
-      document.querySelectorAll(
-        "ytm-shorts-lockup-view-model:not([data-yt-tools-shorts-stats])",
-      ).length > 0;
+    var normal = document.querySelectorAll('yt-lockup-view-model:not([data-yt-tools-lockup-stats])').length > 0;
+    var shorts = document.querySelectorAll('ytm-shorts-lockup-view-model:not([data-yt-tools-shorts-stats])').length > 0;
     return normal || shorts;
   }
 
   function runLockupCachedStatsCatchUp() {
-    if (!window.location.href.includes("youtube.com")) return;
-    if (document.visibilityState !== "visible") return;
+    if (!window.location.href.includes('youtube.com')) return;
+    if (document.visibilityState !== 'visible') return;
     if (!hasUnprocessedLockups()) return;
     injectLockupCachedStats();
     injectShortsLockupCachedStats();
   }
 
   function setupLockupCachedStats() {
-    if (!window.location.href.includes("youtube.com")) return;
+    if (!window.location.href.includes('youtube.com')) return;
     injectLockupCachedStats();
     injectShortsLockupCachedStats();
-    var secondary =
-      document.getElementById("secondary") ||
-      document.querySelector("ytd-watch-next-secondary-results-renderer");
-    var observeTarget =
-      secondary && secondary.parentNode ? secondary : document.body;
+    var secondary = document.getElementById('secondary') || document.querySelector('ytd-watch-next-secondary-results-renderer');
+    var observeTarget = secondary && secondary.parentNode ? secondary : document.body;
     if (__ytToolsRuntime.lockupCachedStatsObserver) {
       if (observeTarget !== __ytToolsRuntime.lockupCachedStatsObserveTarget) {
         __ytToolsRuntime.lockupCachedStatsObserver.disconnect();
-        __ytToolsRuntime.lockupCachedStatsObserver =
-          createLockupStatsObserver(observeTarget);
+        __ytToolsRuntime.lockupCachedStatsObserver = createLockupStatsObserver(observeTarget);
         __ytToolsRuntime.lockupCachedStatsObserveTarget = observeTarget;
       }
       return;
     }
-    __ytToolsRuntime.lockupCachedStatsObserver =
-      createLockupStatsObserver(observeTarget);
+    __ytToolsRuntime.lockupCachedStatsObserver = createLockupStatsObserver(observeTarget);
     __ytToolsRuntime.lockupCachedStatsObserveTarget = observeTarget;
     // Catch-up interval: apply stats to any new cards (scroll, filters, SPA) every 1.8s when there are unprocessed lockups
     if (!__ytToolsRuntime.lockupCachedStatsIntervalId) {
-      __ytToolsRuntime.lockupCachedStatsIntervalId = setInterval(
-        runLockupCachedStatsCatchUp,
-        1800,
-      );
+      __ytToolsRuntime.lockupCachedStatsIntervalId = setInterval(runLockupCachedStatsCatchUp, 1800);
     }
   }
 
@@ -1893,15 +1705,9 @@
   function saveBookmark(videoId, seconds, label) {
     const { all, list } = getBookmarksForVideo(videoId);
     const t = Math.max(0, Math.floor(Number(seconds) || 0));
-    const exists = list.some((b) => b && b.t === t);
-    const item = {
-      t,
-      label: (label || formatTimeShort(t)).trim(),
-      createdAt: Date.now(),
-    };
-    const nextList = exists
-      ? list.map((b) => (b.t === t ? item : b))
-      : [...list, item];
+    const exists = list.some(b => b && b.t === t);
+    const item = { t, label: (label || formatTimeShort(t)).trim(), createdAt: Date.now() };
+    const nextList = exists ? list.map(b => (b.t === t ? item : b)) : [...list, item];
     nextList.sort((a, b) => a.t - b.t);
     all[videoId] = nextList;
     writeJsonGM(STORAGE_KEYS_MDCM.BOOKMARKS, all);
@@ -1910,12 +1716,12 @@
   function deleteBookmark(videoId, seconds) {
     const { all, list } = getBookmarksForVideo(videoId);
     const t = Math.max(0, Math.floor(Number(seconds) || 0));
-    all[videoId] = list.filter((b) => b && b.t !== t);
+    all[videoId] = list.filter(b => b && b.t !== t);
     writeJsonGM(STORAGE_KEYS_MDCM.BOOKMARKS, all);
   }
 
   function renderBookmarksPanel(videoId) {
-    const panel = $id("yt-bookmarks-panel");
+    const panel = $id('yt-bookmarks-panel');
     if (!panel) return;
 
     const { list } = getBookmarksForVideo(videoId);
@@ -1927,9 +1733,7 @@
     panel.innerHTML = list
       .map((b) => {
         const time = formatTimeShort(b.t);
-        const safeLabel = (b.label || time)
-          .replace(/</g, "&lt;")
-          .replace(/>/g, "&gt;");
+        const safeLabel = (b.label || time).replace(/</g, '&lt;').replace(/>/g, '&gt;');
         return `
           <div class="yt-bm-item">
             <button type="button" class="yt-bm-go" data-action="go" data-t="${b.t}" title="Go to ${time}">${time}</button>
@@ -1938,21 +1742,20 @@
           </div>
         `;
       })
-      .join("");
+      .join('');
   }
 
   function applyBookmarksIfEnabled(settings) {
-    const addBtn = $id("yt-bookmark-add");
-    const toggleBtn = $id("yt-bookmark-toggle");
-    const panel = $id("yt-bookmarks-panel");
+    const addBtn = $id('yt-bookmark-add');
+    const toggleBtn = $id('yt-bookmark-toggle');
+    const panel = $id('yt-bookmarks-panel');
 
     if (!addBtn || !toggleBtn || !panel) return;
 
     const enabled = !!settings?.bookmarks;
-    addBtn.style.display = enabled ? "inline-flex" : "none";
-    toggleBtn.style.display = enabled ? "inline-flex" : "none";
-    panel.style.display =
-      enabled && __ytToolsRuntime.bookmarksPanelOpen ? "block" : "none";
+    addBtn.style.display = enabled ? 'inline-flex' : 'none';
+    toggleBtn.style.display = enabled ? 'inline-flex' : 'none';
+    panel.style.display = enabled && __ytToolsRuntime.bookmarksPanelOpen ? 'block' : 'none';
 
     if (!enabled) return;
 
@@ -1963,58 +1766,53 @@
     if (__ytToolsRuntime.bookmarkClickHandlerInitialized) return;
     __ytToolsRuntime.bookmarkClickHandlerInitialized = true;
 
-    document.addEventListener("click", (e) => {
+    document.addEventListener('click', (e) => {
       const target = e.target;
       if (!(target instanceof Element)) return;
 
-      const add = target.closest("#yt-bookmark-add");
-      const tog = target.closest("#yt-bookmark-toggle");
-      const actionBtn = target.closest("[data-action][data-t]");
+      const add = target.closest('#yt-bookmark-add');
+      const tog = target.closest('#yt-bookmark-toggle');
+      const actionBtn = target.closest('[data-action][data-t]');
 
       if (add) {
         e.preventDefault();
         e.stopPropagation();
-        const v = $e("video");
+        const v = $e('video');
         const vid = getCurrentVideoId();
         if (!v || !vid) return;
         const t = Math.floor(v.currentTime || 0);
         const defaultLabel = formatTimeShort(t);
-        const label =
-          prompt("Bookmark name (optional):", defaultLabel) || defaultLabel;
+        const label = prompt('Bookmark name (optional):', defaultLabel) || defaultLabel;
         saveBookmark(vid, t, label);
         __ytToolsRuntime.bookmarksPanelOpen = true;
-        panel.style.display = "block";
+        panel.style.display = 'block';
         renderBookmarksPanel(vid);
-        Notify("success", `Bookmark saved at ${defaultLabel}`);
+        Notify('success', `Bookmark saved at ${defaultLabel}`);
         return;
       }
 
       if (tog) {
         e.preventDefault();
         e.stopPropagation();
-        __ytToolsRuntime.bookmarksPanelOpen =
-          !__ytToolsRuntime.bookmarksPanelOpen;
-        panel.style.display = __ytToolsRuntime.bookmarksPanelOpen
-          ? "block"
-          : "none";
+        __ytToolsRuntime.bookmarksPanelOpen = !__ytToolsRuntime.bookmarksPanelOpen;
+        panel.style.display = __ytToolsRuntime.bookmarksPanelOpen ? 'block' : 'none';
         const vid = getCurrentVideoId();
-        if (vid && __ytToolsRuntime.bookmarksPanelOpen)
-          renderBookmarksPanel(vid);
+        if (vid && __ytToolsRuntime.bookmarksPanelOpen) renderBookmarksPanel(vid);
         return;
       }
 
       if (actionBtn) {
         e.preventDefault();
         e.stopPropagation();
-        const action = actionBtn.getAttribute("data-action");
-        const t = Number(actionBtn.getAttribute("data-t"));
-        const v = $e("video");
+        const action = actionBtn.getAttribute('data-action');
+        const t = Number(actionBtn.getAttribute('data-t'));
+        const v = $e('video');
         const vid = getCurrentVideoId();
         if (!v || !vid) return;
-        if (action === "go") {
+        if (action === 'go') {
           v.currentTime = Math.max(0, t || 0);
           v.play?.().catch(() => {});
-        } else if (action === "del") {
+        } else if (action === 'del') {
           deleteBookmark(vid, t);
           renderBookmarksPanel(vid);
         }
@@ -2030,32 +1828,32 @@
     const s0 = String(text).trim().toLowerCase();
     if (!s0) return null;
     let mult = 1;
-    let s = s0.replace(/\s+/g, "");
-    if (s.includes("mil")) {
+    let s = s0.replace(/\s+/g, '');
+    if (s.includes('mil')) {
       mult = 1000;
-      s = s.replace("mil", "");
-    } else if (s.includes("k")) {
+      s = s.replace('mil', '');
+    } else if (s.includes('k')) {
       mult = 1000;
-      s = s.replace("k", "");
-    } else if (s.includes("m")) {
+      s = s.replace('k', '');
+    } else if (s.includes('m')) {
       mult = 1000000;
-      s = s.replace("m", "");
+      s = s.replace('m', '');
     }
     // normalize decimal separators
-    s = s.replace(/[^\d.,]/g, "");
+    s = s.replace(/[^\d.,]/g, '');
     if (!s) return null;
     // If both separators exist, assume last is decimal
-    const lastDot = s.lastIndexOf(".");
-    const lastComma = s.lastIndexOf(",");
+    const lastDot = s.lastIndexOf('.');
+    const lastComma = s.lastIndexOf(',');
     let nStr = s;
     if (lastDot !== -1 && lastComma !== -1) {
       const dec = Math.max(lastDot, lastComma);
-      const intPart = s.slice(0, dec).replace(/[.,]/g, "");
+      const intPart = s.slice(0, dec).replace(/[.,]/g, '');
       const decPart = s.slice(dec + 1);
       nStr = `${intPart}.${decPart}`;
     } else {
       // Use dot as decimal
-      nStr = s.replace(",", ".");
+      nStr = s.replace(',', '.');
     }
     const num = Number.parseFloat(nStr);
     if (!Number.isFinite(num)) return null;
@@ -2066,20 +1864,12 @@
     const videoId = getCurrentVideoId();
     if (!videoId) return null;
     const now = Date.now();
-    if (
-      __ytToolsRuntime.dislikesCache.videoId === videoId &&
-      __ytToolsRuntime.dislikesCache.dislikes != null &&
-      now - __ytToolsRuntime.dislikesCache.ts < 10 * 60 * 1000
-    ) {
+    if (__ytToolsRuntime.dislikesCache.videoId === videoId && __ytToolsRuntime.dislikesCache.dislikes != null && (now - __ytToolsRuntime.dislikesCache.ts) < 10 * 60 * 1000) {
       return __ytToolsRuntime.dislikesCache.dislikes;
     }
     const persisted = getLikesDislikesFromPersistedCache(videoId);
     if (persisted && persisted.dislikes != null) {
-      __ytToolsRuntime.dislikesCache = {
-        videoId,
-        dislikes: persisted.dislikes,
-        ts: now,
-      };
+      __ytToolsRuntime.dislikesCache = { videoId, dislikes: persisted.dislikes, ts: now };
       return persisted.dislikes;
     }
     try {
@@ -2091,15 +1881,7 @@
       if (Number.isFinite(dislikes)) {
         __ytToolsRuntime.dislikesCache = { videoId, dislikes, ts: now };
         const likes = getLikesFromDom();
-        setLikesDislikesToPersistedCache(
-          videoId,
-          likes != null ? likes : undefined,
-          dislikes,
-          Number.isFinite(viewCount) ? viewCount : undefined,
-          Number.isFinite(rating) && rating >= 0 && rating <= 5
-            ? rating
-            : undefined,
-        );
+        setLikesDislikesToPersistedCache(videoId, likes != null ? likes : undefined, dislikes, Number.isFinite(viewCount) ? viewCount : undefined, (Number.isFinite(rating) && rating >= 0 && rating <= 5) ? rating : undefined);
         return dislikes;
       }
     } catch (e) {}
@@ -2109,22 +1891,17 @@
   function getLikesFromDom() {
     // Try grab visible like count (YouTube UI varies a lot)
     const likeBtn =
-      $e(
-        "#top-level-buttons-computed like-button-view-model button-view-model button",
-      ) ||
-      $e("#top-level-buttons-computed like-button-view-model button") ||
-      $e(
-        "#top-level-buttons-computed ytd-toggle-button-renderer:nth-child(1)",
-      ) ||
-      $e("segmented-like-dislike-button-view-model like-button-view-model");
+      $e('#top-level-buttons-computed like-button-view-model button-view-model button') ||
+      $e('#top-level-buttons-computed like-button-view-model button') ||
+      $e('#top-level-buttons-computed ytd-toggle-button-renderer:nth-child(1)') ||
+      $e('segmented-like-dislike-button-view-model like-button-view-model');
     if (!likeBtn) return null;
 
     // Prefer visible counter first; aria-label can include locale thousands separators (17.606) that are ambiguous.
     const candidates = [
-      likeBtn.querySelector?.(".yt-spec-button-shape-next__button-text-content")
-        ?.textContent,
+      likeBtn.querySelector?.('.yt-spec-button-shape-next__button-text-content')?.textContent,
       likeBtn.textContent,
-      likeBtn.getAttribute?.("aria-label"),
+      likeBtn.getAttribute?.('aria-label'),
     ].filter(Boolean);
 
     for (const txt of candidates) {
@@ -2136,44 +1913,38 @@
 
   function updateLikeDislikeBar(likes, dislikes) {
     // Prefer placing it above the "copy description" button (as requested).
-    const copyDesc = $id("button_copy_description");
+    const copyDesc = $id('button_copy_description');
     const host =
-      $e("#top-level-buttons-computed") ||
-      $e("ytd-watch-metadata #top-level-buttons-computed");
+      $e('#top-level-buttons-computed') ||
+      $e('ytd-watch-metadata #top-level-buttons-computed');
     if (!host && !copyDesc) return;
 
-    let bar = $id("yt-like-dislike-bar-mdcm");
+    let bar = $id('yt-like-dislike-bar-mdcm');
     if (!bar) {
-      bar = document.createElement("div");
-      bar.id = "yt-like-dislike-bar-mdcm";
+      bar = document.createElement('div');
+      bar.id = 'yt-like-dislike-bar-mdcm';
       bar.innerHTML = `<div class="like"></div><div class="dislike"></div>`;
       if (copyDesc) {
-        copyDesc.insertAdjacentElement("beforebegin", bar);
+        copyDesc.insertAdjacentElement('beforebegin', bar);
       } else {
         host.appendChild(bar);
       }
     } else if (copyDesc && bar.previousElementSibling !== copyDesc) {
       // Keep it near the copy description area if the DOM changed
-      try {
-        copyDesc.insertAdjacentElement("beforebegin", bar);
-      } catch (e) {}
+      try { copyDesc.insertAdjacentElement('beforebegin', bar); } catch (e) {}
     }
 
-    if (
-      !Number.isFinite(likes) ||
-      !Number.isFinite(dislikes) ||
-      likes + dislikes <= 0
-    ) {
-      bar.style.display = "none";
+    if (!Number.isFinite(likes) || !Number.isFinite(dislikes) || likes + dislikes <= 0) {
+      bar.style.display = 'none';
       return;
     }
 
     const total = likes + dislikes;
     const likePct = Math.max(0, Math.min(100, (likes / total) * 100));
     const dislikePct = 100 - likePct;
-    bar.style.display = "block";
-    const likeEl = bar.querySelector(".like");
-    const dislikeEl = bar.querySelector(".dislike");
+    bar.style.display = 'block';
+    const likeEl = bar.querySelector('.like');
+    const dislikeEl = bar.querySelector('.dislike');
     likeEl.style.width = `${likePct}%`;
     dislikeEl.style.width = `${dislikePct}%`;
     bar.title = `Likes: ${likes.toLocaleString()} | Dislikes: ${dislikes.toLocaleString()}`;
@@ -2181,11 +1952,11 @@
 
   async function applyLikeDislikeBarIfEnabled(settings) {
     if (!settings?.likeDislikeBar) {
-      const existing = $id("yt-like-dislike-bar-mdcm");
-      if (existing) existing.style.display = "none";
+      const existing = $id('yt-like-dislike-bar-mdcm');
+      if (existing) existing.style.display = 'none';
       return;
     }
-    if (!window.location.href.includes("youtube.com/watch")) return;
+    if (!window.location.href.includes('youtube.com/watch')) return;
     const videoId = getCurrentVideoId();
     if (!videoId) return;
     const dislikes = await ensureDislikesForCurrentVideo();
@@ -2205,71 +1976,55 @@
     const tick = async () => {
       i += 1;
       await applyLikeDislikeBarIfEnabled(settings);
-      const bar = $id("yt-like-dislike-bar-mdcm");
-      if (bar && bar.style.display !== "none") return;
+      const bar = $id('yt-like-dislike-bar-mdcm');
+      if (bar && bar.style.display !== 'none') return;
       if (i < attempts) setTimeout(tick, 800);
     };
     setTimeout(tick, 300);
   }
 
-  //   Dislikes video
+//   Dislikes video
   async function videoDislike() {
+
     validoUrl = document.location.href;
 
-    const validoVentana = $e("#below > ytd-watch-metadata > div");
-    if (
-      validoVentana != undefined &&
-      document.location.href.split("?v=")[0].includes("youtube.com/watch")
-    ) {
-      validoUrl = paramsVideoURL();
-      let dislikes = null;
-      const persisted = getLikesDislikesFromPersistedCache(validoUrl);
-      if (persisted && persisted.dislikes != null) {
-        dislikes = persisted.dislikes;
-      } else {
-        const urlShorts = `${apiDislikes}${validoUrl}`;
-        try {
-          const respuesta = await fetch(urlShorts);
-          const datosShort = await respuesta.json();
-          dislikes = Number(datosShort?.dislikes);
-          if (Number.isFinite(dislikes)) {
-            const likes = getLikesFromDom();
-            const viewCount = Number(datosShort?.viewCount);
-            const rating = Number(datosShort?.rating);
-            setLikesDislikesToPersistedCache(
-              validoUrl,
-              likes != null ? likes : undefined,
-              dislikes,
-              Number.isFinite(viewCount) ? viewCount : undefined,
-              Number.isFinite(rating) && rating >= 0 && rating <= 5
-                ? rating
-                : undefined,
-            );
+    const validoVentana = $e('#below > ytd-watch-metadata > div');
+    if (validoVentana != undefined && document.location.href.split('?v=')[0].includes('youtube.com/watch')) {
+        validoUrl = paramsVideoURL();
+        let dislikes = null;
+        const persisted = getLikesDislikesFromPersistedCache(validoUrl);
+        if (persisted && persisted.dislikes != null) {
+          dislikes = persisted.dislikes;
+        } else {
+          const urlShorts = `${apiDislikes}${validoUrl}`;
+          try {
+            const respuesta = await fetch(urlShorts);
+            const datosShort = await respuesta.json();
+            dislikes = Number(datosShort?.dislikes);
+            if (Number.isFinite(dislikes)) {
+              const likes = getLikesFromDom();
+              const viewCount = Number(datosShort?.viewCount);
+              const rating = Number(datosShort?.rating);
+              setLikesDislikesToPersistedCache(validoUrl, likes != null ? likes : undefined, dislikes, Number.isFinite(viewCount) ? viewCount : undefined, (Number.isFinite(rating) && rating >= 0 && rating <= 5) ? rating : undefined);
+            }
+          } catch (error) {
+            console.log(error);
           }
-        } catch (error) {
-          console.log(error);
         }
-      }
-      if (dislikes != null) {
-        const dislikes_content = $e(
-          "#top-level-buttons-computed > segmented-like-dislike-button-view-model > yt-smartimation > div > div > dislike-button-view-model > toggle-button-view-model > button-view-model > button",
-        );
-        if (dislikes_content !== undefined) {
-          dislikes_content.style = "width: 90px";
-          dislikes_content.innerHTML = `
+        if (dislikes != null) {
+          const dislikes_content = $e('#top-level-buttons-computed > segmented-like-dislike-button-view-model > yt-smartimation > div > div > dislike-button-view-model > toggle-button-view-model > button-view-model > button');
+          if (dislikes_content !== undefined) {
+            dislikes_content.style = 'width: 90px';
+            dislikes_content.innerHTML = `
               <svg class="svg-dislike-icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 13v-8a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v7a1 1 0 0 0 1 1h3a4 4 0 0 1 4 4v1a2 2 0 0 0 4 0v-5h3a2 2 0 0 0 2 -2l-1 -5a2 3 0 0 0 -2 -2h-7a3 3 0 0 0 -3 3" /></svg>
               ${FormatterNumber(dislikes, 0)}`;
+          }
+          __ytToolsRuntime.dislikesCache = { videoId: validoUrl, dislikes, ts: Date.now() };
+          try {
+            const st = JSON.parse(GM_getValue('ytSettingsMDCM', '{}'));
+            scheduleLikeBarUpdate(st, 5);
+          } catch (e) {}
         }
-        __ytToolsRuntime.dislikesCache = {
-          videoId: validoUrl,
-          dislikes,
-          ts: Date.now(),
-        };
-        try {
-          const st = JSON.parse(GM_getValue("ytSettingsMDCM", "{}"));
-          scheduleLikeBarUpdate(st, 5);
-        } catch (e) {}
-      }
     }
   }
 
@@ -2277,14 +2032,11 @@
   async function shortDislike() {
     validoUrl = document.location.href;
     const validoVentanaShort = $m(
-      "#button-bar > reel-action-bar-view-model > dislike-button-view-model > toggle-button-view-model > button-view-model > label > div > span",
+      "#button-bar > reel-action-bar-view-model > dislike-button-view-model > toggle-button-view-model > button-view-model > label > div > span"
     );
 
-    if (
-      validoVentanaShort != undefined &&
-      document.location.href.split("/")[3] === "shorts"
-    ) {
-      validoUrl = document.location.href.split("/")[4];
+    if (validoVentanaShort != undefined && document.location.href.split('/')[3] === 'shorts') {
+      validoUrl = document.location.href.split('/')[4];
       let dislikes = null;
       let viewCount = null;
       let rating = null;
@@ -2301,16 +2053,7 @@
           dislikes = Number(datosShort?.dislikes);
           viewCount = Number(datosShort?.viewCount);
           rating = Number(datosShort?.rating);
-          if (Number.isFinite(dislikes))
-            setLikesDislikesToPersistedCache(
-              validoUrl,
-              undefined,
-              dislikes,
-              Number.isFinite(viewCount) ? viewCount : undefined,
-              Number.isFinite(rating) && rating >= 0 && rating <= 5
-                ? rating
-                : undefined,
-            );
+          if (Number.isFinite(dislikes)) setLikesDislikesToPersistedCache(validoUrl, undefined, dislikes, Number.isFinite(viewCount) ? viewCount : undefined, (Number.isFinite(rating) && rating >= 0 && rating <= 5) ? rating : undefined);
         } catch (error) {
           console.log(error);
         }
@@ -2320,10 +2063,8 @@
           validoVentanaShort[i].textContent = `${FormatterNumber(dislikes, 0)}`;
         }
       }
-      if (__ytToolsRuntime.updateShortsViewsButton)
-        __ytToolsRuntime.updateShortsViewsButton(validoUrl, viewCount);
-      if (__ytToolsRuntime.updateShortsRatingButton)
-        __ytToolsRuntime.updateShortsRatingButton(validoUrl, rating);
+      if (__ytToolsRuntime.updateShortsViewsButton) __ytToolsRuntime.updateShortsViewsButton(validoUrl, viewCount);
+      if (__ytToolsRuntime.updateShortsRatingButton) __ytToolsRuntime.updateShortsRatingButton(validoUrl, rating);
     }
   }
 
@@ -2332,34 +2073,28 @@
   let showDislikes = false;
 
   setInterval(() => {
-    const svgDislike = $e(".svg-dislike-ico"); // Check svg in dom
+    const svgDislike = $e('.svg-dislike-ico'); // Check svg in dom
     const currUrl = window.location.href;
-    if (
-      prevUrl !== undefined &&
-      currUrl !== prevUrl &&
-      !svgDislike &&
-      showDislikes
-    ) {
-      setTimeout(async () => {
-        await videoDislike();
-        await shortDislike();
-      }, 2000);
+    if (prevUrl !== undefined && currUrl !== prevUrl && !svgDislike && showDislikes) {
+      setTimeout(async() => {
+            await videoDislike();
+            await shortDislike();
+      },2000)
     }
     prevUrl = currUrl;
   }, 1000);
 
+
+
   // Create a Trusted Types policy
   let policy = null;
   try {
-    const tt =
-      typeof unsafeWindow !== "undefined"
-        ? unsafeWindow.trustedTypes
-        : window.trustedTypes;
+    const tt = (typeof unsafeWindow !== 'undefined' ? unsafeWindow.trustedTypes : window.trustedTypes);
     if (tt) {
       policy = tt.defaultPolicy;
       if (!policy) {
         try {
-          policy = tt.createPolicy("default", { createHTML: (s) => s });
+          policy = tt.createPolicy('default', { createHTML: (s) => s });
         } catch (e) {
           policy = tt.defaultPolicy || null;
         }
@@ -3760,6 +3495,7 @@
         }
     `);
 
+
   // botons bottom video player
 
   const thumbnailVideo = `
@@ -3778,6 +3514,7 @@
   </svg>
 </button>
   `;
+
 
   const filterEyes = `
   <div style="position:relative; ">
@@ -3950,6 +3687,7 @@
 </button>
   `;
 
+
   const menuBotones = `
     <main>
     <div class="container">
@@ -4068,149 +3806,151 @@
       </main>
   `;
 
+
+
   // Define themes
   const themes = [
     {
-      name: "Default / Reload",
-      gradient: "",
-      textColor: "",
-      raised: "",
-      btnTranslate: "",
-      CurrentProgressVideo: "",
-      videoDuration: "",
-      colorIcons: "",
-      textLogo: "",
-      primaryColor: "",
-      secondaryColor: "",
+      name: 'Default / Reload',
+      gradient: '',
+      textColor: '',
+      raised: '',
+      btnTranslate: '',
+      CurrentProgressVideo: '',
+      videoDuration: '',
+      colorIcons: '',
+      textLogo: '',
+      primaryColor: '',
+      secondaryColor: '',
     },
     {
-      name: "Midnight Blue",
-      gradient: "linear-gradient(135deg, #1e3a8a, #3b82f6)",
-      textColor: "#ffffff",
-      raised: "#f00",
-      btnTranslate: "#000",
-      CurrentProgressVideo: "#0f0",
-      videoDuration: "#fff",
-      colorIcons: "#fff",
-      textLogo: "#f00",
+      name: 'Midnight Blue',
+      gradient: 'linear-gradient(135deg, #1e3a8a, #3b82f6)',
+      textColor: '#ffffff',
+      raised: '#f00',
+      btnTranslate: '#000',
+      CurrentProgressVideo: '#0f0',
+      videoDuration: '#fff',
+      colorIcons: '#fff',
+      textLogo: '#f00',
     },
     {
-      name: "Forest Green",
-      gradient: "linear-gradient(135deg, #14532d, #22c55e)",
-      textColor: "#ffffff",
-      raised: "#303131",
-      btnTranslate: "#000",
-      CurrentProgressVideo: "#0f0",
-      videoDuration: "#fff",
-      colorIcons: "#fff",
-      textLogo: "#f00",
+      name: 'Forest Green',
+      gradient: 'linear-gradient(135deg, #14532d, #22c55e)',
+      textColor: '#ffffff',
+      raised: '#303131',
+      btnTranslate: '#000',
+      CurrentProgressVideo: '#0f0',
+      videoDuration: '#fff',
+      colorIcons: '#fff',
+      textLogo: '#f00',
     },
     {
-      name: "Sunset Orange",
-      gradient: "linear-gradient(135deg, #7c2d12, #f97316)",
-      textColor: "#ffffff",
-      raised: "#303131",
-      btnTranslate: "#000",
-      CurrentProgressVideo: "#0f0",
-      videoDuration: "#fff",
-      colorIcons: "#fff",
-      textLogo: "#f00",
+      name: 'Sunset Orange',
+      gradient: 'linear-gradient(135deg, #7c2d12, #f97316)',
+      textColor: '#ffffff',
+      raised: '#303131',
+      btnTranslate: '#000',
+      CurrentProgressVideo: '#0f0',
+      videoDuration: '#fff',
+      colorIcons: '#fff',
+      textLogo: '#f00',
     },
     {
-      name: "Royal Purple",
-      gradient: "linear-gradient(135deg, #4c1d95, #8b5cf6)",
-      textColor: "#ffffff",
-      raised: "#303131",
-      btnTranslate: "#000",
-      CurrentProgressVideo: "#0f0",
-      videoDuration: "#fff",
-      colorIcons: "#fff",
-      textLogo: "#f00",
+      name: 'Royal Purple',
+      gradient: 'linear-gradient(135deg, #4c1d95, #8b5cf6)',
+      textColor: '#ffffff',
+      raised: '#303131',
+      btnTranslate: '#000',
+      CurrentProgressVideo: '#0f0',
+      videoDuration: '#fff',
+      colorIcons: '#fff',
+      textLogo: '#f00',
     },
     {
-      name: "Cherry Blossom",
-      gradient: "linear-gradient(135deg, #a9005c, #fc008f)",
-      textColor: "#ffffff",
-      raised: "#fc008f",
-      btnTranslate: "#000",
-      CurrentProgressVideo: "#0f0",
-      videoDuration: "#fff",
-      colorIcons: "#fff",
-      textLogo: "#f00",
+      name: 'Cherry Blossom',
+      gradient: 'linear-gradient(135deg, #a9005c, #fc008f)',
+      textColor: '#ffffff',
+      raised: '#fc008f',
+      btnTranslate: '#000',
+      CurrentProgressVideo: '#0f0',
+      videoDuration: '#fff',
+      colorIcons: '#fff',
+      textLogo: '#f00',
     },
     {
-      name: "Red Dark",
-      gradient: "linear-gradient(135deg, #790909, #f70131)",
-      textColor: "#ffffff",
-      raised: "#303131",
-      btnTranslate: "#000",
-      CurrentProgressVideo: "#0f0",
-      videoDuration: "#fff",
-      colorIcons: "#fff",
-      textLogo: "#f00",
+      name: 'Red Dark',
+      gradient: 'linear-gradient(135deg, #790909, #f70131)',
+      textColor: '#ffffff',
+      raised: '#303131',
+      btnTranslate: '#000',
+      CurrentProgressVideo: '#0f0',
+      videoDuration: '#fff',
+      colorIcons: '#fff',
+      textLogo: '#f00',
     },
     {
-      name: "Raind ",
-      gradient: "linear-gradient(90deg, #3f5efb 0%, #fc466b) 100%",
-      textColor: "#ffffff",
-      raised: "#303131",
-      btnTranslate: "#000",
-      CurrentProgressVideo: "#0f0",
-      videoDuration: "#fff",
-      colorIcons: "#fff",
-      textLogo: "#f00",
+      name: 'Raind ',
+      gradient: 'linear-gradient(90deg, #3f5efb 0%, #fc466b) 100%',
+      textColor: '#ffffff',
+      raised: '#303131',
+      btnTranslate: '#000',
+      CurrentProgressVideo: '#0f0',
+      videoDuration: '#fff',
+      colorIcons: '#fff',
+      textLogo: '#f00',
     },
     {
-      name: "Neon",
-      gradient: "linear-gradient(273deg, #ee49fd 0%, #6175ff 100%)",
-      textColor: "#ffffff",
-      raised: "#303131",
-      btnTranslate: "#000",
-      CurrentProgressVideo: "#0f0",
-      videoDuration: "#fff",
-      colorIcons: "#fff",
-      textLogo: "#f00",
+      name: 'Neon',
+      gradient: 'linear-gradient(273deg, #ee49fd 0%, #6175ff 100%)',
+      textColor: '#ffffff',
+      raised: '#303131',
+      btnTranslate: '#000',
+      CurrentProgressVideo: '#0f0',
+      videoDuration: '#fff',
+      colorIcons: '#fff',
+      textLogo: '#f00',
     },
     {
-      name: "Azure",
-      gradient: "linear-gradient(273deg, #0172af 0%, #74febd 100%)",
-      textColor: "#ffffff",
-      raised: "#303131",
-      btnTranslate: "#000",
-      CurrentProgressVideo: "#0f0",
-      videoDuration: "#fff",
-      colorIcons: "#fff",
-      textLogo: "#f00",
+      name: 'Azure',
+      gradient: 'linear-gradient(273deg, #0172af 0%, #74febd 100%)',
+      textColor: '#ffffff',
+      raised: '#303131',
+      btnTranslate: '#000',
+      CurrentProgressVideo: '#0f0',
+      videoDuration: '#fff',
+      colorIcons: '#fff',
+      textLogo: '#f00',
     },
     {
-      name: "Butterfly",
-      gradient: "linear-gradient(273deg, #ff4060 0%, #fff16a 100%)",
-      textColor: "#ffffff",
-      raised: "#303131",
-      btnTranslate: "#000",
-      CurrentProgressVideo: "#0f0",
-      videoDuration: "#fff",
-      colorIcons: "#fff",
-      textLogo: "#f00",
+      name: 'Butterfly',
+      gradient: 'linear-gradient(273deg, #ff4060 0%, #fff16a 100%)',
+      textColor: '#ffffff',
+      raised: '#303131',
+      btnTranslate: '#000',
+      CurrentProgressVideo: '#0f0',
+      videoDuration: '#fff',
+      colorIcons: '#fff',
+      textLogo: '#f00',
     },
     {
-      name: "Colombia",
+      name: 'Colombia',
       gradient:
-        "linear-gradient(174deg, #fbf63f  0%, #0000bb 45%, #ff0000 99%)",
-      textColor: "#ffffff",
-      raised: "#303131",
-      btnTranslate: "#000",
-      CurrentProgressVideo: "#0f0",
-      videoDuration: "#fff",
-      colorIcons: "#fff",
-      textLogo: "#f00",
+        'linear-gradient(174deg, #fbf63f  0%, #0000bb 45%, #ff0000 99%)',
+      textColor: '#ffffff',
+      raised: '#303131',
+      btnTranslate: '#000',
+      CurrentProgressVideo: '#0f0',
+      videoDuration: '#fff',
+      colorIcons: '#fff',
+      textLogo: '#f00',
     },
   ];
 
   // Create our enhancement panel
-  const panel = $cl("div");
+  const panel = $cl('div');
 
-  panel.id = "yt-enhancement-panel";
+  panel.id = 'yt-enhancement-panel';
 
   // Generate theme options HTML
   const themeOptionsHTML = themes
@@ -4220,38 +3960,40 @@
           <div class="theme-option">
           <div class="theme-preview" style="background: ${theme.gradient};"></div>
           <input type="radio" name="theme" value="${index}" ${
-            index === 0 ? "checked" : ""
-          }>
-              <span style="${theme.name === "Default / Reload Page" ? "color: red; " : ""}" class="theme-name">${theme.name}</span>
+              index === 0 ? 'checked' : ''
+            }>
+              <span style="${theme.name === 'Default / Reload Page' ? 'color: red; ' : '' }" class="theme-name">${theme.name}</span>
               </div>
         </label>
-    `,
+    `
     )
-    .join("");
+    .join('');
 
-  const languageOptionsHTML = Object.entries(languagesTranslate)
+    const languageOptionsHTML = Object.entries(languagesTranslate)
     .map(([code, name]) => {
-      const selected = code === languagesTranslate ? "selected" : "";
+      const selected = code === languagesTranslate ? 'selected' : '';
       return `<option value="${code}" ${selected}>${name}</option>`;
     })
-    .join("");
+    .join('');
 
-  function checkDarkModeActive() {
-    const prefCookie = document.cookie
-      .split("; ")
-      .find((c) => c.startsWith("PREF="));
-    if (!prefCookie) return "light";
 
-    const prefValue = prefCookie.substring(5);
-    const params = new URLSearchParams(prefValue);
 
-    const f6Value = params.get("f6");
-    const darkModes = ["400", "4000000", "40000400", "40000000"];
+   function checkDarkModeActive() {
+      const prefCookie = document.cookie.split('; ').find(c => c.startsWith('PREF='));
+      if (!prefCookie) return 'light';
 
-    return darkModes.includes(f6Value) ? "dark" : "light";
-  }
+      const prefValue = prefCookie.substring(5);
+      const params = new URLSearchParams(prefValue);
 
-  let isDarkModeActive = checkDarkModeActive();
+      const f6Value = params.get('f6');
+      const darkModes = ['400', '4000000', '40000400', '40000000'];
+
+      return darkModes.includes(f6Value) ? 'dark' : 'light';
+    }
+
+
+    let isDarkModeActive = checkDarkModeActive();
+
 
   // Use Trusted Types to set innerHTML
   const menuHTML = `
@@ -4455,7 +4197,7 @@
           <div>
             <h4>Choose a Theme</h4>
             <p>Disable Mode Cinematic on General</p>
-            ${isDarkModeActive === "dark" ? "" : '<p style="color: red; margin: 10px 0;font-size: 11px;">Activate dark mode to use this option</p>'}
+            ${isDarkModeActive === 'dark' ? '' : '<p style="color: red; margin: 10px 0;font-size: 11px;">Activate dark mode to use this option</p>'}
           </div>
         </div>
         <div class="options-mdcm">
@@ -4651,59 +4393,66 @@
   </div>
   `;
   const panelHTML = policy?.createHTML
-    ? policy.createHTML(`${menuHTML}`)
-    : `${menuHTML}`;
+  ? policy.createHTML(`${menuHTML}`)
+  : `${menuHTML}`;
 
   panel.innerHTML = panelHTML;
 
   $ap(panel);
 
+
   function addIcon() {
-    const topBar = $e("ytd-topbar-menu-button-renderer");
-    if (!topBar || $id("icon-menu-settings")) return;
+    const topBar = $e('ytd-topbar-menu-button-renderer');
+    if (!topBar || $id('icon-menu-settings')) return;
 
-    const toggleButton = $cl("div");
-    toggleButton.id = "toggle-button";
+    const toggleButton = $cl('div');
+    toggleButton.id = 'toggle-button';
 
-    const icon = $cl("i");
-    icon.id = "icon-menu-settings";
-    icon.classList.add("fa-solid", "fa-gear");
+    const icon = $cl('i');
+    icon.id = 'icon-menu-settings';
+    icon.classList.add('fa-solid', 'fa-gear');
 
     toggleButton.appendChild(icon);
     topBar.parentElement.insertBefore(toggleButton, topBar);
-    // Toggle panel visibility
+      // Toggle panel visibility
     let openMenu = false;
-    toggleButton.addEventListener("click", () => {
+    toggleButton.addEventListener('click', () => {
       openMenu = !openMenu;
       // openMenu
       //   ? (toggleButton.style.backgroundColor = '#f00')
       //   : (toggleButton.style.backgroundColor = 'transparent');
-      panel.style.display = panel.style.display === "none" ? "block" : "none";
+      panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
     });
-  }
+
+
+    }
+
 
   addIcon();
   let openMenu = false;
 
-  const close_menu_settings = $e(".close_menu_settings");
-  close_menu_settings.addEventListener("click", () => {
-    openMenu = !openMenu;
-    panel.style.display = panel.style.display === "none" ? "block" : "none";
-  });
+  const close_menu_settings = $e('.close_menu_settings');
+    close_menu_settings.addEventListener('click', () => {
+      openMenu = !openMenu;
+      panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
+    });
 
   // $ap(toggleButton);
 
+
+
+
   // Tab functionality
-  const tabButtons = $m(".tab-mdcm");
-  const tabContents = $m(".tab-content");
+  const tabButtons = $m('.tab-mdcm');
+  const tabContents = $m('.tab-content');
 
   tabButtons.forEach((button) => {
-    button.addEventListener("click", () => {
-      const tabName = button.getAttribute("data-tab");
-      tabButtons.forEach((btn) => btn.classList.remove("active"));
-      tabContents.forEach((content) => content.classList.remove("active"));
-      button.classList.add("active");
-      $id(tabName).classList.add("active");
+    button.addEventListener('click', () => {
+      const tabName = button.getAttribute('data-tab');
+      tabButtons.forEach((btn) => btn.classList.remove('active'));
+      tabContents.forEach((content) => content.classList.remove('active'));
+      button.classList.add('active');
+      $id(tabName).classList.add('active');
     });
   });
 
@@ -4711,52 +4460,54 @@
   function saveSettings() {
     const settings = {
       theme: $e('input[name="theme"]:checked').value,
-      bgColorPicker: $id("bg-color-picker").value,
-      progressbarColorPicker: $id("progressbar-color-picker").value,
-      primaryColorPicker: $id("primary-color-picker").value,
-      secondaryColorPicker: $id("secondary-color-picker").value,
-      headerColorPicker: $id("header-color-picker").value,
-      iconsColorPicker: $id("icons-color-picker").value,
-      menuColorPicker: $id("menu-color-picker").value,
-      lineColorPicker: $id("line-color-picker").value,
-      timeColorPicker: $id("time-color-picker").value,
-      dislikes: $id("dislikes-toggle").checked,
-      likeDislikeBar: $id("like-dislike-bar-toggle").checked,
-      bookmarks: $id("bookmarks-toggle").checked,
-      continueWatching: $id("continue-watching-toggle").checked,
-      shortsChannelName: $id("shorts-channel-name-toggle").checked,
-      themes: $id("themes-toggle").checked,
-      translation: $id("translation-toggle").checked,
-      avatars: $id("avatars-toggle").checked,
-      reverseMode: $id("reverse-mode-toggle").checked,
-      waveVisualizer: $id("wave-visualizer-toggle").checked,
-      waveVisualizerSelected: $id("select-wave-visualizer-select").value,
-      hideComments: $id("hide-comments-toggle").checked,
-      hideSidebar: $id("hide-sidebar-toggle").checked,
-      disableAutoplay: $id("autoplay-toggle").checked,
-      cinematicLighting: $id("cinematic-lighting-toggle").checked,
-      syncCinematic: $id("sync-cinematic-toggle").checked, // NUEVO SETTING
-      disableSubtitles: $id("subtitles-toggle").checked,
+      bgColorPicker: $id('bg-color-picker').value,
+      progressbarColorPicker: $id('progressbar-color-picker').value,
+      primaryColorPicker: $id('primary-color-picker').value,
+      secondaryColorPicker: $id('secondary-color-picker').value,
+      headerColorPicker: $id('header-color-picker').value,
+      iconsColorPicker: $id('icons-color-picker').value,
+      menuColorPicker: $id('menu-color-picker').value,
+      lineColorPicker: $id('line-color-picker').value,
+      timeColorPicker: $id('time-color-picker').value,
+      dislikes: $id('dislikes-toggle').checked,
+      likeDislikeBar: $id('like-dislike-bar-toggle').checked,
+      bookmarks: $id('bookmarks-toggle').checked,
+      continueWatching: $id('continue-watching-toggle').checked,
+      shortsChannelName: $id('shorts-channel-name-toggle').checked,
+      themes: $id('themes-toggle').checked,
+      translation: $id('translation-toggle').checked,
+      avatars: $id('avatars-toggle').checked,
+      reverseMode: $id('reverse-mode-toggle').checked,
+      waveVisualizer: $id('wave-visualizer-toggle').checked,
+      waveVisualizerSelected: $id('select-wave-visualizer-select').value,
+      hideComments: $id('hide-comments-toggle').checked,
+      hideSidebar: $id('hide-sidebar-toggle').checked,
+      disableAutoplay: $id('autoplay-toggle').checked,
+      cinematicLighting: $id('cinematic-lighting-toggle').checked,
+      syncCinematic: $id('sync-cinematic-toggle').checked, // NUEVO SETTING
+      disableSubtitles: $id('subtitles-toggle').checked,
       // fontSize: $id('font-size-slider').value,
-      playerSize: $id("player-size-slider").value,
-      selectVideoQuality: $id("select-video-qualitys-select").value,
-      languagesComments: $id("select-languages-comments-select").value,
+      playerSize: $id('player-size-slider').value,
+      selectVideoQuality: $id('select-video-qualitys-select').value,
+      languagesComments: $id('select-languages-comments-select').value,
       // menuBgColor: $id('menu-bg-color-picker').value,
       // menuTextColor: $id('menu-text-color-picker').value,
       menu_developermdcm: {
         bg: selectedBgColor,
         color: selectedTextColor,
-        accent: selectedBgAccentColor,
-      },
+        accent: selectedBgAccentColor
+      }
       // menuFontSize: $id('menu-font-size-slider').value,
     };
 
-    GM_setValue("ytSettingsMDCM", JSON.stringify(settings));
+    GM_setValue('ytSettingsMDCM', JSON.stringify(settings));
   }
+
+
 
   // Function to load settings
   function loadSettings() {
-    const settings = JSON.parse(GM_getValue("ytSettingsMDCM", "{}"));
+    const settings = JSON.parse(GM_getValue('ytSettingsMDCM', '{}'));
     // Mark as loaded early so applySettings/saveSettings don't overwrite persisted values with defaults.
     __ytToolsRuntime.settingsLoaded = true;
 
@@ -4766,86 +4517,76 @@
     settings.menu_developermdcm = settings.menu_developermdcm || {
       bg: "#252525",
       color: "#ffffff",
-      accent: "#ff0000",
+      accent: "#ff0000"
     };
-    $id("bg-color-picker").value = settings.bgColorPicker || "#000000";
-    $id("progressbar-color-picker").value =
-      settings.progressbarColorPicker || "#ff0000";
-    $id("primary-color-picker").value =
-      settings.primaryColorPicker || "#ffffff";
-    $id("secondary-color-picker").value =
-      settings.secondaryColorPicker || "#ffffff";
-    $id("header-color-picker").value = settings.headerColorPicker || "#000";
-    $id("icons-color-picker").value = settings.iconsColorPicker || "#ffffff";
-    $id("menu-color-picker").value = settings.menuColorPicker || "#000";
-    $id("line-color-picker").value = settings.lineColorPicker || "#ff0000";
-    $id("time-color-picker").value = settings.timeColorPicker || "#ffffff";
-    $id("dislikes-toggle").checked = settings.dislikes || false;
-    $id("like-dislike-bar-toggle").checked = settings.likeDislikeBar || false;
-    $id("bookmarks-toggle").checked = settings.bookmarks || false;
-    $id("continue-watching-toggle").checked =
-      settings.continueWatching || false;
-    $id("shorts-channel-name-toggle").checked =
-      settings.shortsChannelName || false;
-    $id("themes-toggle").checked = settings.themes || false;
-    $id("translation-toggle").checked = settings.translation || false;
-    $id("avatars-toggle").checked = settings.avatars || false;
-    $id("reverse-mode-toggle").checked = settings.reverseMode || false;
-    $id("wave-visualizer-toggle").checked = settings.waveVisualizer || false;
-    $id("select-wave-visualizer-select").value =
-      settings.waveVisualizerSelected || "dinamica";
-    $id("hide-comments-toggle").checked = settings.hideComments || false;
-    $id("hide-sidebar-toggle").checked = settings.hideSidebar || false;
-    $id("autoplay-toggle").checked = settings.disableAutoplay || false;
-    $id("cinematic-lighting-toggle").checked =
-      settings.cinematicLighting || false;
-    $id("sync-cinematic-toggle").checked = settings.syncCinematic || false;
-    $id("subtitles-toggle").checked = settings.disableSubtitles || false;
+    $id('bg-color-picker').value = settings.bgColorPicker || '#000000';
+    $id('progressbar-color-picker').value = settings.progressbarColorPicker || '#ff0000';
+    $id('primary-color-picker').value = settings.primaryColorPicker || '#ffffff';
+    $id('secondary-color-picker').value = settings.secondaryColorPicker || '#ffffff';
+    $id('header-color-picker').value = settings.headerColorPicker || '#000';
+    $id('icons-color-picker').value = settings.iconsColorPicker || '#ffffff';
+    $id('menu-color-picker').value = settings.menuColorPicker || '#000';
+    $id('line-color-picker').value = settings.lineColorPicker || '#ff0000';
+    $id('time-color-picker').value = settings.timeColorPicker || '#ffffff';
+    $id('dislikes-toggle').checked = settings.dislikes || false;
+    $id('like-dislike-bar-toggle').checked = settings.likeDislikeBar || false;
+    $id('bookmarks-toggle').checked = settings.bookmarks || false;
+    $id('continue-watching-toggle').checked = settings.continueWatching || false;
+    $id('shorts-channel-name-toggle').checked = settings.shortsChannelName || false;
+    $id('themes-toggle').checked = settings.themes || false;
+    $id('translation-toggle').checked = settings.translation || false;
+    $id('avatars-toggle').checked = settings.avatars || false;
+    $id('reverse-mode-toggle').checked = settings.reverseMode || false;
+    $id('wave-visualizer-toggle').checked = settings.waveVisualizer || false;
+    $id('select-wave-visualizer-select').value = settings.waveVisualizerSelected || 'dinamica';
+    $id('hide-comments-toggle').checked = settings.hideComments || false;
+    $id('hide-sidebar-toggle').checked = settings.hideSidebar || false;
+    $id('autoplay-toggle').checked = settings.disableAutoplay || false;
+    $id('cinematic-lighting-toggle').checked = settings.cinematicLighting || false;
+    $id('sync-cinematic-toggle').checked = settings.syncCinematic || false;
+    $id('subtitles-toggle').checked = settings.disableSubtitles || false;
     // $id('font-size-slider').value = settings.fontSize || 16;
-    $id("player-size-slider").value = settings.playerSize || 100;
-    $id("select-video-qualitys-select").value =
-      settings.selectVideoQuality || "user";
-    $id("select-languages-comments-select").value =
-      settings.languagesComments || "en";
+    $id('player-size-slider').value = settings.playerSize || 100;
+    $id('select-video-qualitys-select').value = settings.selectVideoQuality || 'user';
+    $id('select-languages-comments-select').value = settings.languagesComments || 'en';
     // $id('menu-bg-color-picker').value = settings.menuBgColor || '#000000';
     // $id('menu-text-color-picker').value = settings.menuTextColor || '#ffffff';
     // $id('menu-font-size-slider').value = settings.menuFontSize || 14;
     // Asegurar existencia de menu_developermdcm
 
+
     selectedBgColor = settings.menu_developermdcm.bg;
     selectedTextColor = settings.menu_developermdcm.color;
     selectedBgAccentColor = settings.menu_developermdcm.accent;
 
-    $m("#bg-color-options .color-box").forEach((el) => {
-      el.classList.toggle("selected", el.dataset.value === selectedBgColor);
+
+    $m('#bg-color-options .color-box').forEach(el => {
+      el.classList.toggle('selected', el.dataset.value === selectedBgColor);
     });
 
-    $m("#text-color-options .color-box").forEach((el) => {
-      el.classList.toggle("selected", el.dataset.value === selectedTextColor);
+    $m('#text-color-options .color-box').forEach(el => {
+      el.classList.toggle('selected', el.dataset.value === selectedTextColor);
     });
 
-    $m("#bg-accent-color-options .color-box").forEach((el) => {
-      el.classList.toggle(
-        "selected",
-        el.dataset.value === selectedBgAccentColor,
-      );
+    $m('#bg-accent-color-options .color-box').forEach(el => {
+      el.classList.toggle('selected', el.dataset.value === selectedBgAccentColor);
     });
 
     // Apply menu colors
-    $sp("--yt-enhance-menu-bg", selectedBgColor);
-    $sp("--yt-enhance-menu-text", selectedTextColor);
-    $sp("--yt-enhance-menu-accent", selectedBgAccentColor);
+    $sp('--yt-enhance-menu-bg', selectedBgColor);
+    $sp('--yt-enhance-menu-text', selectedTextColor);
+    $sp('--yt-enhance-menu-accent', selectedBgAccentColor);
     updateSliderValues();
 
     setTimeout(() => {
       applySettings();
-      if (settings.dislikes) {
-        videoDislike();
-        shortDislike();
-        showDislikes = true;
+      if(settings.dislikes) {
+          videoDislike();
+          shortDislike();
+          showDislikes = true;
       }
 
-      if (window.location.href.includes("youtube.com/watch?v=")) {
+      if (window.location.href.includes('youtube.com/watch?v=')) {
         detectInitialCinematicState();
       }
     }, 500);
@@ -4855,27 +4596,20 @@
   async function detectInitialCinematicState() {
     return new Promise((resolve) => {
       const waitForVideo = () => {
-        const video = $e("video");
-        const cinematicDiv = $id("cinematics");
+        const video = $e('video');
+        const cinematicDiv = $id('cinematics');
 
-        if (
-          !video ||
-          !cinematicDiv ||
-          isNaN(video.duration) ||
-          video.duration === 0
-        ) {
+        if (!video || !cinematicDiv || isNaN(video.duration) || video.duration === 0) {
           setTimeout(waitForVideo, 500);
           return;
         }
 
-        const settings = JSON.parse(GM_getValue("ytSettingsMDCM", "{}"));
+        const settings = JSON.parse(GM_getValue('ytSettingsMDCM', '{}'));
         if (!settings.syncCinematic) {
           // apply cinematic toggle
-          const cinematicToggle = $id("cinematic-lighting-toggle");
+          const cinematicToggle = $id('cinematic-lighting-toggle');
           if (cinematicToggle && cinematicDiv) {
-            cinematicDiv.style.display = cinematicToggle.checked
-              ? "block"
-              : "none";
+            cinematicDiv.style.display = cinematicToggle.checked ? 'block' : 'none';
           }
           resolve(false);
           return;
@@ -4886,7 +4620,7 @@
           if (video.currentTime >= startTime + 1) {
             const isActive = isCinematicActive();
 
-            const cinematicToggle = $id("cinematic-lighting-toggle");
+            const cinematicToggle = $id('cinematic-lighting-toggle');
             if (cinematicToggle && cinematicToggle.checked !== isActive) {
               cinematicToggle.checked = isActive;
               saveSettings();
@@ -4905,81 +4639,83 @@
     });
   }
 
-  $m(".color-box").forEach((box) => {
-    box.addEventListener("click", () => {
+  $m('.color-box').forEach(box => {
+    box.addEventListener('click', () => {
       const type = box.dataset.type;
       const value = box.dataset.value;
 
-      if (type === "bg") {
+      if (type === 'bg') {
         selectedBgColor = value;
-        $sp("--yt-enhance-menu-bg", value);
-        $m("#bg-color-options .color-box").forEach((el) => {
-          el.classList.remove("selected");
+        $sp('--yt-enhance-menu-bg', value);
+        $m('#bg-color-options .color-box').forEach(el => {
+          el.classList.remove('selected');
         });
-        box.classList.add("selected");
-      } else if (type === "color") {
+        box.classList.add('selected');
+      } else if (type === 'color') {
         selectedTextColor = value;
-        $sp("--yt-enhance-menu-text", value);
-        $m("#text-color-options .color-box").forEach((el) => {
-          el.classList.remove("selected");
+        $sp('--yt-enhance-menu-text', value);
+        $m('#text-color-options .color-box').forEach(el => {
+          el.classList.remove('selected');
         });
-        box.classList.add("selected");
-      } else if (type === "accent") {
+        box.classList.add('selected');
+      }
+       else if (type === 'accent') {
         selectedBgAccentColor = value;
-        $sp("--yt-enhance-menu-accent", value);
-        $m("#bg-accent-color-options .color-box").forEach((el) => {
-          el.classList.remove("selected");
+        $sp('--yt-enhance-menu-accent', value);
+        $m('#bg-accent-color-options .color-box').forEach(el => {
+          el.classList.remove('selected');
         });
-        box.classList.add("selected");
+        box.classList.add('selected');
       }
       saveSettings();
     });
   });
 
+
   function updateSliderValues() {
-    $id("player-size-value").textContent = $id("player-size-slider").value;
+    $id('player-size-value').textContent = $id('player-size-slider').value;
+
   }
 
-  $id("reset-player-size").addEventListener("click", () => {
-    $id("player-size-slider").value = 100;
+  $id('reset-player-size').addEventListener('click', () => {
+    $id('player-size-slider').value = 100;
     updateSliderValues();
     applySettings();
   });
 
-  // Initialize header buttons once
+   // Initialize header buttons once
   function initializeHeaderButtons() {
-    const shareBtn = $id("shareBtn-mdcm");
-    const importExportBtn = $id("importExportBtn");
-    const closeImportExportBtn = $id("closeImportExportBtn");
+    const shareBtn = $id('shareBtn-mdcm');
+    const importExportBtn = $id('importExportBtn');
+    const closeImportExportBtn = $id('closeImportExportBtn');
 
     if (shareBtn && !shareBtn.dataset.initialized) {
-      shareBtn.dataset.initialized = "true";
-      shareBtn.addEventListener("click", function (event) {
+      shareBtn.dataset.initialized = 'true';
+      shareBtn.addEventListener('click', function(event) {
         event.stopPropagation();
-        const dropdown = $id("shareDropdown");
+        const dropdown = $id('shareDropdown');
         if (dropdown) {
-          dropdown.style.display =
-            dropdown.style.display === "block" ? "none" : "block";
+          dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
         }
       });
     }
 
     if (importExportBtn && !importExportBtn.dataset.initialized) {
-      importExportBtn.dataset.initialized = "true";
-      importExportBtn.addEventListener("click", function () {
-        const importExportArea = $id("importExportArea");
+      importExportBtn.dataset.initialized = 'true';
+      importExportBtn.addEventListener('click', function() {
+        const importExportArea = $id('importExportArea');
         if (importExportArea) {
-          importExportArea.classList.toggle("active");
+          importExportArea.classList.toggle('active');
         }
       });
     }
 
     if (closeImportExportBtn && !closeImportExportBtn.dataset.initialized) {
-      closeImportExportBtn.dataset.initialized = "true";
-      closeImportExportBtn.addEventListener("click", function () {
-        const importExportArea = $id("importExportArea");
+      closeImportExportBtn.dataset.initialized = 'true';
+      closeImportExportBtn.addEventListener('click', function() {
+        const importExportArea = $id('importExportArea');
         if (importExportArea) {
-          importExportArea.classList.remove("active");
+          importExportArea.classList.remove('active');
         }
       });
     }
@@ -4987,52 +4723,50 @@
 
   // Cinematic Lighting Control Functions
   function isWatchPage() {
-    return window.location.href.includes("youtube.com/watch?v=");
+    return window.location.href.includes('youtube.com/watch?v=');
   }
 
   function isCinematicActive() {
-    const cinematicDiv = document.getElementById("cinematics");
+    const cinematicDiv = document.getElementById('cinematics');
     if (!cinematicDiv) {
       return false;
     }
 
-    const hasContent = cinematicDiv.innerHTML.trim() !== "";
-    const hasCanvas = cinematicDiv.querySelector("canvas") !== null;
+    const hasContent = cinematicDiv.innerHTML.trim() !== '';
+    const hasCanvas = cinematicDiv.querySelector('canvas') !== null;
     const hasChildren = cinematicDiv.children.length > 0;
 
-    const hasCinematicElements =
-      cinematicDiv.querySelector('div[style*="position: fixed"]') !== null;
+    const hasCinematicElements = cinematicDiv.querySelector('div[style*="position: fixed"]') !== null;
 
     return hasContent || hasCanvas || hasChildren || hasCinematicElements;
   }
 
   function toggleCinematicLighting() {
-    const settingsButton = $e(".ytp-button.ytp-settings-button");
+    const settingsButton = $e('.ytp-button.ytp-settings-button');
     if (!settingsButton) {
-      console.log("Settings button not found");
+      console.log('Settings button not found');
       return;
     }
 
+
     settingsButton.click();
 
+
     const observer = new MutationObserver((mutations) => {
-      const menuItems = $m(".ytp-menuitem");
+      const menuItems = $m('.ytp-menuitem');
 
       for (let item of menuItems) {
         const text = item.textContent?.toLowerCase();
-        const icon = item.querySelector(".ytp-menuitem-icon svg path");
+        const icon = item.querySelector('.ytp-menuitem-icon svg path');
 
-        if (
-          text &&
-          (text.includes("cinematic") ||
-            text.includes("lighting") ||
-            text.includes("cinema"))
-        ) {
-          console.log("Found cinematic lighting option:", text);
+
+        if (text && (text.includes('cinematic') || text.includes('lighting') || text.includes('cinema'))) {
+          console.log('Found cinematic lighting option:', text);
           item.click();
 
+
           setTimeout(() => {
-            const menu = $e(".ytp-settings-menu");
+            const menu = $e('.ytp-settings-menu');
             if (menu) {
               document.body.click();
             }
@@ -5042,20 +4776,14 @@
           return;
         }
 
-        if (
-          icon &&
-          (icon.getAttribute("d")?.includes("M21 7v10H3V7") ||
-            icon
-              .getAttribute("d")
-              ?.includes(
-                "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z",
-              ))
-        ) {
-          console.log("Found cinematic lighting option by SVG path");
+
+        if (icon && (icon.getAttribute('d')?.includes('M21 7v10H3V7') ||
+                    icon.getAttribute('d')?.includes('M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z'))) {
+          console.log('Found cinematic lighting option by SVG path');
           item.click();
 
           setTimeout(() => {
-            const menu = $e(".ytp-settings-menu");
+            const menu = $e('.ytp-settings-menu');
             if (menu) {
               document.body.click();
             }
@@ -5071,11 +4799,11 @@
       childList: true,
       subtree: true,
       attributes: true,
-      attributeFilter: ["class"],
+      attributeFilter: ['class']
     });
     setTimeout(() => {
       observer.disconnect();
-      const menu = $e(".ytp-settings-menu");
+      const menu = $e('.ytp-settings-menu');
       if (menu) {
         document.body.click();
       }
@@ -5084,89 +4812,93 @@
 
   // Function to apply settings
   function applySettings() {
-    const formulariodescarga = $e(".formulariodescarga");
-    const formulariodescargaaudio = $e(".formulariodescargaaudio");
-    if (formulariodescarga != undefined) {
-      formulariodescarga.classList.add("ocultarframe");
-      formulariodescargaaudio.classList.add("ocultarframe");
-    }
+    const formulariodescarga = $e('.formulariodescarga');
+    const formulariodescargaaudio = $e('.formulariodescargaaudio');
+      if (formulariodescarga != undefined) {
+        formulariodescarga.classList.add('ocultarframe');
+        formulariodescargaaudio.classList.add('ocultarframe');
+      }
     const settings = {
       theme: $e('input[name="theme"]:checked').value,
-      bgColorPicker: $id("bg-color-picker").value,
-      progressbarColorPicker: $id("progressbar-color-picker").value,
-      primaryColorPicker: $id("primary-color-picker").value,
-      secondaryColorPicker: $id("secondary-color-picker").value,
-      headerColorPicker: $id("header-color-picker").value,
-      iconsColorPicker: $id("icons-color-picker").value,
-      menuColorPicker: $id("menu-color-picker").value,
-      lineColorPicker: $id("line-color-picker").value,
-      timeColorPicker: $id("time-color-picker").value,
-      dislikes: $id("dislikes-toggle").checked,
-      likeDislikeBar: $id("like-dislike-bar-toggle").checked,
-      bookmarks: $id("bookmarks-toggle").checked,
-      continueWatching: $id("continue-watching-toggle").checked,
-      shortsChannelName: $id("shorts-channel-name-toggle").checked,
-      themes: $id("themes-toggle").checked,
-      translation: $id("translation-toggle").checked,
-      avatars: $id("avatars-toggle").checked,
-      reverseMode: $id("reverse-mode-toggle").checked,
-      waveVisualizer: $id("wave-visualizer-toggle").checked,
-      waveVisualizerSelected: $id("select-wave-visualizer-select").value,
-      hideComments: $id("hide-comments-toggle").checked,
-      hideSidebar: $id("hide-sidebar-toggle").checked,
-      disableAutoplay: $id("autoplay-toggle").checked,
-      cinematicLighting: $id("cinematic-lighting-toggle").checked,
-      syncCinematic: $id("sync-cinematic-toggle").checked, // NUEVO SETTING
-      disableSubtitles: $id("subtitles-toggle").checked,
+      bgColorPicker: $id('bg-color-picker').value,
+      progressbarColorPicker: $id('progressbar-color-picker').value,
+      primaryColorPicker: $id('primary-color-picker').value,
+      secondaryColorPicker: $id('secondary-color-picker').value,
+      headerColorPicker: $id('header-color-picker').value,
+      iconsColorPicker: $id('icons-color-picker').value,
+      menuColorPicker: $id('menu-color-picker').value,
+      lineColorPicker: $id('line-color-picker').value,
+      timeColorPicker: $id('time-color-picker').value,
+      dislikes: $id('dislikes-toggle').checked,
+      likeDislikeBar: $id('like-dislike-bar-toggle').checked,
+      bookmarks: $id('bookmarks-toggle').checked,
+      continueWatching: $id('continue-watching-toggle').checked,
+      shortsChannelName: $id('shorts-channel-name-toggle').checked,
+      themes: $id('themes-toggle').checked,
+      translation: $id('translation-toggle').checked,
+      avatars: $id('avatars-toggle').checked,
+      reverseMode: $id('reverse-mode-toggle').checked,
+      waveVisualizer: $id('wave-visualizer-toggle').checked,
+      waveVisualizerSelected: $id('select-wave-visualizer-select').value,
+      hideComments: $id('hide-comments-toggle').checked,
+      hideSidebar: $id('hide-sidebar-toggle').checked,
+      disableAutoplay: $id('autoplay-toggle').checked,
+      cinematicLighting: $id('cinematic-lighting-toggle').checked,
+      syncCinematic: $id('sync-cinematic-toggle').checked, // NUEVO SETTING
+      disableSubtitles: $id('subtitles-toggle').checked,
       // fontSize: $id('font-size-slider').value,
-      playerSize: $id("player-size-slider").value,
-      selectVideoQuality: $id("select-video-qualitys-select").value,
-      languagesComments: $id("select-languages-comments-select").value,
+      playerSize: $id('player-size-slider').value,
+      selectVideoQuality: $id('select-video-qualitys-select').value,
+      languagesComments: $id('select-languages-comments-select').value,
       // menuBgColor: $id('menu-bg-color-picker').value,
       // menuTextColor: $id('menu-text-color-picker').value,
       menu_developermdcm: {
         bg: selectedBgColor,
         color: selectedTextColor,
-        accent: selectedBgAccentColor,
-      },
+        accent: selectedBgAccentColor
+      }
       // menuFontSize: $id('menu-font-size-slider').value,
     };
-    $sp("--yt-enhance-menu-bg", settings.menu_developermdcm.bg);
-    $sp("--yt-enhance-menu-text", settings.menu_developermdcm.color);
-    $sp("--yt-enhance-menu-accent", settings.menu_developermdcm.accent);
+    $sp('--yt-enhance-menu-bg', settings.menu_developermdcm.bg);
+    $sp('--yt-enhance-menu-text', settings.menu_developermdcm.color);
+    $sp('--yt-enhance-menu-accent', settings.menu_developermdcm.accent);
 
     renderizarButtons();
 
-    // Initialize header buttons
+
+        // Initialize header buttons
     initializeHeaderButtons();
 
+
+
+
     // Hide comments
-    const commentsSection = $id("comments");
+    const commentsSection = $id('comments');
     if (commentsSection) {
-      commentsSection.style.display = settings.hideComments ? "none" : "block";
+      commentsSection.style.display = settings.hideComments ? 'none' : 'block';
     }
 
-    // Active inactive Themes
-    const themesMenuSection = $e(".themes-hidden");
-    if (themesMenuSection) {
-      themesMenuSection.style.display = settings.themes ? "block" : "none";
-    }
+     // Active inactive Themes
+     const themesMenuSection = $e('.themes-hidden');
+     if (themesMenuSection) {
+      themesMenuSection.style.display = settings.themes ? 'block' : 'none';
+     }
 
     // Hide sidebar
-    const sidebarSection = $e("#secondary > #secondary-inner");
+    const sidebarSection = $e('#secondary > #secondary-inner');
 
     if (sidebarSection) {
-      sidebarSection.classList.add("side-moi");
-      const sidebarSection2 = $e(".side-moi");
+      sidebarSection.classList.add('side-moi');
+    const sidebarSection2 = $e('.side-moi');
 
-      sidebarSection2.style.display = settings.hideSidebar ? "none" : "block";
+    sidebarSection2.style.display = settings.hideSidebar ? 'none' : 'block';
     }
 
     // Disable autoplay
-    const autoplayToggle = $e(".ytp-autonav-toggle-button");
+    const autoplayToggle = $e('.ytp-autonav-toggle-button');
     if (autoplayToggle) {
       const isCurrentlyOn =
-        autoplayToggle.getAttribute("aria-checked") === "true";
+        autoplayToggle.getAttribute('aria-checked') === 'true';
       if (settings.disableAutoplay && isCurrentlyOn) {
         autoplayToggle.click();
       } else if (!settings.disableAutoplay && !isCurrentlyOn) {
@@ -5174,10 +4906,10 @@
       }
     }
     // Disable subtitles
-    const subtitleToggle = $e(".ytp-subtitles-button");
+    const subtitleToggle = $e('.ytp-subtitles-button');
     if (subtitleToggle) {
       const isCurrentlyOn =
-        subtitleToggle.getAttribute("aria-pressed") === "true";
+        subtitleToggle.getAttribute('aria-pressed') === 'true';
       if (settings.disableSubtitles && isCurrentlyOn) {
         subtitleToggle.click();
       } else if (!settings.disableSubtitles && !isCurrentlyOn) {
@@ -5197,11 +4929,9 @@
           }
         } else {
           // Si NO está activa, solo mostrar/ocultar #cinematics
-          const cinematicDiv = $id("cinematics");
+          const cinematicDiv = $id('cinematics');
           if (cinematicDiv) {
-            cinematicDiv.style.display = settings.cinematicLighting
-              ? "block"
-              : "none";
+            cinematicDiv.style.display = settings.cinematicLighting ? 'block' : 'none';
           }
         }
       }, 1000);
@@ -5211,37 +4941,29 @@
     // $e('body').style.fontSize = `${settings.fontSize}px`;
 
     // Adjust player size
-    const player = $e("video");
+    const player = $e('video');
     if (player) {
       player.style.transform = `scale(${settings.playerSize / 100})`;
     }
 
     // selected video quality
-    const video = $e("div#movie_player");
-    let ytPlayerQuality = localStorage.getItem("yt-player-quality");
+    const video = $e('div#movie_player');
+    let ytPlayerQuality = localStorage.getItem('yt-player-quality');
 
     // only force quality if the user didn't select "user"
     if (video != undefined && settings.selectVideoQuality !== "user") {
       if (ytPlayerQuality) {
         let qualitySettings = JSON.parse(ytPlayerQuality);
-        qualitySettings.data = JSON.stringify({
-          quality: settings.selectVideoQuality,
-          previousQuality: 240,
-        });
-        localStorage.setItem(
-          "yt-player-quality",
-          JSON.stringify(qualitySettings),
-        );
+        qualitySettings.data = JSON.stringify({ quality: settings.selectVideoQuality, previousQuality: 240 });
+        localStorage.setItem('yt-player-quality', JSON.stringify(qualitySettings));
+
       } else {
         let defaultQualitySettings = {
           data: JSON.stringify({ quality: 720, previousQuality: 240 }),
-          expiration: Date.now() + 365 * 24 * 60 * 60 * 1000,
-          creation: Date.now(),
+          expiration: Date.now() + (365 * 24 * 60 * 60 * 1000),
+          creation: Date.now()
         };
-        localStorage.setItem(
-          "yt-player-quality",
-          JSON.stringify(defaultQualitySettings),
-        );
+        localStorage.setItem('yt-player-quality', JSON.stringify(defaultQualitySettings));
       }
     }
 
@@ -5254,32 +4976,37 @@
     const selectedTheme = themes[settings.theme];
     const isThemeCustom = $e(`input[name="theme"][value="custom"]`).checked;
     const isThemeNormal = $e(`input[name="theme"][value="normal"]`).checked;
-    const themeCustomOptions = $e(".theme-custom-options");
-    const themeNormal = $e(".theme-selected-normal");
+    const themeCustomOptions = $e('.theme-custom-options');
+    const themeNormal = $e('.theme-selected-normal');
     // Dynamic CSS (avoid GM_addStyle accumulating thousands of style tags)
-    let dynamicCss = "";
+    let dynamicCss = '';
     const addDynamicCss = (css) => {
       if (!css) return;
       dynamicCss += `\n${css}\n`;
     };
-    if (isThemeCustom != undefined) {
-      themeNormal.style.display = "flex";
+    if(isThemeCustom != undefined) {
+      themeNormal.style.display = "flex"
       themeCustomOptions.style.display = "flex";
-      $e(".themes-options").style.display = "none";
+      $e('.themes-options').style.display = "none";
     }
-    if (isThemeNormal) {
+    if(isThemeNormal) {
       $e(`input[name="theme"][value="custom"]`).checked = false;
     }
 
+
+
+
     function checkDarkMode() {
-      if (settings.themes) {
-        if (isDarkModeActive === "dark" && !isThemeCustom) {
+
+      if(settings.themes) {
+
+        if (isDarkModeActive === 'dark' && !isThemeCustom) {
           // Apply theme
-          $e(".themes-options").style.display = "block";
+          $e('.themes-options').style.display = "block";
           themeNormal.style.display = "none";
           themeCustomOptions.style.display = "none";
 
-          if (settings.theme === "0") {
+          if(settings.theme === '0') {
             addDynamicCss(`
               .botones_div {
                background-color: transparent;
@@ -5291,21 +5018,21 @@
             return;
           }
 
-          $sp("--yt-spec-base-background", selectedTheme.gradient);
-          $sp("--yt-spec-text-primary", selectedTheme.textColor);
-          $sp("--yt-spec-text-secondary", selectedTheme.textColor);
-          $sp("--yt-spec-menu-background", selectedTheme.gradient);
-          $sp("--yt-spec-icon-inactive", selectedTheme.textColor);
-          $sp("--yt-spec-brand-icon-inactive", selectedTheme.textColor);
-          $sp("--yt-spec-brand-icon-active", selectedTheme.gradient);
-          $sp("--yt-spec-static-brand-red", selectedTheme.gradient); // line current time
-          $sp("--yt-spec-raised-background", selectedTheme.raised);
-          $sp("--yt-spec-static-brand-red", selectedTheme.CurrentProgressVideo);
-          $sp("--yt-spec-static-brand-white", selectedTheme.textColor);
-          $sp("--ytd-searchbox-background", selectedTheme.gradient);
-          $sp("--ytd-searchbox-text-color", selectedTheme.textColor);
-          $sp("--ytcp-text-primary", settings.textColor);
-          addDynamicCss(`
+            $sp('--yt-spec-base-background', selectedTheme.gradient);
+            $sp('--yt-spec-text-primary', selectedTheme.textColor);
+            $sp('--yt-spec-text-secondary', selectedTheme.textColor);
+            $sp('--yt-spec-menu-background', selectedTheme.gradient);
+            $sp('--yt-spec-icon-inactive', selectedTheme.textColor);
+            $sp('--yt-spec-brand-icon-inactive', selectedTheme.textColor);
+            $sp('--yt-spec-brand-icon-active', selectedTheme.gradient);
+            $sp('--yt-spec-static-brand-red', selectedTheme.gradient); // line current time
+            $sp('--yt-spec-raised-background', selectedTheme.raised);
+            $sp('--yt-spec-static-brand-red', selectedTheme.CurrentProgressVideo);
+            $sp('--yt-spec-static-brand-white', selectedTheme.textColor);
+            $sp('--ytd-searchbox-background', selectedTheme.gradient);
+            $sp('--ytd-searchbox-text-color', selectedTheme.textColor);
+            $sp('--ytcp-text-primary', settings.textColor);
+            addDynamicCss(`
               .botones_div {
               background-color: transparent;
               border: none;
@@ -5317,7 +5044,9 @@
               }
             #background.ytd-masthead { background: ${selectedTheme.gradient}  !important; }
             .ytp-swatch-background-color {
-            background: ${selectedTheme.gradient} !important;
+            background: ${
+              selectedTheme.gradient
+            } !important;
           }
           #shorts-container, #page-manager.ytd-app {
             background: ${selectedTheme.gradient.replace(/(#[0-9a-fA-F]{6})/g, `$1${36}`)};
@@ -5352,20 +5081,21 @@
 
 
             `);
-        } else if (isDarkModeActive === "dark" && isThemeCustom) {
-          $sp("--yt-spec-base-background", settings.bgColorPicker);
-          $sp("--yt-spec-text-primary", settings.primaryColorPicker);
-          $sp("--yt-spec-text-secondary", settings.secondaryColorPicker);
-          $sp("--yt-spec-menu-background", settings.menuColorPicker);
-          $sp("--yt-spec-icon-inactive", settings.iconsColorPicker);
-          $sp("--yt-spec-brand-icon-inactive", settings.primaryColorPicker);
-          $sp("--yt-spec-brand-icon-active", settings.primaryColorPicker);
-          $sp("--yt-spec-raised-background", settings.headerColorPicker);
-          $sp("--yt-spec-static-brand-red", settings.lineColorPicker);
-          $sp("--yt-spec-static-brand-white", settings.timeColorPicker);
-          $sp("--ytd-searchbox-background", settings.primaryColorPicker);
-          $sp("--ytd-searchbox-text-color", settings.secondaryColorPicker);
-          $sp("--ytcp-text-primary", settings.primaryColorPicker);
+
+        } else if(isDarkModeActive === 'dark' && isThemeCustom) {
+          $sp('--yt-spec-base-background', settings.bgColorPicker);
+          $sp('--yt-spec-text-primary', settings.primaryColorPicker);
+          $sp('--yt-spec-text-secondary', settings.secondaryColorPicker);
+          $sp('--yt-spec-menu-background', settings.menuColorPicker);
+          $sp('--yt-spec-icon-inactive', settings.iconsColorPicker);
+          $sp('--yt-spec-brand-icon-inactive', settings.primaryColorPicker);
+          $sp('--yt-spec-brand-icon-active', settings.primaryColorPicker);
+          $sp('--yt-spec-raised-background', settings.headerColorPicker);
+          $sp('--yt-spec-static-brand-red', settings.lineColorPicker);
+          $sp('--yt-spec-static-brand-white', settings.timeColorPicker);
+          $sp('--ytd-searchbox-background', settings.primaryColorPicker);
+          $sp('--ytd-searchbox-text-color', settings.secondaryColorPicker);
+          $sp('--ytcp-text-primary', settings.primaryColorPicker);
           addDynamicCss(`
             .html5-video-player {
                 color: ${settings.primaryColorPicker} !important;
@@ -5428,7 +5158,9 @@
             }
             #background.ytd-masthead { background: ${settings.headerColorPicker}  !important; }
             .ytp-swatch-background-color {
-            background: ${settings.progressbarColorPicker} !important;
+            background: ${
+              settings.progressbarColorPicker
+            } !important;
           }
         #shorts-container, #page-manager.ytd-app {
             background: ${settings.bgColorPicker}36;
@@ -5469,6 +5201,7 @@
            }
              `);
         }
+
       } else {
         addDynamicCss(`
           .botones_div {
@@ -5479,14 +5212,16 @@
          }
            `);
       }
+
     }
+
 
     addDynamicCss(`
       #columns.style-scope.ytd-watch-flexy {
-        flex-direction: ${settings.reverseMode ? "row-reverse" : "row"} !important;
-        padding-left: ${settings.reverseMode ? "20px" : "0"} !important;
+        flex-direction: ${settings.reverseMode ? 'row-reverse' : 'row'} !important;
+        padding-left: ${settings.reverseMode ? '20px' : '0'} !important;
         }
-        #secondary.style-scope.ytd-watch-flexy {display: ${settings.hideSidebar ? "none" : "block"} !important;}
+        #secondary.style-scope.ytd-watch-flexy {display: ${settings.hideSidebar ? 'none' : 'block'} !important;}
 
 
         #icon-menu-settings {
@@ -5506,33 +5241,33 @@
     scheduleLikeBarUpdate(settings, 5);
     setupShortsChannelNameFeature(settings.shortsChannelName);
     setupLockupCachedStats();
-    function checkForVideo() {
-      if (!settings.waveVisualizer) {
-        cleanup(true); // Limpieza completa
-        return;
-      }
-      const video = $e("video");
-      const miniPlayer = $e(".ytp-miniplayer-ui");
-      if ((video && document.location.href.includes("watch")) || miniPlayer) {
-        // Solo si el video cambió o no está configurado
-        if (video !== currentVideo || !isSetup) {
-          cleanup(true); // Limpieza completa antes de crear uno nuevo
-          setupAudioAnalyzer(video);
-        } else if (controlPanel && video.paused === false) {
-          showCanvas();
-        }
+   function checkForVideo() {
+    if (!settings.waveVisualizer) {
+      cleanup(true); // Limpieza completa
+      return;
+    }
+    const video = $e('video');
+    const miniPlayer = $e('.ytp-miniplayer-ui');
+    if ((video && document.location.href.includes('watch')) || miniPlayer) {
+
+      // Solo si el video cambió o no está configurado
+      if (video !== currentVideo || !isSetup) {
+        cleanup(true); // Limpieza completa antes de crear uno nuevo
+        setupAudioAnalyzer(video);
+      } else if (controlPanel && video.paused === false) {
+        showCanvas();
       }
     }
+  }
 
-    checkForVideo();
+
+  checkForVideo();
 
     function downloadDescriptionVideo() {
-      if (!window.location.href.includes("youtube.com/watch")) return;
-      if ($e("#button_copy_description")) return;
+      if (!window.location.href.includes('youtube.com/watch')) return;
+      if ($e('#button_copy_description')) return;
 
-      const containerDescription = $e(
-        "#bottom-row.style-scope.ytd-watch-metadata",
-      );
+      const containerDescription = $e('#bottom-row.style-scope.ytd-watch-metadata');
       if (!containerDescription) return;
 
       const buttomHTML = `
@@ -5543,28 +5278,28 @@
         </div>
       `;
 
-      containerDescription.insertAdjacentHTML("beforebegin", buttomHTML);
+      containerDescription.insertAdjacentHTML('beforebegin', buttomHTML);
 
-      $id("copy-description").addEventListener("click", () => {
+      $id('copy-description').addEventListener('click', () => {
         const ldJson = [...$m('script[type="application/ld+json"]')];
         for (let script of ldJson) {
           try {
             const data = JSON.parse(script.innerText);
-            if (data["@type"] === "VideoObject") {
+            if (data['@type'] === 'VideoObject') {
               const description =
-                `📅 Date published: ${data.uploadDate || "No disponible"}\n` +
-                `Author: ${data.author || "No disponible"}\n` +
-                `🎬 Name video: ${data.name || "No disponible"}\n` +
-                `🖼️ Thumbnail: ${Array.isArray(data.thumbnailUrl) ? data.thumbnailUrl.join(", ") : data.thumbnailUrl || "No disponible"}\n` +
-                `📝 Description: ${data.description || "No disponible"}\n\n\n` +
-                `🎭 Category: ${data.genre || "No disponible"}\n`;
+                `📅 Date published: ${data.uploadDate || 'No disponible'}\n` +
+                `Author: ${data.author || 'No disponible'}\n` +
+                `🎬 Name video: ${data.name || 'No disponible'}\n` +
+                `🖼️ Thumbnail: ${Array.isArray(data.thumbnailUrl) ? data.thumbnailUrl.join(', ') : data.thumbnailUrl || 'No disponible'}\n` +
+                `📝 Description: ${data.description || 'No disponible'}\n\n\n` +
+                `🎭 Category: ${data.genre || 'No disponible'}\n`;
 
               navigator.clipboard.writeText(description);
             }
           } catch (e) {
-            Notify("error", "Error parsing JSON-LD");
+            Notify('error', 'Error parsing JSON-LD');
           } finally {
-            Notify("success", "Description copied");
+            Notify('success', 'Description copied');
           }
         }
       });
@@ -5572,20 +5307,22 @@
 
     downloadDescriptionVideo();
 
+
     async function traductor() {
-      const texto = $m("#content-text");
-      if ($e(".buttons-tranlate")) return;
+      const texto = $m('#content-text');
+      if ($e('.buttons-tranlate')) return;
 
       const languages = languagesTranslate;
-      const idiomaDestino = $id("select-languages-comments-select").value;
+      const idiomaDestino = $id('select-languages-comments-select').value;
 
       for (let i = 0; i < texto.length; i++) {
+
         const optionsHTML = Object.entries(languages)
           .map(([code, name]) => {
-            const selected = code === idiomaDestino ? "selected" : "";
+            const selected = code === idiomaDestino ? 'selected' : '';
             return `<option value="${code}" ${selected}>${name}</option>`;
           })
-          .join("");
+          .join('');
 
         const controlsHTML = `
           <div class="traductor-container" data-index="${i}">
@@ -5596,233 +5333,204 @@
           </div>
         `;
 
-        texto[i].insertAdjacentHTML("afterend", controlsHTML);
+        texto[i].insertAdjacentHTML('afterend', controlsHTML);
       }
 
-      const botones = $m(".buttons-tranlate");
-      const selects = $m(".select-traductor");
+      const botones = $m('.buttons-tranlate');
+      const selects = $m('.select-traductor');
 
       botones.forEach((boton, i) => {
-        boton.addEventListener("click", () => {
+        boton.addEventListener('click', () => {
           const selectedLang = selects[i].value;
-          const urlLista =
-            `?client=dict-chrome-ex&sl=auto&tl=${selectedLang}&q=` +
-            texto[i].textContent;
+          const urlLista = `?client=dict-chrome-ex&sl=auto&tl=${selectedLang}&q=` + texto[i].textContent;
 
           fetch(apiGoogleTranslate + urlLista)
             .then((response) => response.json())
             .then((datos) => {
               texto[i].textContent = datos[0][0];
-              botones[i].textContent = "Translated";
+              botones[i].textContent = 'Translated';
             })
             .catch((err) => {
-              console.error("Error en la traducción:", err);
+              console.error('Error en la traducción:', err);
             });
         });
       });
     }
 
+
+
     function limpiarHTML(selector) {
       $m(selector).forEach((button) => button.remove());
     }
 
-    function checkScroll() {
-      const avatars = $m(
-        "#author-thumbnail-button #img.style-scope.yt-img-shadow",
-      );
+    function checkScroll () {
+      const avatars = $m('#author-thumbnail-button #img.style-scope.yt-img-shadow');
 
       if (avatars.length > 0 && settings.avatars) {
-        limpiarHTML(".yt-image-avatar-download");
+        limpiarHTML('.yt-image-avatar-download');
         agregarBotonesDescarga();
       }
 
-      const divEl = $e("#content-text");
-      const divEl2 = $e(
-        "ytd-item-section-renderer[static-comments-header] #contents",
-      );
+      const divEl = $e('#content-text');
+      const divEl2 = $e('ytd-item-section-renderer[static-comments-header] #contents');
 
       if (settings.translation) {
         if (divEl !== undefined || divEl2 !== undefined) {
-          limpiarHTML(".buttons-tranlate");
-          limpiarHTML(".select-traductor");
+          limpiarHTML('.buttons-tranlate');
+          limpiarHTML('.select-traductor');
           traductor();
         }
       }
+
     }
 
     window.onscroll = () => {
       checkScroll();
-    };
-
-    const contentScrollable = $e(
-      ".anchored-panel.style-scope.ytd-shorts #contents.style-scope.ytd-item-section-renderer.style-scope.ytd-item-section-renderer",
-    );
-    if (contentScrollable) {
-      const observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              contentScrollable.addEventListener("scroll", () => {
-                checkScroll();
-              });
-            }
-          });
-        },
-        { threshold: 0.1 },
-      );
-
-      observer.observe(contentScrollable);
     }
 
+
+  const contentScrollable = $e('.anchored-panel.style-scope.ytd-shorts #contents.style-scope.ytd-item-section-renderer.style-scope.ytd-item-section-renderer');
+  if (contentScrollable) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          contentScrollable.addEventListener('scroll', () => {
+            checkScroll();
+          });
+        }
+      });
+    }, { threshold: 0.1 });
+
+    observer.observe(contentScrollable);
+  }
+
     function agregarBotonesDescarga() {
-      const avatars = $m(
-        "#author-thumbnail-button #img.style-scope.yt-img-shadow",
-      );
+      const avatars = $m('#author-thumbnail-button #img.style-scope.yt-img-shadow');
+
 
       avatars.forEach((img) => {
-        if (img.parentElement.querySelector(".yt-image-avatar-download"))
-          return;
 
-        const button = $cl("button");
+        if (img.parentElement.querySelector('.yt-image-avatar-download')) return;
+
+        const button = $cl('button');
         button.innerHTML = '<i class="fa fa-download"></i>';
-        button.classList.add("yt-image-avatar-download");
+        button.classList.add('yt-image-avatar-download');
 
         button.onclick = async function () {
           try {
-            const imageUrl = img.src.split("=")[0];
+            const imageUrl = img.src.split('=')[0];
             const response = await fetch(imageUrl);
             const blob = await response.blob();
             const blobUrl = URL.createObjectURL(blob);
 
-            const parentComment = img.closest(
-              "ytd-comment-thread-renderer, ytd-comment-renderer",
-            );
-            const nameElement = parentComment?.querySelector("#author-text");
-            let authorName = nameElement
-              ? nameElement.textContent.trim()
-              : "avatar";
-            authorName = authorName.replace(/[\/\\:*?"<>|]/g, "");
+            const parentComment = img.closest('ytd-comment-thread-renderer, ytd-comment-renderer');
+            const nameElement = parentComment?.querySelector('#author-text');
+            let authorName = nameElement ? nameElement.textContent.trim() : 'avatar';
+            authorName = authorName.replace(/[\/\\:*?"<>|]/g, '');
 
-            const link = $cl("a");
+            const link = $cl('a');
             link.href = blobUrl;
-            link.download = `${authorName}_avatar.jpg` || "avatar.jpg";
+            link.download = `${authorName}_avatar.jpg` || 'avatar.jpg';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
             URL.revokeObjectURL(blobUrl);
           } catch (error) {
-            console.error("Error al descargar la imagen:", error);
+            console.error('Error al descargar la imagen:', error);
           }
         };
 
-        img.parentElement.style.position = "relative";
+        img.parentElement.style.position = 'relative';
         img.parentElement.appendChild(button);
       });
     }
 
     const redirectToClassic = () => {
-      const videoId = window.location.pathname.split("/").pop();
+      const videoId = window.location.pathname.split('/').pop();
       const classicUrl = `https://www.youtube.com/watch?v=${videoId}`;
-      window.open(classicUrl, "_blank");
-      $e("video.video-stream.html5-main-video").pause();
+      window.open(classicUrl, '_blank');
+      $e('video.video-stream.html5-main-video').pause();
     };
 
     // Update the Shorts "views" button label (same bar as Classic). Call with viewCount from API/cache.
     function updateShortsViewsButton(videoId, viewCount) {
-      const bar = $e("reel-action-bar-view-model");
+      const bar = $e('reel-action-bar-view-model');
       if (!bar) return;
-      const viewsWrap = bar.querySelector("[data-yt-tools-shorts-views]");
+      const viewsWrap = bar.querySelector('[data-yt-tools-shorts-views]');
       if (!viewsWrap) return;
-      const labelSpan = viewsWrap.querySelector(
-        '.yt-spec-button-shape-with-label__label span, [role="text"]',
-      );
+      const labelSpan = viewsWrap.querySelector('.yt-spec-button-shape-with-label__label span, [role="text"]');
       if (!labelSpan) return;
-      labelSpan.textContent =
-        Number.isFinite(viewCount) && viewCount >= 0
-          ? FormatterNumber(viewCount, 0)
-          : "—";
+      labelSpan.textContent = Number.isFinite(viewCount) && viewCount >= 0 ? FormatterNumber(viewCount, 0) : '—';
     }
 
     // Update the Shorts "rating" button label (rating 0–5 from API/cache, shown as e.g. "4.9").
     function updateShortsRatingButton(videoId, rating) {
-      const bar = $e("reel-action-bar-view-model");
+      const bar = $e('reel-action-bar-view-model');
       if (!bar) return;
-      const ratingWrap = bar.querySelector("[data-yt-tools-shorts-rating]");
+      const ratingWrap = bar.querySelector('[data-yt-tools-shorts-rating]');
       if (!ratingWrap) return;
-      const labelSpan = ratingWrap.querySelector(
-        '.yt-spec-button-shape-with-label__label span, [role="text"]',
-      );
+      const labelSpan = ratingWrap.querySelector('.yt-spec-button-shape-with-label__label span, [role="text"]');
       if (!labelSpan) return;
-      labelSpan.textContent =
-        Number.isFinite(rating) && rating >= 0 && rating <= 5
-          ? rating.toFixed(1)
-          : "—";
+      labelSpan.textContent = (Number.isFinite(rating) && rating >= 0 && rating <= 5) ? rating.toFixed(1) : '—';
     }
 
     // Build one YT-style button for the reel action bar (same structure as like/dislike/comments).
     function createReelBarButton(opts) {
-      const wrap = document.createElement("div");
-      wrap.className = "button-view-model ytSpecButtonViewModelHost";
-      if (opts.dataAttr) wrap.setAttribute(opts.dataAttr, "1");
+      const wrap = document.createElement('div');
+      wrap.className = 'button-view-model ytSpecButtonViewModelHost';
+      if (opts.dataAttr) wrap.setAttribute(opts.dataAttr, '1');
       wrap.innerHTML = `
         <label class="yt-spec-button-shape-with-label">
-          <button type="button" class="yt-spec-button-shape-next yt-spec-button-shape-next--tonal yt-spec-button-shape-next--mono yt-spec-button-shape-next--size-l yt-spec-button-shape-next--icon-button yt-spec-button-shape-next--enable-backdrop-filter-experiment yt-spec-button-shape-next--enable-drop-shadow-experiment" title="${opts.title || ""}" aria-label="${opts.ariaLabel || ""}">
+          <button type="button" class="yt-spec-button-shape-next yt-spec-button-shape-next--tonal yt-spec-button-shape-next--mono yt-spec-button-shape-next--size-l yt-spec-button-shape-next--icon-button yt-spec-button-shape-next--enable-backdrop-filter-experiment yt-spec-button-shape-next--enable-drop-shadow-experiment" title="${opts.title || ''}" aria-label="${opts.ariaLabel || ''}">
             <div class="yt-spec-button-shape-next__icon" aria-hidden="true">
-              <span class="yt-icon-shape ytSpecIconShapeHost">${opts.iconSvg || ""}</span>
+              <span class="yt-icon-shape ytSpecIconShapeHost">${opts.iconSvg || ''}</span>
             </div>
           </button>
           <div class="yt-spec-button-shape-with-label__label" aria-hidden="false">
-            <span class="yt-core-attributed-string yt-core-attributed-string--white-space-pre-wrap yt-core-attributed-string--text-alignment-center yt-core-attributed-string--word-wrapping" role="text">${opts.labelText || ""}</span>
+            <span class="yt-core-attributed-string yt-core-attributed-string--white-space-pre-wrap yt-core-attributed-string--text-alignment-center yt-core-attributed-string--word-wrapping" role="text">${opts.labelText || ''}</span>
           </div>
         </label>
       `;
-      const btn = wrap.querySelector("button");
-      if (opts.onclick) btn.addEventListener("click", opts.onclick);
+      const btn = wrap.querySelector('button');
+      if (opts.onclick) btn.addEventListener('click', opts.onclick);
       return wrap;
     }
 
-    const eyeIconSvg =
-      '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-eye"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" /><path d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6" /></svg>';
-    const classicIconSvg =
-      '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-device-tv"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 9a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2l0 -9" /><path d="M16 3l-4 4l-4 -4" /></svg>';
-    const starIconSvg =
-      '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>';
+    const eyeIconSvg = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-eye"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" /><path d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6" /></svg>';
+    const classicIconSvg = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-device-tv"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 9a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2l0 -9" /><path d="M16 3l-4 4l-4 -4" /></svg>';
+    const starIconSvg = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>';
 
     function insertReelBarButtons() {
-      const isShortsPage = document.location.pathname.startsWith("/shorts");
-      const bar = $e("reel-action-bar-view-model");
+      const isShortsPage = document.location.pathname.startsWith('/shorts');
+      const bar = $e('reel-action-bar-view-model');
       if (!isShortsPage || !bar) {
-        document
-          .querySelectorAll(
-            "[data-yt-tools-shorts-classic], [data-yt-tools-shorts-views], [data-yt-tools-shorts-rating]",
-          )
-          .forEach((el) => el.remove());
+        document.querySelectorAll('[data-yt-tools-shorts-classic], [data-yt-tools-shorts-views], [data-yt-tools-shorts-rating]').forEach(el => el.remove());
         return;
       }
-      if (bar.querySelector("[data-yt-tools-shorts-classic]")) return;
+      if (bar.querySelector('[data-yt-tools-shorts-classic]')) return;
 
       const classicBtn = createReelBarButton({
-        dataAttr: "data-yt-tools-shorts-classic",
-        title: "Classic mode",
-        ariaLabel: "Classic mode",
+        dataAttr: 'data-yt-tools-shorts-classic',
+        title: 'Classic mode',
+        ariaLabel: 'Classic mode',
         iconSvg: classicIconSvg,
-        labelText: "Clásico",
+        labelText: 'Clásico',
         onclick: redirectToClassic,
       });
       const viewsBtn = createReelBarButton({
-        dataAttr: "data-yt-tools-shorts-views",
-        title: "Vistas",
-        ariaLabel: "Vistas",
+        dataAttr: 'data-yt-tools-shorts-views',
+        title: 'Vistas',
+        ariaLabel: 'Vistas',
         iconSvg: eyeIconSvg,
-        labelText: "—",
+        labelText: '—',
         onclick: function () {},
       });
       const ratingBtn = createReelBarButton({
-        dataAttr: "data-yt-tools-shorts-rating",
-        title: "Rating (likes/dislikes)",
-        ariaLabel: "Rating",
+        dataAttr: 'data-yt-tools-shorts-rating',
+        title: 'Rating (likes/dislikes)',
+        ariaLabel: 'Rating',
         iconSvg: starIconSvg,
-        labelText: "—",
+        labelText: '—',
         onclick: function () {},
       });
 
@@ -5830,13 +5538,11 @@
       bar.insertBefore(viewsBtn, bar.firstChild);
       bar.insertBefore(classicBtn, bar.firstChild);
 
-      const videoId = document.location.pathname.split("/").filter(Boolean)[1];
+      const videoId = (document.location.pathname.split('/').filter(Boolean))[1];
       if (videoId) {
         const persisted = getLikesDislikesFromPersistedCache(videoId);
-        if (persisted && persisted.viewCount != null)
-          updateShortsViewsButton(videoId, persisted.viewCount);
-        if (persisted && persisted.rating != null)
-          updateShortsRatingButton(videoId, persisted.rating);
+        if (persisted && persisted.viewCount != null) updateShortsViewsButton(videoId, persisted.viewCount);
+        if (persisted && persisted.rating != null) updateShortsRatingButton(videoId, persisted.rating);
       }
       __ytToolsRuntime.updateShortsViewsButton = updateShortsViewsButton;
       __ytToolsRuntime.updateShortsRatingButton = updateShortsRatingButton;
@@ -5846,53 +5552,51 @@
       insertReelBarButtons();
     };
 
-    const observeDOM = () => {
+  const observeDOM = () => {
       if (__ytToolsRuntime.shortsObserver) return;
       const observer = new MutationObserver(() => {
-        insertButtons();
-        addIcon();
-        // obs.disconnect();
+          insertButtons();
+          addIcon();
+          // obs.disconnect();
       });
       observer.observe(document.body, {
-        childList: true,
-        subtree: true,
+          childList: true,
+          subtree: true
       });
       __ytToolsRuntime.shortsObserver = observer;
-    };
+  };
 
     if (!__ytToolsRuntime.shortsObserver) {
       insertButtons();
       observeDOM();
     }
 
-    const targetNode = $e("body");
+
+    const targetNode = $e('body');
 
     if (targetNode != undefined) {
-      const element = $e(
-        "ytd-item-section-renderer[static-comments-header] #contents",
-      );
-      if (element != undefined && settings.theme !== "custom") {
+      const element = $e('ytd-item-section-renderer[static-comments-header] #contents');
+      if(element != undefined && settings.theme !== 'custom') {
         const observerElementDom = (elem) => {
-          const observer = new IntersectionObserver((entries) => {
-            if (entries[0].isIntersecting) {
-              element.style.background = `${selectedTheme.gradient ?? ""}`;
-            } else {
-              return;
-            }
-          });
+          const observer = new IntersectionObserver(entries => {
 
-          return observer.observe($e(`${elem}`));
-        };
-        observerElementDom(
-          "ytd-item-section-renderer[static-comments-header] #contents",
-        );
+              if(entries[0].isIntersecting) {
+
+                element.style.background = `${selectedTheme.gradient ?? ''}`;
+              } else {return}
+          })
+
+          return observer.observe($e(`${elem}`))
+
+        }
+        observerElementDom('ytd-item-section-renderer[static-comments-header] #contents')
       }
     }
 
     // Stats
 
     function formatTime(seconds) {
-      if (isNaN(seconds)) return "0h 0m 0s";
+      if (isNaN(seconds)) return '0h 0m 0s';
       seconds = Math.floor(seconds);
       const h = Math.floor(seconds / 3600);
       const m = Math.floor((seconds % 3600) / 60);
@@ -5900,66 +5604,65 @@
       return `${h}h ${m}m ${s}s`;
     }
 
-    function updateUI() {
-      $id("total-time").textContent = formatTime(usageTime);
-      $id("video-time").textContent = formatTime(videoTime);
-      $id("shorts-time").textContent = formatTime(shortsTime);
+  function updateUI() {
+      $id('total-time').textContent = formatTime(usageTime);
+      $id('video-time').textContent = formatTime(videoTime);
+      $id('shorts-time').textContent = formatTime(shortsTime);
 
       const maxTime = 86400; // 24 hours
-      $id("usage-bar").style.width = `${(usageTime / maxTime) * 100}%`;
-      $id("video-bar").style.width = `${(videoTime / maxTime) * 100}%`;
-      $id("shorts-bar").style.width = `${(shortsTime / maxTime) * 100}%`;
-    }
+      $id('usage-bar').style.width =
+          `${(usageTime / maxTime) * 100}%`;
+      $id('video-bar').style.width =
+          `${(videoTime / maxTime) * 100}%`;
+      $id('shorts-bar').style.width =
+          `${(shortsTime / maxTime) * 100}%`;
+  }
 
-    function detectContentType(videoElement) {
-      if (/\/shorts\//.test(window.location.pathname)) return "shorts";
+  function detectContentType(videoElement) {
+      if (/\/shorts\//.test(window.location.pathname)) return 'shorts';
 
       let parent = videoElement;
       while ((parent = parent.parentElement) !== null) {
-        if (
-          parent.classList.contains("shorts-container") ||
-          parent.classList.contains("reel-video") ||
-          parent.tagName === "YTD-REEL-VIDEO-RENDERER"
-        ) {
-          return "shorts";
-        }
+          if (parent.classList.contains('shorts-container') ||
+              parent.classList.contains('reel-video') ||
+              parent.tagName === 'YTD-REEL-VIDEO-RENDERER') {
+              return 'shorts';
+          }
       }
 
-      if (
-        videoElement.closest("ytd-watch-flexy") ||
-        videoElement.closest("#primary-inner")
-      ) {
-        return "video";
+
+      if (videoElement.closest('ytd-watch-flexy') ||
+          videoElement.closest('#primary-inner')) {
+          return 'video';
       }
-      if (
-        videoElement.closest("ytd-thumbnail") ||
-        videoElement.closest("ytd-rich-item-renderer")
-      ) {
-        return "video";
+      if (videoElement.closest('ytd-thumbnail') ||
+          videoElement.closest('ytd-rich-item-renderer')) {
+          return 'video';
       }
 
       return null;
     }
 
     function findActiveVideo() {
-      const videos = $m("video");
-      for (const video of videos) {
-        if (!video.paused && !video.ended && video.readyState > 2) {
-          return video;
+        const videos = $m('video');
+        for (const video of videos) {
+            if (!video.paused && !video.ended && video.readyState > 2) {
+                return video;
+            }
         }
-      }
-      return null;
+        return null;
     }
 
-    function cleanup(fullCleanup = false) {
+
+   function cleanup(fullCleanup = false) {
       if (fullCleanup && animationId) {
         cancelAnimationFrame(animationId);
         animationId = null;
       }
       if (currentVideo) {
-        currentVideo.removeEventListener("play", showCanvas);
-        currentVideo.removeEventListener("pause", hideCanvas);
-        currentVideo.removeEventListener("ended", hideCanvas);
+        currentVideo.removeEventListener('play', showCanvas);
+        currentVideo.removeEventListener('pause', hideCanvas);
+        currentVideo.removeEventListener('ended', hideCanvas);
       }
       if (fullCleanup) {
         if (canvas && canvas.parentNode) {
@@ -5972,15 +5675,11 @@
           controlPanel = null;
         }
         if (source) {
-          try {
-            source.disconnect();
-          } catch (err) {}
+          try { source.disconnect(); } catch (err) {}
           source = null;
         }
         if (audioCtx) {
-          try {
-            audioCtx.close();
-          } catch (err) {}
+          try { audioCtx.close(); } catch (err) {}
           audioCtx = null;
         }
         if (currentVideo && currentVideo[PROCESSED_FLAG]) {
@@ -5989,46 +5688,53 @@
         currentVideo = null;
         isSetup = false;
       } else {
-        if (canvas) canvas.style.opacity = "0";
-        if (controlPanel) controlPanel.style.opacity = "0";
+        if (canvas) canvas.style.opacity = '0';
+        if (controlPanel) controlPanel.style.opacity = '0';
       }
-    }
+  }
+
+
 
     function createCanvasOverlay() {
-      if (canvas) return;
-      const parent = document.body;
-      canvas = document.createElement("canvas");
-      canvas.id = "wave-visualizer-canvas";
-      canvas.width = window.innerWidth;
-      canvas.height = canvasHeight;
-      canvas.style.position = "fixed";
-      canvas.style.left = "0";
-      canvas.style.top = "0";
-      canvas.style.width = "100%";
-      canvas.style.pointerEvents = "none";
-      canvas.style.backgroundColor = "transparent";
-      canvas.style.zIndex = "10000";
-      canvas.style.opacity = "0";
-      canvas.style.transition = "opacity 0.3s";
+        if (canvas) return;
+        const parent = document.body;
+        canvas = document.createElement('canvas');
+        canvas.id = 'wave-visualizer-canvas';
+        canvas.width = window.innerWidth;
+        canvas.height = canvasHeight;
+        canvas.style.position = 'fixed';
+        canvas.style.left = '0';
+        canvas.style.top = '0';
+        canvas.style.width = '100%';
+        canvas.style.pointerEvents = 'none';
+        canvas.style.backgroundColor = 'transparent';
+        canvas.style.zIndex = '10000';
+        canvas.style.opacity = '0';
+        canvas.style.transition = 'opacity 0.3s';
 
-      parent.appendChild(canvas);
-      ctx = canvas.getContext("2d");
+        parent.appendChild(canvas);
+        ctx = canvas.getContext('2d');
     }
+
 
     function createControlPanelWave() {
       if (controlPanel) return;
 
-      controlPanel = $cl("div");
-      controlPanel.id = "wave-visualizer-control";
-      const selectAppend = $id("select-wave-visualizer-select");
+      controlPanel = $cl('div');
+      controlPanel.id = 'wave-visualizer-control';
+      const selectAppend = $id('select-wave-visualizer-select');
       waveStyle = settings.waveVisualizerSelected;
 
-      selectAppend.addEventListener("change", (e) => {
-        waveStyle = e.target.value;
-        selectAppend.value = e.target.value;
-        saveSettings();
+      selectAppend.addEventListener('change', (e) => {
+          waveStyle = e.target.value;
+          selectAppend.value = e.target.value;
+          saveSettings();
       });
-    }
+
+  }
+
+
+
 
     // setting Audio y Analyser
     function setupAudioAnalyzer(video) {
@@ -6040,9 +5746,7 @@
       createControlPanelWave();
 
       if (audioCtx) {
-        try {
-          audioCtx.close();
-        } catch (e) {}
+        try { audioCtx.close(); } catch (e) {}
         audioCtx = null;
       }
       const AudioContext = window.AudioContext || window.webkitAudioContext;
@@ -6060,18 +5764,18 @@
         source.connect(analyser);
         analyser.connect(audioCtx.destination);
       } catch (e) {
-        Notify("error", "MediaElementSource or error:", e);
+        Notify('error', "MediaElementSource or error:", e);
         cleanup(true);
         return;
       }
 
-      video.removeEventListener("play", showCanvas);
-      video.removeEventListener("pause", hideCanvas);
-      video.removeEventListener("ended", hideCanvas);
+      video.removeEventListener('play', showCanvas);
+      video.removeEventListener('pause', hideCanvas);
+      video.removeEventListener('ended', hideCanvas);
 
-      video.addEventListener("play", showCanvas);
-      video.addEventListener("pause", hideCanvas);
-      video.addEventListener("ended", hideCanvas);
+      video.addEventListener('play', showCanvas);
+      video.addEventListener('pause', hideCanvas);
+      video.addEventListener('ended', hideCanvas);
 
       const updateCanvasSize = () => {
         if (canvas) {
@@ -6080,170 +5784,174 @@
         }
       };
 
-      window.removeEventListener("resize", updateCanvasSize);
-      window.addEventListener("resize", updateCanvasSize);
+      window.removeEventListener('resize', updateCanvasSize);
+      window.addEventListener('resize', updateCanvasSize);
 
       draw();
       isSetup = true;
     }
-    function draw() {
-      animationId = requestAnimationFrame(draw);
+      function draw() {
+          animationId = requestAnimationFrame(draw);
 
-      if (parseFloat(canvas.style.opacity) <= 0) return;
+          if (parseFloat(canvas.style.opacity) <= 0) return;
 
-      analyser.getByteTimeDomainData(dataArray);
-      for (let i = 0; i < bufferLength; i++) {
-        smoothedData[i] += smoothingFactor * (dataArray[i] - smoothedData[i]);
+          analyser.getByteTimeDomainData(dataArray);
+          for (let i = 0; i < bufferLength; i++) {
+              smoothedData[i] += smoothingFactor * (dataArray[i] - smoothedData[i]);
+          }
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+          let sliceWidth = canvas.width / bufferLength;
+
+          switch(waveStyle) {
+
+          case 'linea': {
+              ctx.lineWidth = 2;
+              ctx.strokeStyle = 'lime';
+              ctx.beginPath();
+              let x = 0;
+              for (let i = 0; i < bufferLength; i++) {
+                  let amplitude = Math.max(0, smoothedData[i] - 128) * scale;
+                  if (i === 0) ctx.moveTo(x, amplitude);
+                  else ctx.lineTo(x, amplitude);
+                  x += sliceWidth;
+              }
+              ctx.stroke();
+              break;
+          }
+          case 'barras': {
+              let x = 0;
+              for (let i = 0; i < bufferLength; i += 5) {
+                  let amplitude = Math.max(0, smoothedData[i] - 128) * scale;
+                  ctx.fillStyle = 'cyan';
+                  ctx.fillRect(x, 0, sliceWidth * 4, amplitude);
+                  x += sliceWidth * 5;
+              }
+              break;
+          }
+          case 'curva': {
+              ctx.lineWidth = 2;
+              ctx.strokeStyle = 'yellow';
+              ctx.beginPath();
+              ctx.moveTo(0, Math.max(0, smoothedData[0] - 128) * scale);
+              for (let i = 0; i < bufferLength - 1; i++) {
+                  let x0 = i * sliceWidth;
+                  let x1 = (i + 1) * sliceWidth;
+                  let y0 = Math.max(0, smoothedData[i] - 128) * scale;
+                  let y1 = Math.max(0, smoothedData[i + 1] - 128) * scale;
+                  let cp1x = x0 + sliceWidth / 3;
+                  let cp1y = y0;
+                  let cp2x = x1 - sliceWidth / 3;
+                  let cp2y = y1;
+                  ctx.bezierCurveTo(cp1x, cp1y, cp2x, cp2y, x1, y1);
+              }
+              ctx.stroke();
+              break;
+          }
+          case 'picos': {
+              ctx.fillStyle = 'magenta';
+              let x = 0;
+              for (let i = 0; i < bufferLength; i += 5) {
+                  let amplitude = Math.max(0, smoothedData[i] - 128) * scale;
+                  ctx.beginPath();
+                  ctx.arc(x, amplitude, 2, 0, Math.PI * 2);
+                  ctx.fill();
+                  x += sliceWidth * 5;
+              }
+              break;
+          }
+          case 'solida': {
+              ctx.beginPath();
+              let x = 0;
+              ctx.moveTo(0, 0);
+              for (let i = 0; i < bufferLength; i++) {
+                  let amplitude = Math.max(0, smoothedData[i] - 128) * scale;
+                  ctx.lineTo(x, amplitude);
+                  x += sliceWidth;
+              }
+              ctx.lineTo(canvas.width, 0);
+              ctx.closePath();
+              ctx.fillStyle = 'rgba(0,255,0,0.3)';
+              ctx.fill();
+              break;
+          }
+          case 'dinamica': {
+              let gradient = ctx.createLinearGradient(0, 0, canvas.width, 0);
+              gradient.addColorStop(0, 'red');
+              gradient.addColorStop(0.5, 'purple');
+              gradient.addColorStop(1, 'blue');
+              ctx.lineWidth = 3;
+              ctx.strokeStyle = gradient;
+              ctx.beginPath();
+              let x = 0;
+              for (let i = 0; i < bufferLength; i++) {
+                  let amplitude = Math.max(0, smoothedData[i] - 128) * scale;
+                  if (i === 0) ctx.moveTo(x, amplitude);
+                  else ctx.lineTo(x, amplitude);
+                  x += sliceWidth;
+              }
+              ctx.stroke();
+              break;
+          }
+          case 'montana': {
+              ctx.beginPath();
+              let x = 0;
+              ctx.moveTo(0, 0);
+              for (let i = 0; i < bufferLength; i++) {
+                  let amp = (smoothedData[i] - 128) * scale * 0.8;
+                  ctx.lineTo(x, amp);
+                  x += sliceWidth;
+              }
+              ctx.lineTo(canvas.width, 0);
+              ctx.closePath();
+              ctx.fillStyle = 'rgba(128,128,255,0.4)';
+              ctx.fill();
+              break;
+          }
+
+          default:
+              break;
+          }
       }
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-      let sliceWidth = canvas.width / bufferLength;
 
-      switch (waveStyle) {
-        case "linea": {
-          ctx.lineWidth = 2;
-          ctx.strokeStyle = "lime";
-          ctx.beginPath();
-          let x = 0;
-          for (let i = 0; i < bufferLength; i++) {
-            let amplitude = Math.max(0, smoothedData[i] - 128) * scale;
-            if (i === 0) ctx.moveTo(x, amplitude);
-            else ctx.lineTo(x, amplitude);
-            x += sliceWidth;
-          }
-          ctx.stroke();
-          break;
-        }
-        case "barras": {
-          let x = 0;
-          for (let i = 0; i < bufferLength; i += 5) {
-            let amplitude = Math.max(0, smoothedData[i] - 128) * scale;
-            ctx.fillStyle = "cyan";
-            ctx.fillRect(x, 0, sliceWidth * 4, amplitude);
-            x += sliceWidth * 5;
-          }
-          break;
-        }
-        case "curva": {
-          ctx.lineWidth = 2;
-          ctx.strokeStyle = "yellow";
-          ctx.beginPath();
-          ctx.moveTo(0, Math.max(0, smoothedData[0] - 128) * scale);
-          for (let i = 0; i < bufferLength - 1; i++) {
-            let x0 = i * sliceWidth;
-            let x1 = (i + 1) * sliceWidth;
-            let y0 = Math.max(0, smoothedData[i] - 128) * scale;
-            let y1 = Math.max(0, smoothedData[i + 1] - 128) * scale;
-            let cp1x = x0 + sliceWidth / 3;
-            let cp1y = y0;
-            let cp2x = x1 - sliceWidth / 3;
-            let cp2y = y1;
-            ctx.bezierCurveTo(cp1x, cp1y, cp2x, cp2y, x1, y1);
-          }
-          ctx.stroke();
-          break;
-        }
-        case "picos": {
-          ctx.fillStyle = "magenta";
-          let x = 0;
-          for (let i = 0; i < bufferLength; i += 5) {
-            let amplitude = Math.max(0, smoothedData[i] - 128) * scale;
-            ctx.beginPath();
-            ctx.arc(x, amplitude, 2, 0, Math.PI * 2);
-            ctx.fill();
-            x += sliceWidth * 5;
-          }
-          break;
-        }
-        case "solida": {
-          ctx.beginPath();
-          let x = 0;
-          ctx.moveTo(0, 0);
-          for (let i = 0; i < bufferLength; i++) {
-            let amplitude = Math.max(0, smoothedData[i] - 128) * scale;
-            ctx.lineTo(x, amplitude);
-            x += sliceWidth;
-          }
-          ctx.lineTo(canvas.width, 0);
-          ctx.closePath();
-          ctx.fillStyle = "rgba(0,255,0,0.3)";
-          ctx.fill();
-          break;
-        }
-        case "dinamica": {
-          let gradient = ctx.createLinearGradient(0, 0, canvas.width, 0);
-          gradient.addColorStop(0, "red");
-          gradient.addColorStop(0.5, "purple");
-          gradient.addColorStop(1, "blue");
-          ctx.lineWidth = 3;
-          ctx.strokeStyle = gradient;
-          ctx.beginPath();
-          let x = 0;
-          for (let i = 0; i < bufferLength; i++) {
-            let amplitude = Math.max(0, smoothedData[i] - 128) * scale;
-            if (i === 0) ctx.moveTo(x, amplitude);
-            else ctx.lineTo(x, amplitude);
-            x += sliceWidth;
-          }
-          ctx.stroke();
-          break;
-        }
-        case "montana": {
-          ctx.beginPath();
-          let x = 0;
-          ctx.moveTo(0, 0);
-          for (let i = 0; i < bufferLength; i++) {
-            let amp = (smoothedData[i] - 128) * scale * 0.8;
-            ctx.lineTo(x, amp);
-            x += sliceWidth;
-          }
-          ctx.lineTo(canvas.width, 0);
-          ctx.closePath();
-          ctx.fillStyle = "rgba(128,128,255,0.4)";
-          ctx.fill();
-          break;
-        }
 
-        default:
-          break;
-      }
-    }
-
-    if (!__ytToolsRuntime.statsObserver) {
-      const observer = new MutationObserver(() => {
+  if (!__ytToolsRuntime.statsObserver) {
+    const observer = new MutationObserver(() => {
         const newVideo = findActiveVideo();
         if (newVideo !== activeVideo) {
-          activeVideo = newVideo;
-          if (activeVideo) {
-            activeType = detectContentType(activeVideo);
-          }
+            activeVideo = newVideo;
+            if (activeVideo) {
+                activeType = detectContentType(activeVideo);
+            }
         }
-      });
-      observer.observe(document.body, {
+    });
+    observer.observe(document.body, {
         childList: true,
         subtree: true,
-        attributes: true,
-      });
-      __ytToolsRuntime.statsObserver = observer;
-    }
+        attributes: true
+    });
+    __ytToolsRuntime.statsObserver = observer;
+  }
 
-    checkForVideo();
+        checkForVideo();
 
-    if (!__ytToolsRuntime.statsIntervalId) {
-      __ytToolsRuntime.statsIntervalId = setInterval(() => {
+  if (!__ytToolsRuntime.statsIntervalId) {
+    __ytToolsRuntime.statsIntervalId = setInterval(() => {
+
         const now = Date.now();
         // checkForVideo();
         const delta = (now - lastUpdate) / 1000;
-        if (document.visibilityState === "visible") {
-          usageTime += delta;
+        if (document.visibilityState === 'visible') {
+            usageTime += delta;
         }
 
         if (activeVideo && !activeVideo.paused) {
-          if (activeType === "video") {
-            videoTime += delta;
-          } else if (activeType === "shorts") {
-            shortsTime += delta;
-          }
+            if (activeType === 'video') {
+                videoTime += delta;
+            } else if (activeType === 'shorts') {
+                shortsTime += delta;
+            }
         }
         lastUpdate = now;
         // save stats
@@ -6251,596 +5959,617 @@
         GM_setValue(STORAGE.VIDEO, videoTime);
         GM_setValue(STORAGE.SHORTS, shortsTime);
         updateUI();
-      }, UPDATE_INTERVAL);
-    }
+    }, UPDATE_INTERVAL);
+  }
 
-    updateUI();
 
-    // end stats
-    if (__ytToolsRuntime.settingsLoaded) {
-      saveSettings();
-    }
+
+
+
+
+  updateUI();
+
+  // end stats
+  if (__ytToolsRuntime.settingsLoaded) {
+    saveSettings();
+  }
+
   }
 
   let validoBotones = true;
   function renderizarButtons() {
-    const addButton = $e(".style-scope .ytd-watch-metadata");
-    const addButton2 = $e("#contents");
+    const addButton = $e('.style-scope .ytd-watch-metadata');
+    const addButton2 = $e('#contents');
 
     if (addButton != undefined && validoBotones) {
-      validoBotones = false;
-      const isVisible = !!(
-        addButton.offsetWidth ||
-        addButton.offsetHeight ||
-        addButton.getClientRects().length
-      );
-      if (isVisible) {
-        addButton.insertAdjacentHTML("beforebegin", menuBotones);
-      } else if (addButton2 != undefined) {
-        addButton.insertAdjacentHTML("beforebegin", menuBotones);
-      }
+        validoBotones = false;
+        const isVisible = !!(
+          addButton.offsetWidth ||
+          addButton.offsetHeight ||
+          addButton.getClientRects().length
+        );
+        if (isVisible) {
+          addButton.insertAdjacentHTML("beforebegin", menuBotones);
+        } else if (addButton2 != undefined) {
+          addButton.insertAdjacentHTML("beforebegin", menuBotones);
+        }
     }
 
-    const formulariodescarga = $e(".formulariodescarga");
-    const formulariodescargaaudio = $e(".formulariodescargaaudio");
-    const btn1mp4 = $e(".btn1");
-    const btn2mp3 = $e(".btn2");
-    const btn3cancel = $e(".btn3");
-    const selectcalidades = $e(".selectcalidades");
-    const selectcalidadesaudio = $e(".selectcalidadesaudio");
+    const formulariodescarga      = $e('.formulariodescarga');
+    const formulariodescargaaudio = $e('.formulariodescargaaudio');
+    const btn1mp4               = $e('.btn1');
+    const btn2mp3               = $e('.btn2');
+    const btn3cancel            = $e('.btn3');
+    const selectcalidades       = $e('.selectcalidades');
+    const selectcalidadesaudio  = $e('.selectcalidadesaudio');
 
-    [formulariodescarga, formulariodescargaaudio].forEach((form) => {
+    [formulariodescarga, formulariodescargaaudio].forEach(form => {
       if (!form) return;
-      if (form.dataset.ytToolsPreventDefault === "1") return;
-      form.addEventListener("click", (e) => e.preventDefault());
-      form.dataset.ytToolsPreventDefault = "1";
+      if (form.dataset.ytToolsPreventDefault === '1') return;
+      form.addEventListener('click', e => e.preventDefault());
+      form.dataset.ytToolsPreventDefault = '1';
     });
 
-    if (selectcalidades && selectcalidades.dataset.ytToolsBound !== "1") {
-      selectcalidades.dataset.ytToolsBound = "1";
-      selectcalidades.addEventListener("change", (e) => {
-        const quality = e.target.value;
-        if (!quality) return; // Don't proceed if no quality selected
+    if (selectcalidades && selectcalidades.dataset.ytToolsBound !== '1') {
+      selectcalidades.dataset.ytToolsBound = '1';
+      selectcalidades.addEventListener('change', e => {
+      const quality = e.target.value;
+      if (!quality) return; // Don't proceed if no quality selected
 
-        const downloadContainer = $id("descargando");
-        const downloadText = downloadContainer.querySelector(".download-text");
-        const downloadQuality =
-          downloadContainer.querySelector(".download-quality");
-        const downloadBtn = downloadContainer.querySelector(".download-btn");
-        const retryBtn = downloadContainer.querySelector(".retry-btn");
-        const progressContainer = downloadContainer.querySelector(
-          ".progress-container",
-        );
+      const downloadContainer = $id('descargando');
+      const downloadText = downloadContainer.querySelector('.download-text');
+      const downloadQuality = downloadContainer.querySelector('.download-quality');
+      const downloadBtn = downloadContainer.querySelector('.download-btn');
+      const retryBtn = downloadContainer.querySelector('.retry-btn');
+      const progressContainer = downloadContainer.querySelector('.progress-container');
 
-        // Update UI
-        downloadContainer.classList.add("video");
-        downloadContainer.classList.remove("ocultarframe");
-        downloadText.textContent = `Download ${quality.toUpperCase()} And Please Wait...`;
-        downloadQuality.textContent = `${quality}p`;
+      // Update UI
+      downloadContainer.classList.add('video');
+      downloadContainer.classList.remove('ocultarframe');
+      downloadText.textContent = `Download ${quality.toUpperCase()} And Please Wait...`;
+      downloadQuality.textContent = `${quality}p`;
 
-        // Show download button, hide progress
-        downloadBtn.style.display = "block";
-        retryBtn.style.display = "none";
-        progressContainer.style.display = "none";
+      // Show download button, hide progress
+      downloadBtn.style.display = 'block';
+      retryBtn.style.display = 'none';
+      progressContainer.style.display = 'none';
 
-        // Store quality for later use
-        downloadContainer.dataset.quality = quality;
-        downloadContainer.dataset.type = "video";
+      // Store quality for later use
+      downloadContainer.dataset.quality = quality;
+      downloadContainer.dataset.type = 'video';
       });
     }
 
-    if (
-      selectcalidadesaudio &&
-      selectcalidadesaudio.dataset.ytToolsBound !== "1"
-    ) {
-      selectcalidadesaudio.dataset.ytToolsBound = "1";
-      selectcalidadesaudio.addEventListener("change", (e) => {
-        const format = e.target.value;
-        if (!format) return; // Don't proceed if no format selected
+    if (selectcalidadesaudio && selectcalidadesaudio.dataset.ytToolsBound !== '1') {
+      selectcalidadesaudio.dataset.ytToolsBound = '1';
+      selectcalidadesaudio.addEventListener('change', e => {
+      const format = e.target.value;
+      if (!format) return; // Don't proceed if no format selected
 
-        const downloadContainer = $id("descargandomp3");
-        const downloadText = downloadContainer.querySelector(".download-text");
-        const downloadQuality =
-          downloadContainer.querySelector(".download-quality");
-        const downloadBtn = downloadContainer.querySelector(".download-btn");
-        const retryBtn = downloadContainer.querySelector(".retry-btn");
-        const progressContainer = downloadContainer.querySelector(
-          ".progress-container",
-        );
+      const downloadContainer = $id('descargandomp3');
+      const downloadText = downloadContainer.querySelector('.download-text');
+      const downloadQuality = downloadContainer.querySelector('.download-quality');
+      const downloadBtn = downloadContainer.querySelector('.download-btn');
+      const retryBtn = downloadContainer.querySelector('.retry-btn');
+      const progressContainer = downloadContainer.querySelector('.progress-container');
 
-        // Update UI
-        downloadContainer.classList.add("audio");
-        downloadContainer.classList.remove("ocultarframeaudio");
-        downloadText.textContent = `Download ${format.toUpperCase()} And Please Wait...`;
-        downloadQuality.textContent = format.toUpperCase();
+      // Update UI
+      downloadContainer.classList.add('audio');
+      downloadContainer.classList.remove('ocultarframeaudio');
+      downloadText.textContent = `Download ${format.toUpperCase()} And Please Wait...`;
+      downloadQuality.textContent = format.toUpperCase();
 
-        // Show download button, hide progress
-        downloadBtn.style.display = "block";
-        retryBtn.style.display = "none";
-        progressContainer.style.display = "none";
+      // Show download button, hide progress
+      downloadBtn.style.display = 'block';
+      retryBtn.style.display = 'none';
+      progressContainer.style.display = 'none';
 
-        // Store format for later use
-        downloadContainer.dataset.quality = format;
-        downloadContainer.dataset.type = "audio";
+      // Store format for later use
+      downloadContainer.dataset.quality = format;
+      downloadContainer.dataset.type = 'audio';
       });
     }
 
-    if (btn3cancel && btn3cancel.dataset.ytToolsBound !== "1") {
-      btn3cancel.dataset.ytToolsBound = "1";
-      btn3cancel.addEventListener("click", () => {
-        // Hide all selects
-        selectcalidades?.classList.add("ocultarframe");
-        selectcalidadesaudio?.classList.add("ocultarframeaudio");
+    if (btn3cancel && btn3cancel.dataset.ytToolsBound !== '1') {
+      btn3cancel.dataset.ytToolsBound = '1';
+      btn3cancel.addEventListener('click', () => {
+      // Hide all selects
+      selectcalidades?.classList.add('ocultarframe');
+      selectcalidadesaudio?.classList.add('ocultarframeaudio');
 
-        // Hide all download containers
-        const videoContainer = $id("descargando");
-        const audioContainer = $id("descargandomp3");
+      // Hide all download containers
+      const videoContainer = $id('descargando');
+      const audioContainer = $id('descargandomp3');
 
-        if (videoContainer) {
-          videoContainer.classList.add("ocultarframe");
-          videoContainer.classList.remove("video", "audio", "completed");
-          videoContainer.removeAttribute("data-quality");
-          videoContainer.removeAttribute("data-type");
-          videoContainer.removeAttribute("data-downloading");
-          videoContainer.removeAttribute("data-url-opened");
-          videoContainer.removeAttribute("data-last-download-url");
-          videoContainer.querySelector?.(".download-again-btn")?.style &&
-            (videoContainer.querySelector(".download-again-btn").style.display =
-              "none");
-        }
+      if (videoContainer) {
+        videoContainer.classList.add('ocultarframe');
+        videoContainer.classList.remove('video', 'audio', 'completed');
+        videoContainer.removeAttribute('data-quality');
+        videoContainer.removeAttribute('data-type');
+        videoContainer.removeAttribute('data-downloading');
+        videoContainer.removeAttribute('data-url-opened');
+        videoContainer.removeAttribute('data-last-download-url');
+        videoContainer.querySelector?.('.download-again-btn')?.style && (videoContainer.querySelector('.download-again-btn').style.display = 'none');
+      }
 
-        if (audioContainer) {
-          audioContainer.classList.add("ocultarframeaudio");
-          audioContainer.classList.remove("video", "audio", "completed");
-          audioContainer.removeAttribute("data-quality");
-          audioContainer.removeAttribute("data-type");
-          audioContainer.removeAttribute("data-downloading");
-          audioContainer.removeAttribute("data-url-opened");
-          audioContainer.removeAttribute("data-last-download-url");
-          audioContainer.querySelector?.(".download-again-btn")?.style &&
-            (audioContainer.querySelector(".download-again-btn").style.display =
-              "none");
-        }
+      if (audioContainer) {
+        audioContainer.classList.add('ocultarframeaudio');
+        audioContainer.classList.remove('video', 'audio', 'completed');
+        audioContainer.removeAttribute('data-quality');
+        audioContainer.removeAttribute('data-type');
+        audioContainer.removeAttribute('data-downloading');
+        audioContainer.removeAttribute('data-url-opened');
+        audioContainer.removeAttribute('data-last-download-url');
+        audioContainer.querySelector?.('.download-again-btn')?.style && (audioContainer.querySelector('.download-again-btn').style.display = 'none');
+      }
 
-        // Hide all forms
-        formulariodescarga?.classList.add("ocultarframe");
-        formulariodescargaaudio?.classList.add("ocultarframe");
+      // Hide all forms
+      formulariodescarga?.classList.add('ocultarframe');
+      formulariodescargaaudio?.classList.add('ocultarframe');
 
-        // Reset forms
-        formulariodescarga?.reset();
-        formulariodescargaaudio?.reset();
+      // Reset forms
+      formulariodescarga?.reset();
+      formulariodescargaaudio?.reset();
       });
     }
 
-    // Add event listeners for download buttons (only once)
-    if (!__ytToolsRuntime.downloadClickHandlerInitialized) {
-      __ytToolsRuntime.downloadClickHandlerInitialized = true;
-      document.addEventListener("click", (e) => {
-        const target = e.target;
-        if (!(target instanceof Element)) return;
+      // Add event listeners for download buttons (only once)
+  if (!__ytToolsRuntime.downloadClickHandlerInitialized) {
+    __ytToolsRuntime.downloadClickHandlerInitialized = true;
+    document.addEventListener('click', (e) => {
+      const target = e.target;
+      if (!(target instanceof Element)) return;
 
-        const clicked =
-          target.closest(".download-btn") ||
-          target.closest(".retry-btn") ||
-          target.closest(".progress-retry-btn") ||
-          target.closest(".download-again-btn");
-        if (!clicked) return;
+      const clicked =
+        target.closest('.download-btn') ||
+        target.closest('.retry-btn') ||
+        target.closest('.progress-retry-btn') ||
+        target.closest('.download-again-btn');
+      if (!clicked) return;
 
-        const container = clicked.closest(".download-container");
-        if (!container) return;
+      const container = clicked.closest('.download-container');
+      if (!container) return;
 
-        const quality = container.dataset.quality;
-        const type = container.dataset.type;
-        // download-again just re-opens the last URL (no restart)
-        if (clicked.classList.contains("download-again-btn")) {
-          const url = container.dataset.lastDownloadUrl;
-          if (url) window.open(url);
-          return;
-        }
-        if (!quality || !type) return;
-
-        if (clicked.classList.contains("progress-retry-btn")) {
-          container.dataset.downloading = "false";
-          container.dataset.urlOpened = "false";
-          container.dataset.lastDownloadUrl = "";
-          container.querySelector?.(".download-again-btn")?.style &&
-            (container.querySelector(".download-again-btn").style.display =
-              "none");
-        }
-        startDownloadVideoOrAudio(quality, container);
-      });
-    }
-
-    if (btn1mp4 && btn1mp4.dataset.ytToolsBound !== "1") {
-      btn1mp4.dataset.ytToolsBound = "1";
-      btn1mp4.addEventListener("click", () => {
-        // Show video select, hide audio select
-        selectcalidades?.classList.remove("ocultarframe");
-        selectcalidadesaudio?.classList.add("ocultarframeaudio");
-
-        // Hide all download containers
-        const videoContainer = $id("descargando");
-        const audioContainer = $id("descargandomp3");
-
-        if (videoContainer) {
-          videoContainer.classList.add("ocultarframe");
-          videoContainer.classList.remove("video", "audio", "completed");
-          videoContainer.removeAttribute("data-quality");
-          videoContainer.removeAttribute("data-type");
-          videoContainer.removeAttribute("data-downloading");
-          videoContainer.removeAttribute("data-url-opened");
-        }
-
-        if (audioContainer) {
-          audioContainer.classList.add("ocultarframeaudio");
-          audioContainer.classList.remove("video", "audio", "completed");
-          audioContainer.removeAttribute("data-quality");
-          audioContainer.removeAttribute("data-type");
-          audioContainer.removeAttribute("data-downloading");
-          audioContainer.removeAttribute("data-url-opened");
-        }
-
-        // Show video form
-        formulariodescarga?.classList.remove("ocultarframe");
-        formulariodescarga.style.display = "";
-        formulariodescargaaudio?.classList.add("ocultarframe");
-
-        // Reset forms
-        formulariodescarga?.reset();
-        formulariodescargaaudio?.reset();
-      });
-    }
-
-    if (btn2mp3 && btn2mp3.dataset.ytToolsBound !== "1") {
-      btn2mp3.dataset.ytToolsBound = "1";
-      btn2mp3.addEventListener("click", () => {
-        // Show audio select, hide video select
-        selectcalidadesaudio?.classList.remove("ocultarframeaudio");
-        selectcalidades?.classList.add("ocultarframe");
-
-        // Hide all download containers
-        const videoContainer = $id("descargando");
-        const audioContainer = $id("descargandomp3");
-
-        if (videoContainer) {
-          videoContainer.classList.add("ocultarframe");
-          videoContainer.classList.remove("video", "audio", "completed");
-          videoContainer.removeAttribute("data-quality");
-          videoContainer.removeAttribute("data-type");
-          videoContainer.removeAttribute("data-downloading");
-          videoContainer.removeAttribute("data-url-opened");
-        }
-
-        if (audioContainer) {
-          audioContainer.classList.add("ocultarframeaudio");
-          audioContainer.classList.remove("video", "audio", "completed");
-          audioContainer.removeAttribute("data-quality");
-          audioContainer.removeAttribute("data-type");
-          audioContainer.removeAttribute("data-downloading");
-          audioContainer.removeAttribute("data-url-opened");
-        }
-
-        // Show audio form
-        formulariodescargaaudio?.classList.remove("ocultarframe");
-        formulariodescargaaudio.style.display = "";
-        formulariodescarga?.classList.add("ocultarframe");
-
-        // Reset forms
-        formulariodescargaaudio?.reset();
-        formulariodescarga?.reset();
-      });
-    }
-    // Invertir contenido
-
-    const btnImagen = $e("#imagen");
-    const formularioButtons = $e("#eyes");
-
-    function initClickEvent() {
-      const bufferVideo = $e(".buffer_video");
-
-      if (!bufferVideo) {
+      const quality = container.dataset.quality;
+      const type = container.dataset.type;
+      // download-again just re-opens the last URL (no restart)
+      if (clicked.classList.contains('download-again-btn')) {
+        const url = container.dataset.lastDownloadUrl;
+        if (url) window.open(url);
         return;
       }
+      if (!quality || !type) return;
 
-      // Evita duplicar el evento
-      if (!bufferVideo.dataset.listenerAdded) {
-        bufferVideo.addEventListener("click", () => {
-          const video = $e("video.video-stream.html5-main-video");
-
-          if (!video) {
-            console.log("No se encontró el video en la página.");
-            return;
-          }
-
-          const event = new MouseEvent("contextmenu", {
-            bubbles: true,
-            cancelable: true,
-          });
-
-          video.dispatchEvent(event);
-
-          setTimeout(() => {
-            const option = $e(
-              "body > div.ytp-popup.ytp-contextmenu > div > div > div:nth-child(7)",
-            );
-            if (option) {
-              option.click();
-            } else {
-              console.log(
-                "Opción no encontrada, intenta aumentar el tiempo de espera.",
-              );
-            }
-          }, 1000);
-        });
-
-        bufferVideo.dataset.listenerAdded = "true";
+      if (clicked.classList.contains('progress-retry-btn')) {
+        container.dataset.downloading = 'false';
+        container.dataset.urlOpened = 'false';
+        container.dataset.lastDownloadUrl = '';
+        container.querySelector?.('.download-again-btn')?.style && (container.querySelector('.download-again-btn').style.display = 'none');
       }
+      startDownloadVideoOrAudio(quality, container);
+    });
+  }
+
+
+
+    if (btn1mp4 && btn1mp4.dataset.ytToolsBound !== '1') {
+      btn1mp4.dataset.ytToolsBound = '1';
+      btn1mp4.addEventListener('click', () => {
+      // Show video select, hide audio select
+      selectcalidades?.classList.remove('ocultarframe');
+      selectcalidadesaudio?.classList.add('ocultarframeaudio');
+
+      // Hide all download containers
+      const videoContainer = $id('descargando');
+      const audioContainer = $id('descargandomp3');
+
+      if (videoContainer) {
+        videoContainer.classList.add('ocultarframe');
+        videoContainer.classList.remove('video', 'audio', 'completed');
+        videoContainer.removeAttribute('data-quality');
+        videoContainer.removeAttribute('data-type');
+        videoContainer.removeAttribute('data-downloading');
+        videoContainer.removeAttribute('data-url-opened');
+      }
+
+      if (audioContainer) {
+        audioContainer.classList.add('ocultarframeaudio');
+        audioContainer.classList.remove('video', 'audio', 'completed');
+        audioContainer.removeAttribute('data-quality');
+        audioContainer.removeAttribute('data-type');
+        audioContainer.removeAttribute('data-downloading');
+        audioContainer.removeAttribute('data-url-opened');
+      }
+
+      // Show video form
+      formulariodescarga?.classList.remove('ocultarframe');
+      formulariodescarga.style.display = '';
+      formulariodescargaaudio?.classList.add('ocultarframe');
+
+      // Reset forms
+      formulariodescarga?.reset();
+      formulariodescargaaudio?.reset();
+      });
     }
 
-    // Run once; renderizarButtons() may run multiple times and we guard with dataset.listenerAdded
-    initClickEvent();
+    if (btn2mp3 && btn2mp3.dataset.ytToolsBound !== '1') {
+      btn2mp3.dataset.ytToolsBound = '1';
+      btn2mp3.addEventListener('click', () => {
+      // Show audio select, hide video select
+      selectcalidadesaudio?.classList.remove('ocultarframeaudio');
+      selectcalidades?.classList.add('ocultarframe');
 
-    // valido modo oscuro y venta de video
-    // Repeat video button
-    let countRepeat = 0; // count
-    const repeat = $e("#repeatvideo"); // Repeat button
-    const imarepeat = $e(".icon-tabler-repeat"); // img repeat
-    const videoFull = $e("#movie_player > div.html5-video-container > video");
-    if (repeat != undefined) {
-      repeat.onclick = () => {
-        if ($e("#cinematics > div") != undefined || videoFull != undefined) {
-          countRepeat += 1;
-          switch (countRepeat) {
-            case 1:
-              document
-                .querySelector(
-                  "#movie_player > div.html5-video-container > video",
-                )
-                ?.setAttribute("loop", "true");
-              imarepeat.innerHTML = `  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-repeat-off" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      // Hide all download containers
+      const videoContainer = $id('descargando');
+      const audioContainer = $id('descargandomp3');
+
+      if (videoContainer) {
+        videoContainer.classList.add('ocultarframe');
+        videoContainer.classList.remove('video', 'audio', 'completed');
+        videoContainer.removeAttribute('data-quality');
+        videoContainer.removeAttribute('data-type');
+        videoContainer.removeAttribute('data-downloading');
+        videoContainer.removeAttribute('data-url-opened');
+      }
+
+      if (audioContainer) {
+        audioContainer.classList.add('ocultarframeaudio');
+        audioContainer.classList.remove('video', 'audio', 'completed');
+        audioContainer.removeAttribute('data-quality');
+        audioContainer.removeAttribute('data-type');
+        audioContainer.removeAttribute('data-downloading');
+        audioContainer.removeAttribute('data-url-opened');
+      }
+
+      // Show audio form
+      formulariodescargaaudio?.classList.remove('ocultarframe');
+      formulariodescargaaudio.style.display = '';
+      formulariodescarga?.classList.add('ocultarframe');
+
+      // Reset forms
+      formulariodescargaaudio?.reset();
+      formulariodescarga?.reset();
+      });
+    }
+      // Invertir contenido
+
+
+
+
+      const btnImagen = $e('#imagen');
+      const formularioButtons = $e('#eyes');
+
+      function initClickEvent() {
+        const bufferVideo = $e('.buffer_video');
+
+        if (!bufferVideo) {
+
+          return;
+        }
+
+        // Evita duplicar el evento
+        if (!bufferVideo.dataset.listenerAdded) {
+          bufferVideo.addEventListener("click", () => {
+            const video = $e("video.video-stream.html5-main-video");
+
+            if (!video) {
+              console.log("No se encontró el video en la página.");
+              return;
+            }
+
+            const event = new MouseEvent("contextmenu", {
+              bubbles: true,
+              cancelable: true
+            });
+
+            video.dispatchEvent(event);
+
+            setTimeout(() => {
+              const option = $e("body > div.ytp-popup.ytp-contextmenu > div > div > div:nth-child(7)");
+              if (option) {
+                option.click();
+              } else {
+                console.log("Opción no encontrada, intenta aumentar el tiempo de espera.");
+              }
+            }, 1000);
+          });
+
+          bufferVideo.dataset.listenerAdded = "true";
+        }
+      }
+
+      // Run once; renderizarButtons() may run multiple times and we guard with dataset.listenerAdded
+      initClickEvent();
+
+
+
+      // valido modo oscuro y venta de video
+      // Repeat video button
+      let countRepeat = 0; // count
+      const repeat = $e('#repeatvideo'); // Repeat button
+      const imarepeat = $e('.icon-tabler-repeat'); // img repeat
+      const videoFull = $e(
+        '#movie_player > div.html5-video-container > video'
+      );
+      if(repeat != undefined) {
+
+        repeat.onclick = () => {
+          if (
+            $e('#cinematics > div') != undefined ||
+            videoFull != undefined
+          ) {
+            countRepeat += 1;
+            switch (countRepeat) {
+              case 1:
+                document
+                  .querySelector('#movie_player > div.html5-video-container > video')
+                  ?.setAttribute('loop', 'true');
+                imarepeat.innerHTML = `  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-repeat-off" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                     <path d="M4 12v-3c0 -1.336 .873 -2.468 2.08 -2.856m3.92 -.144h10m-3 -3l3 3l-3 3"></path>
                     <path d="M20 12v3a3 3 0 0 1 -.133 .886m-1.99 1.984a3 3 0 0 1 -.877 .13h-13m3 3l-3 -3l3 -3"></path>
                     <path d="M3 3l18 18"></path>
                  </svg> `; // img repeat
-              break;
-            case 2:
-              countRepeat = 0;
-              document
-                .querySelector(
-                  "#movie_player > div.html5-video-container > video",
-                )
-                ?.removeAttribute("loop");
-              imarepeat.innerHTML = ` <svg  xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-repeat" width="24"
+                break;
+              case 2:
+                countRepeat = 0;
+                document
+                  .querySelector('#movie_player > div.html5-video-container > video')
+                  ?.removeAttribute('loop');
+                imarepeat.innerHTML = ` <svg  xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-repeat" width="24"
                     height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
                     stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                     <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3"></path>
                     <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3"></path>
                   </svg>`;
-              break;
+                break;
+            }
           }
-        }
-      };
-    }
+          }
+      }
 
-    // Background transparent
+      // Background transparent
 
-    const cinematica = $e("#cinematics > div");
-    if (cinematica != undefined) {
-      cinematica.style =
-        "position: fixed; inset: 0px; pointer-events: none; transform: scale(1.5, 2)";
-    }
-    const btnReset = $e("#reset_button"); // Reset button
-    if (btnReset != undefined) {
-      btnReset.addEventListener("click", function () {
-        if (localStorage.getItem("colores") != null) {
-          localStorage.removeItem("colores");
-          $e("#ojosprotect").style.backgroundColor = "transparent";
-          setTimeout(() => {
-            location.reload();
-          }, 400);
-        }
-      });
-    }
+      const cinematica = $e('#cinematics > div');
+      if (cinematica != undefined) {
+        cinematica.style =
+          'position: fixed; inset: 0px; pointer-events: none; transform: scale(1.5, 2)';
+      }
+      const btnReset = $e('#reset_button'); // Reset button
+      if (btnReset != undefined) {
+        btnReset.addEventListener('click', function () {
+          if (localStorage.getItem('colores') != null) {
+            localStorage.removeItem('colores');
+            $e('#ojosprotect').style.backgroundColor =
+              'transparent';
+            setTimeout(() => {
+              location.reload();
+            }, 400);
+          }
+        });
+      }
 
-    if (btnImagen != undefined) {
-      btnImagen.onclick = () => {
-        if ($e("#cinematics > div") != undefined || videoFull != undefined) {
-          const parametrosURL = new URLSearchParams(window.location.search);
-          let enlace = parametrosURL.get("v");
+      if (btnImagen != undefined) {
+        btnImagen.onclick = () => {
+          if (
+            $e('#cinematics > div') != undefined ||
+            videoFull != undefined
+          ) {
+            const parametrosURL = new URLSearchParams(window.location.search);
+            let enlace = parametrosURL.get('v');
 
-          const imageUrl = `https://i.ytimg.com/vi/${enlace}/maxresdefault.jpg`;
+            const imageUrl = `https://i.ytimg.com/vi/${enlace}/maxresdefault.jpg`;
 
-          fetch(imageUrl)
-            .then((response) => {
-              if (!response.ok) {
-                throw new Error(`HTTP error! Status: ${response.status}`);
-              }
-              return response.blob();
-            })
-            .then((blob) => {
-              const imageSizeKB = blob.size / 1024;
+            fetch(imageUrl)
+              .then((response) => {
+                if (!response.ok) {
+                  throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.blob();
+              })
+              .then((blob) => {
+                const imageSizeKB = blob.size / 1024;
 
-              if (imageSizeKB >= 20) {
-                window.open(
-                  `https://i.ytimg.com/vi/${enlace}/maxresdefault.jpg`,
-                  "popUpWindow",
-                  "height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes",
-                );
-                const imageUrlObject = URL.createObjectURL(blob);
+                if (imageSizeKB >= 20) {
+                  window.open(
+                    `https://i.ytimg.com/vi/${enlace}/maxresdefault.jpg`,
+                    'popUpWindow',
+                    'height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes'
+                  );
+                  const imageUrlObject = URL.createObjectURL(blob);
 
-                const enlaceDescarga = $cl("a");
-                enlaceDescarga.href = imageUrlObject;
-                const titleVideo = $e(
-                  "h1.style-scope.ytd-watch-metadata",
-                ).innerText;
-                enlaceDescarga.download = `${titleVideo}_maxresdefault.jpg`;
-                enlaceDescarga.click();
+                  const enlaceDescarga = $cl('a');
+                  enlaceDescarga.href = imageUrlObject;
+                  const titleVideo = $e(
+                    'h1.style-scope.ytd-watch-metadata'
+                  ).innerText;
+                  enlaceDescarga.download = `${titleVideo}_maxresdefault.jpg`;
+                  enlaceDescarga.click();
 
-                URL.revokeObjectURL(imageUrlObject);
-              } else {
-                console.log("La imagen no excede los 20 KB. No se descargará.");
-              }
-            })
-            .catch((error) => {
-              alert("No found image");
-              console.error("Error al obtener la imagen:", error);
-            });
-        }
-      };
-    }
-    // for background image file photo higt quality
-    // for background image file photo higt quality
-    const fileInput = $id("background_image");
-    const backgroundDiv = $e("ytd-app");
+                  URL.revokeObjectURL(imageUrlObject);
+                } else {
+                  console.log(
+                    'La imagen no excede los 20 KB. No se descargará.'
+                  );
+                }
+              })
+              .catch((error) => {
+                alert('No found image');
+                console.error('Error al obtener la imagen:', error);
+              });
+          }
+        };
+      }
+      // for background image file photo higt quality
+      // for background image file photo higt quality
+      const fileInput = $id('background_image');
+      const backgroundDiv = $e('ytd-app');
 
-    const storedImage = localStorage.getItem("backgroundImage");
-    if (storedImage) {
-      backgroundDiv.style = `
+      const storedImage = localStorage.getItem('backgroundImage');
+      if (storedImage) {
+        backgroundDiv.style = `
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
 
         background-image: url(${storedImage}) !important`;
-    }
-
-    fileInput.addEventListener("change", (event) => {
-      const file = event.target.files[0];
-      if (file) {
-        const reader = new FileReader();
-        reader.onload = function (e) {
-          const imageUrl = e.target.result;
-          localStorage.setItem("backgroundImage", imageUrl);
-          backgroundDiv.style.backgroundImage = `url(${imageUrl})`;
-        };
-        reader.readAsDataURL(file);
       }
-    });
 
-    const externalLink = $e(".external_link");
-    if (externalLink != undefined) {
-      externalLink.onclick = () => {
-        const parametrosURL = new URLSearchParams(window.location.search); // Url parametros
-        let enlace;
-        enlace = parametrosURL.get("v");
-        window.open(
-          `https://ssyoutube.com/watch?v=${enlace}&t=2s`,
-          "popUpWindow",
-          "height=800,width=1000,left=50%,top=100,resizable=no,scrollbars=yes,toolbar=no,menubar=yes,location=no,directories=yes, status=no",
-        );
-      };
-    }
-    const viewExternalLink = $e(".view_external_link");
-    if (viewExternalLink != undefined) {
-      viewExternalLink.onclick = () => {
-        $e("video").click();
-        const parametrosURL = new URLSearchParams(window.location.search); // Url parametros
-        let enlace;
-        enlace = parametrosURL.get("v");
-        window.open(
-          `https://www.youtube.com/embed/${enlace}?rel=0&controls=2&color=white&iv_load_policy=3&showinfo=0&modestbranding=1&autoplay=1`,
-        );
-      };
-    }
-    const viewPictureToPicture = $e(".video_picture_to_picture");
-    if (viewPictureToPicture != undefined) {
-      viewPictureToPicture.onclick = () => {
-        const video = $e("video");
-        if ("pictureInPictureEnabled" in document) {
-          if (!document.pictureInPictureElement) {
-            video
-              .requestPictureInPicture()
-              .then(() => {})
-              .catch((error) => {
-                console.error(
-                  "Error al activar el modo Picture-in-Picture:",
-                  error,
-                );
-              });
-          } else {
-            // video picture
-          }
-        } else {
-          alert("Picture-in-Picture not supported");
+      fileInput.addEventListener('change', (event) => {
+        const file = event.target.files[0];
+        if (file) {
+          const reader = new FileReader();
+          reader.onload = function (e) {
+            const imageUrl = e.target.result;
+            localStorage.setItem('backgroundImage', imageUrl);
+            backgroundDiv.style.backgroundImage = `url(${imageUrl})`;
+          };
+          reader.readAsDataURL(file);
         }
-      };
+      });
 
-      // Filtro de pantalla
-      if (formularioButtons != undefined) {
-        formularioButtons.addEventListener("input", function () {
-          if ($e("#cinematics > div") != undefined || videoFull != undefined) {
-            $e("#ojosprotect").style.backgroundColor = formularioButtons.value;
+
+      const externalLink = $e('.external_link');
+      if (externalLink != undefined) {
+        externalLink.onclick = () => {
+          const parametrosURL = new URLSearchParams(window.location.search); // Url parametros
+          let enlace;
+          enlace = parametrosURL.get('v');
+          window.open(
+            `https://ssyoutube.com/watch?v=${enlace}&t=2s`,
+            'popUpWindow',
+            'height=800,width=1000,left=50%,top=100,resizable=no,scrollbars=yes,toolbar=no,menubar=yes,location=no,directories=yes, status=no'
+          );
+        };
+      }
+      const viewExternalLink = $e('.view_external_link');
+      if (viewExternalLink != undefined) {
+        viewExternalLink.onclick = () => {
+          $e('video').click();
+          const parametrosURL = new URLSearchParams(window.location.search); // Url parametros
+          let enlace;
+          enlace = parametrosURL.get('v');
+          window.open(
+            `https://www.youtube.com/embed/${enlace}?rel=0&controls=2&color=white&iv_load_policy=3&showinfo=0&modestbranding=1&autoplay=1`
+          );
+        };
+      }
+      const viewPictureToPicture = $e(
+        '.video_picture_to_picture'
+      );
+      if (viewPictureToPicture != undefined) {
+        viewPictureToPicture.onclick = () => {
+          const video = $e('video');
+          if ('pictureInPictureEnabled' in document) {
+            if (!document.pictureInPictureElement) {
+
+              video
+                .requestPictureInPicture()
+                .then(() => {
+                })
+                .catch((error) => {
+                  console.error(
+                    'Error al activar el modo Picture-in-Picture:',
+                    error
+                  );
+                });
+            } else {
+              // video picture
+            }
+          } else {
+            alert('Picture-in-Picture not supported');
           }
-        });
+        };
+
+        // Filtro de pantalla
+        if (formularioButtons != undefined) {
+          formularioButtons.addEventListener('input', function () {
+            if (
+              $e('#cinematics > div') != undefined ||
+              videoFull != undefined
+            ) {
+              $e('#ojosprotect').style.backgroundColor =
+                formularioButtons.value;
+            }
+          });
+        }
+        clearInterval(renderizarButtons);
+      }
+
+      const checked_updates = $e('.checked_updates');
+
+      if (checked_updates != undefined) {
+        checked_updates.onclick = () => {
+          window.open(
+            `https://update.greasyfork.org/scripts/460680/Youtube%20Tools%20All%20in%20one%20local%20download%20mp3%20mp4%20HIGT%20QUALITY%20return%20dislikes%20and%20more.user.js`
+          );
+        };
+      }
+
+      const screenShotVideo = $e('.screenshot_video');
+      if (screenShotVideo != undefined) {
+        screenShotVideo.onclick = () => {
+          const video = $e('video');
+          const canvas = $cl('canvas');
+          canvas.width = video.videoWidth;
+          canvas.height = video.videoHeight;
+          const context = canvas.getContext('2d');
+          context.drawImage(video, 0, 0, canvas.width, canvas.height);
+          const imagenURL = canvas.toDataURL('image/png');
+          const enlaceDescarga = $cl('a');
+          enlaceDescarga.href = imagenURL;
+          const titleVideo = $e(
+            'h1.style-scope.ytd-watch-metadata'
+          ).innerText;
+          enlaceDescarga.download = `${video.currentTime.toFixed(
+            0
+          )}s_${titleVideo}.png`;
+          enlaceDescarga.click();
+        };
+      } else {
+        const containerButtons = $e('.containerButtons');
+
+        if (containerButtons != undefined) {
+          containerButtons.innerHTML = '';
+        }
       }
       clearInterval(renderizarButtons);
     }
 
-    const checked_updates = $e(".checked_updates");
 
-    if (checked_updates != undefined) {
-      checked_updates.onclick = () => {
-        window.open(
-          `https://update.greasyfork.org/scripts/460680/Youtube%20Tools%20All%20in%20one%20local%20download%20mp3%20mp4%20HIGT%20QUALITY%20return%20dislikes%20and%20more.user.js`,
-        );
-      };
-    }
 
-    const screenShotVideo = $e(".screenshot_video");
-    if (screenShotVideo != undefined) {
-      screenShotVideo.onclick = () => {
-        const video = $e("video");
-        const canvas = $cl("canvas");
-        canvas.width = video.videoWidth;
-        canvas.height = video.videoHeight;
-        const context = canvas.getContext("2d");
-        context.drawImage(video, 0, 0, canvas.width, canvas.height);
-        const imagenURL = canvas.toDataURL("image/png");
-        const enlaceDescarga = $cl("a");
-        enlaceDescarga.href = imagenURL;
-        const titleVideo = $e("h1.style-scope.ytd-watch-metadata").innerText;
-        enlaceDescarga.download = `${video.currentTime.toFixed(
-          0,
-        )}s_${titleVideo}.png`;
-        enlaceDescarga.click();
-      };
-    } else {
-      const containerButtons = $e(".containerButtons");
 
-      if (containerButtons != undefined) {
-        containerButtons.innerHTML = "";
-      }
-    }
-    clearInterval(renderizarButtons);
-  }
-
-  console.log("Script en ejecución by: DeveloperMDCM");
-  const HEADER_STYLE = "color: #F00; font-size: 24px; font-family: sans-serif;";
-  const MESSAGE_STYLE =
-    "color: #00aaff; font-size: 16px; font-family: sans-serif;";
-  const CODE_STYLE = "font-size: 14px; font-family: monospace;";
+  console.log('Script en ejecución by: DeveloperMDCM');
+  const HEADER_STYLE = 'color: #F00; font-size: 24px; font-family: sans-serif;';
+  const MESSAGE_STYLE = 'color: #00aaff; font-size: 16px; font-family: sans-serif;';
+  const CODE_STYLE = 'font-size: 14px; font-family: monospace;';
 
   console.log(
-    "%cYoutube Tools Extension NEW UI\n" +
-      "%cRun %c(v2.4.3.2)\n" +
-      "By: DeveloperMDCM.",
+    '%cYoutube Tools Extension NEW UI\n' +
+      '%cRun %c(v2.4.3.2)\n' +
+      'By: DeveloperMDCM.',
     HEADER_STYLE,
     CODE_STYLE,
-    MESSAGE_STYLE,
+    MESSAGE_STYLE
   );
 
-  if (!localStorage.getItem("notification-developerMDCM")) {
-    Notify("info", "Youtube Tools by: DeveloperMDCM :)");
-    localStorage.setItem("notification-developerMDCM", true);
+  if (!localStorage.getItem('notification-developerMDCM')) {
+    Notify('info', 'Youtube Tools by: DeveloperMDCM :)');
+    localStorage.setItem('notification-developerMDCM', true);
   }
 
+
+
+
+
+
   // Add event listeners to all inputs
-  const inputs = $m("input");
+  const inputs = $m('input');
   inputs.forEach((input) => {
-    input.addEventListener("change", scheduleApplySettings);
-    if (input.type === "range") {
-      input.addEventListener("change", () => {
+    input.addEventListener('change', scheduleApplySettings);
+    if (input.type === 'range') {
+      input.addEventListener('change', () => {
         updateSliderValues();
         scheduleApplySettings();
       });
@@ -6851,66 +6580,60 @@
   function bindSelectOnce(id) {
     const el = $id(id);
     if (!el) return;
-    if (el.dataset.ytToolsBound === "1") return;
-    el.dataset.ytToolsBound = "1";
-    el.addEventListener("change", () => {
+    if (el.dataset.ytToolsBound === '1') return;
+    el.dataset.ytToolsBound = '1';
+    el.addEventListener('change', () => {
       // Persist immediately
       try {
         saveSettings();
       } catch (e) {
-        console.error("saveSettings error:", e);
+        console.error('saveSettings error:', e);
       }
       // Apply with debounce
       scheduleApplySettings();
     });
   }
 
-  bindSelectOnce("select-video-qualitys-select");
-  bindSelectOnce("select-languages-comments-select");
-  bindSelectOnce("select-wave-visualizer-select");
+  bindSelectOnce('select-video-qualitys-select');
+  bindSelectOnce('select-languages-comments-select');
+  bindSelectOnce('select-wave-visualizer-select');
 
   // Export configuration
 
-  //   Settings saved
-  //   const settings = GM_getValue('ytSettingsMDCM', '{}');
-  //   $id('config-data').value = settings;
+//   Settings saved
+//   const settings = GM_getValue('ytSettingsMDCM', '{}');
+//   $id('config-data').value = settings;
 
-  $id("export-config").addEventListener("click", () => {
-    const settings = GM_getValue("ytSettingsMDCM", "{}");
-    $id("config-data").value = settings;
+  $id('export-config').addEventListener('click', () => {
+    const settings = GM_getValue('ytSettingsMDCM', '{}');
+    $id('config-data').value = settings;
     const configData = settings;
     try {
       JSON.parse(configData); // Validate JSON
-      GM_setValue("ytSettingsMDCM", configData);
+      GM_setValue('ytSettingsMDCM', configData);
       setTimeout(() => {
-        Notify("success", "Configuration export successfully!");
+        Notify('success', 'Configuration export successfully!');
       }, 1000);
     } catch (e) {
-      Notify(
-        "error",
-        "Invalid configuration data. Please check and try again.",
-      );
+      Notify('error', 'Invalid configuration data. Please check and try again.');
     }
   });
   // Import configuration
-  $id("import-config").addEventListener("click", () => {
-    const configData = $id("config-data").value;
+  $id('import-config').addEventListener('click', () => {
+    const configData = $id('config-data').value;
     try {
       JSON.parse(configData); // Validate JSON
-      GM_setValue("ytSettingsMDCM", configData);
+      GM_setValue('ytSettingsMDCM', configData);
       setTimeout(() => {
-        Notify("success", "Configuration imported successfully!");
+        Notify('success', 'Configuration imported successfully!');
         window.location.reload();
       }, 1000);
       window.location.reload();
     } catch (e) {
-      Notify(
-        "error",
-        "Invalid configuration data. Please check and try again.",
-      );
+      Notify('error', 'Invalid configuration data. Please check and try again.');
     }
   });
-  panel.style.display = "none";
+  panel.style.display = 'none';
 
   // var for wave
 
@@ -6925,14 +6648,14 @@
     }, 100);
   }
 
-  const checkActiveWave = $id("wave-visualizer-toggle");
-  checkActiveWave.addEventListener("change", () => {
-    const waveVisualizer = $e("#wave-visualizer-toggle");
+  const checkActiveWave = $id('wave-visualizer-toggle');
+  checkActiveWave.addEventListener('change', () => {
+    const waveVisualizer = $e('#wave-visualizer-toggle');
     if (waveVisualizer.checked) {
-      Notify("success", "Wave visualizer enabled");
+      Notify('success', 'Wave visualizer enabled');
     } else {
       hideCanvas();
-      Notify("success", "Wave visualizer disabled realod page");
+      Notify('success', 'Wave visualizer disabled realod page');
       setTimeout(() => {
         window.location.reload();
       }, 1000);
@@ -6940,17 +6663,17 @@
   });
 
   // Cinematic lighting toggle event listener
-  const checkCinematicLighting = $id("cinematic-lighting-toggle");
+  const checkCinematicLighting = $id('cinematic-lighting-toggle');
   if (checkCinematicLighting) {
-    checkCinematicLighting.addEventListener("change", () => {
-      const cinematicToggle = $e("#cinematic-lighting-toggle");
-      const syncToggle = $e("#sync-cinematic-toggle");
-      const cinematicDiv = $id("cinematics");
+    checkCinematicLighting.addEventListener('change', () => {
+      const cinematicToggle = $e('#cinematic-lighting-toggle');
+      const syncToggle = $e('#sync-cinematic-toggle');
+      const cinematicDiv = $id('cinematics');
 
       if (cinematicToggle.checked) {
-        Notify("success", "Cinematic mode enabled");
+        Notify('success', 'Cinematic mode enabled');
       } else {
-        Notify("success", "Cinematic mode disabled");
+        Notify('success', 'Cinematic mode disabled');
       }
 
       // Aplicar el comportamiento según el estado de sincronización
@@ -6962,24 +6685,22 @@
       } else {
         // Si no hay sincronización, aplicar display inmediatamente
         if (cinematicDiv) {
-          cinematicDiv.style.display = cinematicToggle.checked
-            ? "block"
-            : "none";
+          cinematicDiv.style.display = cinematicToggle.checked ? 'block' : 'none';
         }
       }
     });
   }
 
   // Sync cinematic toggle event listener
-  const checkSyncCinematic = $id("sync-cinematic-toggle");
+  const checkSyncCinematic = $id('sync-cinematic-toggle');
   if (checkSyncCinematic) {
-    checkSyncCinematic.addEventListener("change", () => {
-      const syncToggle = $e("#sync-cinematic-toggle");
-      const cinematicToggle = $e("#cinematic-lighting-toggle");
-      const cinematicDiv = $id("cinematics");
+    checkSyncCinematic.addEventListener('change', () => {
+      const syncToggle = $e('#sync-cinematic-toggle');
+      const cinematicToggle = $e('#cinematic-lighting-toggle');
+      const cinematicDiv = $id('cinematics');
 
       if (syncToggle.checked) {
-        Notify("success", "Sync with YouTube enabled");
+        Notify('success', 'Sync with YouTube enabled');
         // Si se activa la sincronización y el modo cinematic está activado, sincronizar con YouTube
         if (cinematicToggle.checked) {
           setTimeout(() => {
@@ -6987,25 +6708,23 @@
           }, 500);
         }
       } else {
-        Notify("success", "Sync with YouTube disabled");
+        Notify('success', 'Sync with YouTube disabled');
         // Si se desactiva la sincronización, aplicar inmediatamente el estado del toggle
         if (cinematicDiv) {
-          cinematicDiv.style.display = cinematicToggle.checked
-            ? "block"
-            : "none";
+          cinematicDiv.style.display = cinematicToggle.checked ? 'block' : 'none';
         }
       }
     });
   }
 
-  checkElement("ytd-topbar-menu-button-renderer", () => {
+  checkElement('ytd-topbar-menu-button-renderer', () => {
     loadSettings();
     initializeHeaderButtons();
     setTimeout(checkNewVersion, 3000);
   });
   // validate change url SPA youtube
 
-  document.addEventListener("fullscreenchange", () => {
+  document.addEventListener('fullscreenchange', () => {
     if (document.fullscreenElement !== null) {
       hideCanvas();
     } else {
@@ -7013,91 +6732,87 @@
     }
   });
 
-  document.addEventListener("yt-navigate-finish", () => {
-    if (!document.location.href.includes("watch")) {
+  document.addEventListener('yt-navigate-finish', () => {
+    if (!document.location.href.includes('watch')) {
       hideCanvas();
     }
     scheduleApplySettings();
-    if (!document.location.href.includes("youtube.com")) return;
+    if (!document.location.href.includes('youtube.com')) return;
     // Re-inject lockup stats when landing on watch (related column often renders late when coming from home)
-    if (document.location.href.includes("youtube.com/watch")) {
-      [300, 600, 1200, 2200, 3500].forEach((ms) =>
-        setTimeout(() => {
-          injectLockupCachedStats();
-          injectShortsLockupCachedStats();
-          retargetLockupStatsObserverIfNeeded();
-        }, ms),
-      );
+    if (document.location.href.includes('youtube.com/watch')) {
+      [300, 600, 1200, 2200, 3500].forEach((ms) => setTimeout(() => {
+        injectLockupCachedStats();
+        injectShortsLockupCachedStats();
+        retargetLockupStatsObserverIfNeeded();
+      }, ms));
     } else {
       // Re-inject when landing on home (feed often renders after SPA nav from watch/shorts)
-      [300, 700, 1500, 2800].forEach((ms) =>
-        setTimeout(() => {
-          injectLockupCachedStats();
-          injectShortsLockupCachedStats();
-        }, ms),
-      );
+      [300, 700, 1500, 2800].forEach((ms) => setTimeout(() => {
+        injectLockupCachedStats();
+        injectShortsLockupCachedStats();
+      }, ms));
     }
   });
-  GM_registerMenuCommand("Update Script by: DeveloperMDCM", function () {
-    window.open(
-      "https://update.greasyfork.org/scripts/460680/Youtube%20Tools%20All%20in%20one%20local%20download%20mp3%20mp4%20HIGT%20QUALITY%20return%20dislikes%20and%20more.user.js",
-      "_blank",
-    );
-  });
+    GM_registerMenuCommand('Update Script by: DeveloperMDCM', function() {
+      window.open('https://update.greasyfork.org/scripts/460680/Youtube%20Tools%20All%20in%20one%20local%20download%20mp3%20mp4%20HIGT%20QUALITY%20return%20dislikes%20and%20more.user.js', '_blank');
+    });
 
-  // apis for download
-  // https://video-download-api.com
-  // 4kdownload
+    // apis for download
+    // https://video-download-api.com
+    // 4kdownload
 
   // --- Background Image Customization ---
-  const inputFile = $id("background_image");
-  const preview = $id("background-image-preview");
-  const removeBtn = $id("remove-background-image");
+  const inputFile = $id('background_image');
+  const preview = $id('background-image-preview');
+  const removeBtn = $id('remove-background-image');
 
   // show preview
-  const storedImage = localStorage.getItem("backgroundImage");
+  const storedImage = localStorage.getItem('backgroundImage');
   if (storedImage) {
     preview.style.backgroundImage = `url(${storedImage})`;
-    preview.classList.add("has-image");
-    removeBtn.style.display = "flex";
+    preview.classList.add('has-image');
+    removeBtn.style.display = 'flex';
   } else {
-    preview.style.backgroundImage = "";
-    preview.classList.remove("has-image");
-    removeBtn.style.display = "none";
+    preview.style.backgroundImage = '';
+    preview.classList.remove('has-image');
+    removeBtn.style.display = 'none';
   }
 
-  preview.addEventListener("click", (e) => {
+
+  preview.addEventListener('click', (e) => {
     if (e.target === removeBtn) return;
     inputFile.click();
   });
 
-  // add background image (bind once)
-  inputFile.addEventListener("change", (e) => {
-    const file = e.target.files[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = function (ev) {
-      const dataUrl = ev.target.result;
-      preview.style.backgroundImage = `url(${dataUrl})`;
-      preview.classList.add("has-image");
-      localStorage.setItem("backgroundImage", dataUrl);
-      removeBtn.style.display = "flex";
-    };
-    reader.readAsDataURL(file);
-  });
-
-  // Remove background image (bind once)
-  if (removeBtn && removeBtn.dataset.ytToolsBound !== "1") {
-    removeBtn.dataset.ytToolsBound = "1";
-    removeBtn.addEventListener("click", (e) => {
-      e.preventDefault();
-      e.stopPropagation();
-      // Only allow real user click to remove stored background
-      if (e.isTrusted === false) return;
-      preview.style.backgroundImage = "";
-      preview.classList.remove("has-image");
-      localStorage.removeItem("backgroundImage");
-      removeBtn.style.display = "none";
+    // add background image (bind once)
+    inputFile.addEventListener('change', (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = function (ev) {
+        const dataUrl = ev.target.result;
+        preview.style.backgroundImage = `url(${dataUrl})`;
+        preview.classList.add('has-image');
+        localStorage.setItem('backgroundImage', dataUrl);
+        removeBtn.style.display = 'flex';
+      };
+      reader.readAsDataURL(file);
     });
-  }
+
+    // Remove background image (bind once)
+    if (removeBtn && removeBtn.dataset.ytToolsBound !== '1') {
+      removeBtn.dataset.ytToolsBound = '1';
+      removeBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        // Only allow real user click to remove stored background
+        if (e.isTrusted === false) return;
+        preview.style.backgroundImage = '';
+        preview.classList.remove('has-image');
+        localStorage.removeItem('backgroundImage');
+        removeBtn.style.display = 'none';
+      });
+    }
+
+
 })();
