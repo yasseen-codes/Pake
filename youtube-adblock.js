@@ -3,16 +3,16 @@
  * The Nuclear Ad-Skipper + Companion Banner Fix
  */
 
-(function() {
-    'use strict';
+(function () {
+  "use strict";
 
-    // --- 1. COLLAPSE EMPTY AD SPACES & BANNERS ---
-    const injectLayoutFixer = () => {
-        if (document.getElementById('pake-ad-block-css')) return;
-        
-        const style = document.createElement('style');
-        style.id = 'pake-ad-block-css';
-        style.textContent = `
+  // --- 1. COLLAPSE EMPTY AD SPACES & BANNERS ---
+  const injectLayoutFixer = () => {
+    if (document.getElementById("pake-ad-block-css")) return;
+
+    const style = document.createElement("style");
+    style.id = "pake-ad-block-css";
+    style.textContent = `
             /* Hide all known banner, sidebar, and companion ads */
             #masthead-ad, 
             #player-ads, 
@@ -36,60 +36,65 @@
                 padding: 0 !important;
             }
         `;
-        document.head.appendChild(style);
-    };
+    document.head.appendChild(style);
+  };
 
-    // --- 2. THE NUCLEAR SKIPPER ---
-    const skipAds = () => {
-        // A. Handle the video player directly
-        const video = document.querySelector('video');
-        const player = document.querySelector('#movie_player');
-        
-        const isAdShowing = player && (player.classList.contains('ad-showing') || player.classList.contains('ad-interrupting'));
+  // --- 2. THE NUCLEAR SKIPPER ---
+  const skipAds = () => {
+    // A. Handle the video player directly
+    const video = document.querySelector("video");
+    const player = document.querySelector("#movie_player");
 
-        if (isAdShowing && video) {
-            video.muted = true; 
-            if (!isNaN(video.duration) && video.duration > 0) {
-                video.currentTime = video.duration - 0.1;
-                video.playbackRate = 16.0; 
-            }
-        }
+    const isAdShowing =
+      player &&
+      (player.classList.contains("ad-showing") ||
+        player.classList.contains("ad-interrupting"));
 
-        // B. Simulate real physical mouse clicks on EVERY known skip button
-        const skipButtonSelectors = [
-            '.ytp-ad-skip-button',
-            '.ytp-ad-skip-button-modern',
-            '.ytp-skip-ad-button',
-            '.ytp-ad-skip-button-text',
-            '.videoAdUiSkipButton',
-            '[id^="skip-button:"]',
-            '.ytp-ad-overlay-close-button'
-        ];
+    if (isAdShowing && video) {
+      video.muted = true;
+      if (!isNaN(video.duration) && video.duration > 0) {
+        video.currentTime = video.duration - 0.1;
+        video.playbackRate = 16.0;
+      }
+    }
 
-        skipButtonSelectors.forEach(selector => {
-            const buttons = document.querySelectorAll(selector);
-            buttons.forEach(btn => {
-                btn.click(); 
-                btn.dispatchEvent(new MouseEvent('click', {
-                    view: window,
-                    bubbles: true,
-                    cancelable: true
-                }));
-            });
-        });
-        
-        // C. Clear static overlay ads that sit on the bottom of the video
-        const overlays = document.querySelectorAll('.ytp-ad-overlay-container');
-        overlays.forEach(overlay => {
-            overlay.style.setProperty('display', 'none', 'important');
-        });
-    };
+    // B. Simulate real physical mouse clicks on EVERY known skip button
+    const skipButtonSelectors = [
+      ".ytp-ad-skip-button",
+      ".ytp-ad-skip-button-modern",
+      ".ytp-skip-ad-button",
+      ".ytp-ad-skip-button-text",
+      ".videoAdUiSkipButton",
+      '[id^="skip-button:"]',
+      ".ytp-ad-overlay-close-button",
+    ];
 
-    // --- 3. INITIALIZE ---
-    injectLayoutFixer();
-    
-    // Catch them fast
-    setInterval(skipAds, 50);
+    skipButtonSelectors.forEach((selector) => {
+      const buttons = document.querySelectorAll(selector);
+      buttons.forEach((btn) => {
+        btn.click();
+        btn.dispatchEvent(
+          new MouseEvent("click", {
+            view: window,
+            bubbles: true,
+            cancelable: true,
+          }),
+        );
+      });
+    });
 
-    console.log("Pake YouTube Enhancer V3.1: Companion Ads Targeted.");
+    // C. Clear static overlay ads that sit on the bottom of the video
+    const overlays = document.querySelectorAll(".ytp-ad-overlay-container");
+    overlays.forEach((overlay) => {
+      overlay.style.setProperty("display", "none", "important");
+    });
+  };
+
+  // --- 3. INITIALIZE ---
+  injectLayoutFixer();
+
+  // Catch them fast
+  setInterval(skipAds, 50);
+
+  console.log("Pake YouTube Enhancer V3.1: Companion Ads Targeted.");
 })();
